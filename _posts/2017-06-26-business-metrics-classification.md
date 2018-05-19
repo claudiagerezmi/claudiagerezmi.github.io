@@ -4,8 +4,7 @@ date: 2017-06-26
 author: Claudia
 layout: post
 image: '/images/posts/main/bm-classification.jpg'
-tags:
-  - Business Analytics
+tags: [business-analytics]
 ---
 
 This post is part of the notes I&#8217;m taking from the course Business for Data-Driven Companies.

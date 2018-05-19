@@ -4,8 +4,7 @@ date: 2017-08-10
 author: Claudia
 layout: post
 image: '/images/projects/main/twitter-analytics.jpg'
-tags:
-  - Projects
+tags: [projects]
 ---
 
 **Overview:** This project consists of the analysis of data exported from Spendabit's Twitter Analytics dashboard.  It aims to discover patterns and trends that could be used to increase social media engagement.

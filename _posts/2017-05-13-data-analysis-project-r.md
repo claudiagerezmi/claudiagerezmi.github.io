@@ -4,8 +4,7 @@ date: 2017-05-13
 author: Claudia
 layout: post
 image: '/images/projects/main/data-analysis-r.jpg'
-tags:
-  - Projects
+tags: projects
 ---
 
 >“Data exploration is the art of looking at your data, rapidly generating hypotheses, quickly testing them, then repeating again, and again, and again.”

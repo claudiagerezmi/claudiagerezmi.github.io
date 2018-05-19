@@ -4,8 +4,7 @@ date: 2017-06-19
 author: Claudia
 layout: post
 image: '/images/posts/main/bm-kpi.jpg'
-tags:
-  - Business Analytics
+tags: [business-analytics]
 ---
 
 > “Not everything that counts can be counted.  And not everything that can be counted counts.” 

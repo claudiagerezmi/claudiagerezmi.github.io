@@ -4,8 +4,7 @@ date: 2017-08-05
 author: Claudia
 layout: post
 image: '/images/posts/main/follow-me.jpg'
-tags:
-  - Marketing Analytics
+tags: [marketing-analytics]
 ---
 
 ## Introduction

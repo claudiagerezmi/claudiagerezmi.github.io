@@ -4,8 +4,7 @@ date: 2017-06-01
 author: claudia
 layout: post
 image: '/images/posts/main/my-top-3-skills.jpg'
-tags: 
-- Personal
+tags: personal
 ---
 
 Month one at Praxis focuses on building your personal brand, that is, your reputation.  It’s easy to understand the importance of a good reputation in a business context.  Strong positive reputations attract more people.  Companies with a good reputation are perceived as providing more value, their customers are more loyal, stakeholders support these companies even in times of controversy.  Companies with a good reputation are believed to deliver sustained earnings, they keep a competitive advantage, and future growth is almost granted.  That’s why many organizations think of their reputation as their greatest asset.

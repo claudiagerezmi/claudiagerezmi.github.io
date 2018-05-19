@@ -4,8 +4,7 @@ date: 2017-06-05
 author: Claudia
 layout: post
 image: '/images/posts/main/writing-and-resistance.jpg'
-tags: 
-- Challenge
+tags: challenge
 ---
 
 Month two at Praxis is about learning how to write clearly and persuasively.  To achieve this goal, participants are challenged to write and publish a blog post every day for a month.  I&#8217;m on day 4, and I have to confess I&#8217;m not enjoying this challenge very much.

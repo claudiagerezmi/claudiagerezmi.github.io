@@ -4,8 +4,7 @@ date: 2017-08-04T10:57:51+00:00
 author: Claudia
 layout: post
 image: '/images/posts/main/decomposing.jpg'
-tags:
-  - Data Visualization
+tags: [data-visualization]
 ---
 
 > "A picture is worth a million rows."

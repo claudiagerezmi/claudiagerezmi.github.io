@@ -4,8 +4,7 @@ date: 2018-01-20
 author: Claudia
 layout: post
 image: '/images/posts/main/logic.jpg'
-tags:
-  - Learning
+tags: [learning]
 ---
 
 Today I started the course [Introduction to Logic](https://www.libertyclassroom.com/courses/introduction-to-logic/), at the Tom Wood&#8217;s Liberty Classroom.  

@@ -4,8 +4,7 @@ date: 2017-06-13
 author: Claudia
 layout: post
 image: '/images/posts/main/second-language.jpg'
-tags:
-  - Challenge
+tags: challenge
 ---
 
 Fabi looks at me and politely asks _&#8220;Me pasas las trays?&#8221;_ I give her the trays so she can clean them.  I&#8217;m stretching the dough to prepare pizzas.  _&#8220;How many do we need?&#8221;_ I ask Alejandro.  He answers, _&#8220;Solo tres, por favor. &#8221;_

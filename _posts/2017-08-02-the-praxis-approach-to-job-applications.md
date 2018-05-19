@@ -4,8 +4,7 @@ date: 2017-08-02
 author: Claudia
 layout: post
 image: '/images/posts/main/praxis-job-applications.jpg'
-tags:
-  - Learning
+tags: [learning]
 ---
 
 Last week I found a very interesting opening at a start up company in Toronto.  I got so interested in the company and the role, that instead of following the standard path of applying by sending only a cover letter and my resume, I decided to take the <a href="http://discoverpraxis.com/" target="_blank" rel="noopener">Praxis</a> approach, and prepare a value proposition.

@@ -5,8 +5,7 @@ author: Claudia
 layout: post
 guid: http://claudiagerez.com/?p=862
 image: '/images/posts/main/sales-analytics.jpg'
-tags:
-  - Sales Analytics
+tags: [sales-analytics]
 ---
 
 Last weekend I read the book <a href="https://www.amazon.com/Data-Driven-Performance-Analytics-Extraordinary/dp/1511361808" target="_blank" rel="noopener">“Data Driven: How performance analytics delivers extraordinary sales results.”</a> by Jenny Dearborn (a leading authority on sales enablement and training, with expertise in big data and predictive analytics), and I thoroughly enjoyed the reading.

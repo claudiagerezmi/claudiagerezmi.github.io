@@ -4,8 +4,7 @@ date: 2017-06-12
 author: Claudia
 layout: post
 image: '/images/posts/main/first-infographic.jpg'
-tags:
-  - Data Visualization
+tags: [data-visualization]
 ---
 
 Infographics, or information graphics, take complex data, information or knowledge, and translate it to easy-to-understand graphic visual representations.  They are intended to present information quickly and clearly. <a href="https://en.wikipedia.org/wiki/Infographic#cite_note-Ref2-2" target="_blank" rel="noopener">[1]</a>

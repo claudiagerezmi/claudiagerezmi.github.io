@@ -4,8 +4,7 @@ date: 2017-06-21
 author: Claudia
 layout: post
 image: '/images/projects/main/web-design.jpg'
-tags:
-  - Projects
+tags: [projects]
 ---
 I love traveling and I love [Bitcoin](https://bitcoin.org/en/).
 

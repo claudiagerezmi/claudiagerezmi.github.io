@@ -4,8 +4,7 @@ date: 2017-09-08
 author: Claudia
 layout: post
 image: '/images/projects/main/sakila-sql.jpg'
-tags:
-  - Projects
+tags: [projects]
 ---
 **Overview:** In this project I explore Sakila, a sample MySQL database, with a marketing perspective.
 
