@@ -1,14 +1,1057 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nubia</title>
-    <description>Thoughts, Stories and Ideas</description>
+    <title>Claudia Gerez-Miranda</title>
+    <description>Documenting my journey as a marketing analyst.</description>
     <link>http://nubia-jekyll.aspirethemes.com/</link>
     <atom:link href="http://nubia-jekyll.aspirethemes.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 May 2018 09:25:15 -0400</pubDate>
-    <lastBuildDate>Sat, 19 May 2018 09:25:15 -0400</lastBuildDate>
+    <pubDate>Sat, 19 May 2018 10:57:56 -0400</pubDate>
+    <lastBuildDate>Sat, 19 May 2018 10:57:56 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
 
+    
+      <item>
+        <title>Logic &amp;#8211; Who needs it?</title>
+        <description>&lt;p&gt;Today I started the course &lt;a href=&quot;https://www.libertyclassroom.com/courses/introduction-to-logic/&quot;&gt;Introduction to Logic&lt;/a&gt;, at the Tom Wood’s Liberty Classroom. &lt;/p&gt;
+
+&lt;p&gt;Here I’m sharing the notes I took, and what I learned:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aristotle hit upon the idea that the goodness or badness of arguments is independent of their content.&lt;/li&gt;
+  &lt;li&gt;There is a small number of types of arguments that are good.&lt;/li&gt;
+  &lt;li&gt;When arguments are simple and their subjects uncontroversial, most people get it right.  When they become complex (by introducing semantic complexity, or negations) and/or when the subject matter of the argument is controversial, our native intuitions are prone to error.&lt;/li&gt;
+  &lt;li&gt;The heart of logic is inference.&lt;/li&gt;
+  &lt;li&gt;Logic is first and foremost, the study of formal argumentation.&lt;/li&gt;
+  &lt;li&gt;It’s called formal argumentation because it focuses on the form or structure of the argument, rather than on its content (Aristotelian logic).&lt;/li&gt;
+  &lt;li&gt;Formal logic is very powerful, but it’s only part of a wider context for argumentation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To answer the question of who needs logic.  &lt;a href=&quot;https://www.mises.org/profile/gerard-n-casey&quot;&gt;Gerard Casey&lt;/a&gt; puts it in one simple sentence: &lt;em&gt;Anyone who wants to think straight and argue well.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>20 Jan 2018</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2018/01/20/logic-who-needs-it/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2018/01/20/logic-who-needs-it/</guid>
+      </item>
+    
+      <item>
+        <title>Data Analytics and Sales Success</title>
+        <description>&lt;p&gt;Last weekend I read the book &lt;a href=&quot;https://www.amazon.com/Data-Driven-Performance-Analytics-Extraordinary/dp/1511361808&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;“Data Driven: How performance analytics delivers extraordinary sales results.”&lt;/a&gt; by Jenny Dearborn (a leading authority on sales enablement and training, with expertise in big data and predictive analytics), and I thoroughly enjoyed the reading.&lt;/p&gt;
+
+&lt;p&gt;The book introduced me to some of the most important variables when measuring sales success.  Now I have an overall idea of how the different units of a business relate to sales, and I’m familiar with the variables that have a bigger impact on the sales reps performance.&lt;/p&gt;
+
+&lt;p&gt;Moreover, by analyzing the example given in the book, I learned how different data analytics tools can be applied with the objective to increase business revenue.&lt;/p&gt;
+
+&lt;p&gt;In the last section of this post, you’ll find a set of slides that summarize the steps taken to implement a complete data analytics approach in sales.&lt;/p&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Data Driven: How Performance Analytics Delivers Extraordinary Sales Results&lt;/em&gt;, aims to be a practical guide on how to apply data analytics to increase sales in your business by improving sales rep performance.&lt;/p&gt;
+
+&lt;p&gt;It’s a very engaging book.  Each chapter starts with a fictional story and ends with a section of analysis, comments, and practical suggestions to enable a solution for the problems presented.&lt;/p&gt;
+
+&lt;p&gt;The story is about the fictional company called Trajectory Systems.  Trajectory had a few years of continuous growth in revenue, however, in the past year, the number of sales started to show a flat-line, and at certain point, they even started to decline alarmingly.  A new Chief Sales Officer is hired to turn the situation around.&lt;/p&gt;
+
+&lt;p&gt;As it’s expected from the title, data analytics will be the hero of the story.  The important takeaway is how to implement this approach.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-problem&quot;&gt;The Problem&lt;/h2&gt;
+
+&lt;p&gt;The story starts in a conference room.  The CSO is meeting with seven members of her leadership team, the directors of the departments of: sales enablement and training, sales, presales, sales operations, development, marketing, and HR.&lt;/p&gt;
+
+&lt;p&gt;The director of sales operations introduces tables and charts, giving an overview of sales rep performance, rep booking distribution, and pipeline performance.  All the numbers are discouraging.&lt;/p&gt;
+
+&lt;p&gt;Then the &lt;em&gt;blame game&lt;/em&gt; starts.  Everyone has somebody to blame for the poor performance of the company.  This is a schematic of how the different divisions accused each other:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/blame-game.jpg&quot; alt=&quot;The Blame Game&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+The Blame Game
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;What I found fascinating is how all departments are related and how, in the end, all of them could measure their results regarding sales effectiveness.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the problems that the author highlights in the example is that the departments are measuring efficiency, when what they should be looking at is effectiveness.  E.g. in the story, the HR business partner judges his performance on how efficiently he fills job requisitions, but he doesn’t know how individual reps are performing after they’re hired.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-increasing-budget-may-not-be-the-best-solution&quot;&gt;Why increasing budget may not be the best solution&lt;/h2&gt;
+
+&lt;p&gt;At Trajectory, the first solution proposed to increase the number of sales is to increase budget.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The VP of sales asks for more sales reps.&lt;/strong&gt;  He also demands more and better qualifying sales leads from marketing and more features in the company’s products.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The director of presales asks for a bigger budget to hire more presales consultants&lt;/strong&gt; so she can give the VP of sales better service.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The VP of product development claims they’re understaffed.&lt;/strong&gt;  Also, he suggests that they should give the reps a better training on the competitor’s products so they can sell against them feature by feature.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The director of marketing thinks they should improve their win rate&lt;/strong&gt;, do a better job at segmenting the market, and create a specific message for each segment; all of which he could do if he had a bigger budget.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The director of enablement and training thinks the most important is to improve the on-boarding process for new hires&lt;/strong&gt; since the numbers show that the ramp-up is too slow.  If they’re going to increase budget, it should go to enablement.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;HR thinks they should look at the sales management&lt;/strong&gt; approach since they’ve been having a lot of negative comments in the exit interviews.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When the CSO analyzes the option of hiring more reps she realizes it’s not the best solution for a number of reasons:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;it is expensive,&lt;/li&gt;
+  &lt;li&gt;they already have too many sales people not meeting quota,&lt;/li&gt;
+  &lt;li&gt;it takes a long time for new hires to ramp up.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The CSO thinks that the real key to increasing revenues at the company is to improve rep performance.  She decides to focus on making the reps they already have more successful, and for that, she decides to take a data analytics approach.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternative-solution-the-data-analytics-approach&quot;&gt;Alternative Solution: The Data Analytics Approach&lt;/h2&gt;
+
+&lt;p&gt;The following slides summarize the steps taken in order to implement data analytics to improve sales rep performance, and ultimately reach revenue success.&lt;/p&gt;
+
+&lt;p&gt;This example fills me with excitement! So many applications for data analytics! So much more to learn!&lt;/p&gt;
+
+&lt;div class=&quot;canva-embed&quot; data-height-ratio=&quot;0.75&quot; data-design-id=&quot;DACitrwvRAA&quot; style=&quot;padding:75% 5px 5px 5px;background:rgba(0,0,0,0.03);border-radius:8px;&quot;&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://sdk.canva.com/v1/embed.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.canva.com/design/DACitrwvRAA/view?utm_content=DACitrwvRAA&amp;amp;utm_campaign=designshare&amp;amp;utm_medium=embeds&amp;amp;utm_source=link&quot; target=&quot;_blank&quot;&gt;sales-analytics&lt;/a&gt; by &lt;a href=&quot;https://www.canva.com/clau_gerez?utm_campaign=designshare&amp;amp;utm_medium=embeds&amp;amp;utm_source=link&quot; target=&quot;_blank&quot;&gt;Claudia&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>02 Oct 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/10/02/introduction-to-sales-analytics/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/10/02/introduction-to-sales-analytics/</guid>
+      </item>
+    
+      <item>
+        <title>Exploring Sakila with SQL</title>
+        <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt; In this project I explore Sakila, a sample MySQL database, with a marketing perspective.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies used:&lt;/strong&gt; SQL, Jekyll, Liquid, HTML, CSS, Git, and GitHub.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cgerezmi.github.io/&quot;&gt;&lt;img src=&quot;/images/projects/assets/exploring-sakila.png&quot; alt=&quot;Exploring Sakila&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;c-btn c-btn--active c-btn--full&quot; onclick=&quot;https://cgerezmi.github.io/&quot;&gt;Explore Sakila&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+</description>
+        <pubDate>08 Sep 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/09/08/exploring-sakila/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/09/08/exploring-sakila/</guid>
+      </item>
+    
+      <item>
+        <title>Twitter Analytics @Spendabit</title>
+        <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt; This project consists of the analysis of data exported from Spendabit’s Twitter Analytics dashboard.  It aims to discover patterns and trends that could be used to increase social media engagement.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Challenges tackled:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Learn how to use the Twitter Analytics dashboard.&lt;/li&gt;
+  &lt;li&gt;Learn about Twitter metrics that matter, and particularly, research the topic of how to increase engagement.&lt;/li&gt;
+  &lt;li&gt;Download data from the analytics dashboard and analyze it using Google Sheets.&lt;/li&gt;
+  &lt;li&gt;Make several pivot tables to summarize the data.&lt;/li&gt;
+  &lt;li&gt;Prepare a dashboard using Google Data Studio to present the final graphs.&lt;/li&gt;
+  &lt;li&gt;Analyze the results and make recommendations for improvement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Deliverables:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A blog post summarizing useful information that you can get from Twitter Analytics.&lt;/li&gt;
+  &lt;li&gt;A dashboard created with Google Data Studio summarizing plots created during the analysis.&lt;/li&gt;
+  &lt;li&gt;A final report with the findings and recommendations. You can find that report right below.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://spendabit.co/&quot;&gt;Spendabit&lt;/a&gt; is the world’s first Bitcoin product search engine.  They aggregate products from both large established Bitcoin-enabled vendors like &lt;a href=&quot;https://spendabit.co/by-merchant/overstock&quot;&gt;Overstock.com&lt;/a&gt;, &lt;a href=&quot;https://spendabit.co/by-merchant/newegg&quot;&gt;Newegg&lt;/a&gt;, and &lt;a href=&quot;https://spendabit.co/by-merchant/fancy&quot;&gt;Fancy.com&lt;/a&gt;, as well as an enormous number of smaller &lt;a href=&quot;https://spendabit.co/merchants&quot;&gt;merchants&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;They have more than a million products listed and they keep on growing by constantly adding new merchants.&lt;/p&gt;
+
+&lt;p&gt;Spendabit is a relatively new startup, and as such, it tries to maintain a presence in different social media networks, one of them is Twitter.  In this case, Spendabit uses Twitter as a medium to inform followers about their continuous growth and to engage with the Bitcoin community in general.&lt;/p&gt;
+
+&lt;p&gt;I got access to their Twitter Analytics account, and to a CSV file with data from tweets posted between January 1 and June 29 of 2017.  My task was to analyze the data and make some recommendations.&lt;/p&gt;
+
+&lt;p&gt;Spendabit agreed to make the data and findings public.&lt;/p&gt;
+
+&lt;p&gt;Because it was a small dataset, I decided to use Google Sheets for the analysis.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-analysis&quot;&gt;The Analysis&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-getting-to-know-spendabits-audience&quot;&gt;1. Getting to know Spendabit’s Audience&lt;/h3&gt;
+
+&lt;p&gt;When I first opened Spendabit’s Twitter Analytics dashboard, I looked at the main metrics for the most recent 28 day period: the number of tweets, tweets impressions, profile visits, mentions and number of followers.  I immediately noticed that all of those measurements had gone up when comparing them with the last period (that’s awesome!).&lt;/p&gt;
+
+&lt;p&gt;Spendabit has 727 total followers, eight more than the previous period.&lt;/p&gt;
+
+&lt;p&gt;To get to know the typical follower, I went straight to the Audiences section of the dashboard, and this is the information I got:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Top Interests&lt;/strong&gt; - The interests of Spendabit’s followers are mainly business and technology focused (business news, tech news, entrepreneurship, business and finance, start-ups, financial news, investing, etc).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gender&lt;/strong&gt; - the audience is divided into an 81% male population and a 19% female population.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Language&lt;/strong&gt; - 98% of the audience speaks English, 6% speaks Spanish, a smaller percentage speak other languages such as Russian, Portuguese, and Japanese.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Age&lt;/strong&gt; - 50% of the audience is 25 to 34 years old, 31% falls in the 35 to 44 range. There is an 11% in the 18 to 24 range.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Country&lt;/strong&gt; - 39% of the audience is located in the US. Smaller percentages (5% or less) are from Canada, the UK, Spain, Australia, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Region&lt;/strong&gt; - From the division by region, I can see that most of the audience comes from California (US), England (GB), and Florida (US).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Device type&lt;/strong&gt; - 92% of the audience uses Twitter from their desktop and laptop computers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On average, Spendabit’s followers are young men interested in business, technology, and entrepreneurship news. They mostly speak English, and are located in the US (mainly in California), and the UK (mainly England). They seem to access Twitter from their desktop/laptops.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-analysis-of-the-tweets-activity&quot;&gt;2. Analysis of the Tweets Activity&lt;/h3&gt;
+
+&lt;p&gt;After getting a grasp at Spendabit’s audience, I analyzed their tweet data.&lt;/p&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;2017-08-05-exploring-twitter-analytics&quot;&gt;research&lt;/a&gt; I made a few days ago about Twitter Analytics, I knew that some of the most important metrics to look at were number of impressions, engagement, and number of tweets.  I identified and summarized that information, and I created the following dashboard to share my results.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/twitter-spendabit/twitter-spendabit1.jpg&quot; alt=&quot;Spendabit Twitter Dashboard&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Dashboard created in Google Data Studio - Live Version: https://datastudio.google.com/open/0B-RFkqhAsyPeVHlMREw5SHJEcVE.&lt;/p&gt;
+
+&lt;p&gt;I also went back to the Twitter Analytics dashboard to dive deeper on other interesting data, such as top mention, top follower, top tweet, etc.  Analyzing both sources I made the following findings.&lt;/p&gt;
+
+&lt;h4 id=&quot;monthly-summary-graph&quot;&gt;Monthly summary graph&lt;/h4&gt;
+
+&lt;p&gt;The chart located at the top left side of the dashboard summarizes the metrics per month, and it shows that the number of tweets is growing slowly since February. The average number of impressions is rather constant, but the average number of engagement seems to grow. Also, the engagement correlates to the number of tweets posted.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/twitter-spendabit/twitter-spendabit2.png&quot; alt=&quot;Spendabit Twitter Dashboard - Impressions&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Average number of impressions and engagement per month. Data from Jan 1 - June 29, 2017 @Spendabit.
+&lt;/p&gt;
+
+&lt;h4 id=&quot;breakdown-of-type-of-engagement&quot;&gt;Breakdown of type of engagement&lt;/h4&gt;
+
+&lt;p&gt;32% of the engagement corresponds to likes, 26% to URL clicks, 21% to user profile clicks, 8% to retweets, another 8% to detail expands, and the rest to replies and hashtag clicks.&lt;/p&gt;
+
+&lt;p&gt;Right now Spendabit is interested in increasing traffic to its site. Therefore it’s good news that 26% of the clicks on the tweets correspond to clicks to the URL shared (which most of the time takes you to Spendabit’s website), or to clicks to their profile, which should have the website link.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/twitter-spendabit/twitter-spendabit3.png&quot; alt=&quot;Spendabit Twitter Dashboard - Engagement&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Breakdown of engagement type. Data from Jan 1 - June 29, 2017 @Spendabit.
+&lt;/p&gt;
+
+&lt;h4 id=&quot;identifying-the-most-successful-tweet&quot;&gt;Identifying the most successful tweet&lt;/h4&gt;
+
+&lt;p&gt;I noticed that, in the monthly graph, the engagement for the months of May and June are significantly higher (almost double) than the values for January, February, March, and April.  I used the Twitter Analytics dashboard to explore the top tweets and get a sense of the content shared.&lt;/p&gt;
+
+&lt;p&gt;I found that at the beginning (January to April), Spendabit would only tweet to welcome new merchants.  Those tweets were usually structured like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Friendly welcome introduction.&lt;/li&gt;
+  &lt;li&gt;Mention to the store added (@username – also known as handle).&lt;/li&gt;
+  &lt;li&gt;Link to the products from the featured store.&lt;/li&gt;
+  &lt;li&gt;Appropriate hashtags.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The engagement would mostly come from likes and clicks to the URL provided.&lt;/p&gt;
+
+&lt;p&gt;However, in the last couple of months (May to June), Spendabit started to share opinions, and those were the tweets that overall got the most impressions and engagement.  People would respond to these types of tweet mostly by visiting Spendabit’s profile.&lt;/p&gt;
+
+&lt;p&gt;Keeping in mind that the typical follower of Spendabit is a young man interested in technology and business, Spendabit’s opinion seems to be of interest.&lt;/p&gt;
+
+&lt;h4 id=&quot;finding-the-best-posting-times&quot;&gt;Finding the best posting times&lt;/h4&gt;
+
+&lt;p&gt;From the charts summarizing impressions, engagement, and number of tweets posted per hour of the day, and day of the week I found that:&lt;/p&gt;
+
+&lt;p&gt;Regarding hours, all of Spendabit’s tweets are posted between 1 pm and 2 am EDT.&lt;/p&gt;
+
+&lt;p&gt;The most impressions correspond to tweets posted between 3 pm and 5 pm, as well as 8 pm.&lt;/p&gt;
+
+&lt;p&gt;We have to consider that Spendabit is based in the Eastern Time Zone, but most of their followers come from California (US) and England (UK) which are in different time zones.  4 pm EDT means 1 pm in California, and around 9 pm in England.  8 pm EDT is 5 pm in California, and 1 am in England.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/twitter-spendabit/twitter-spendabit4.png&quot; alt=&quot;Spendabit Twitter Dashboard - Daytime&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Average number of impressions and engagement per hour of the day. Data from Jan 1 - June 29, 2017 @Spendabit.
+&lt;/p&gt;
+
+&lt;p&gt;Regarding day of the week. Spendabit’s tweets are distributed consistently from Monday to Friday. Saturdays and Sundays have the fewer posts. During the week, Thursdays get the highest average of impressions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/twitter-spendabit/twitter-spendabit5.png&quot; alt=&quot;Spendabit Twitter Dashboard - Daytime 2&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Average number of impressions and engagement per day of the week. Data from Jan 1 - June 29, 2017 @Spendabit.
+&lt;/p&gt;
+
+&lt;h4 id=&quot;engagement-vs-character-count&quot;&gt;Engagement vs. Character count&lt;/h4&gt;
+
+&lt;p&gt;Twitter limits the content of a tweet to a maximum of 140 characters, without counting handles (@username), quotes, polls, videos, or images, (that’s why in the chart the character count axis has more than 140 characters).  All indicates that the shorter is the better, on average, the tweets with less or about 100 characters seem to gain more engagement than longer tweets.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/twitter-spendabit/twitter-spendabit6.png&quot; alt=&quot;Spendabit Twitter Dashboard - Char count&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Engagement vs. Character Count. Data from Jan 1 - June 29, 2017 @Spendabit.
+&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thoughts-and-recommendations&quot;&gt;Final thoughts and recommendations&lt;/h2&gt;
+
+&lt;p&gt;I analyzed the main metrics (impressions, engagement, and number of tweets) for Spendabit’s tweets for the period from Jan 1 – June 29.  These were my main discoveries:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Spendabit’s average follower is an English speaking young men (25-40) with interests in technology and business that checks Twitter in his laptop.&lt;/li&gt;
+  &lt;li&gt;On average Spendabit tweets six times per month.&lt;/li&gt;
+  &lt;li&gt;Peak hours according to both, number of impressions and engagement, are 3 to 5 pm, and 8 pm. The number of impressions is also high at 1 am, although in this case, the engagement is rather low.&lt;/li&gt;
+  &lt;li&gt;In general, tweets under 100 characters show greater engagement.&lt;/li&gt;
+  &lt;li&gt;Most of the engagement comes from likes, URL clicks, and user profile clicks&lt;/li&gt;
+  &lt;li&gt;The tweets expressing opinions are the ones with the highest engagement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And these are my recommendations, all of them have the goal to increase engagement.&lt;/p&gt;
+
+&lt;h3 id=&quot;about-content&quot;&gt;About content:&lt;/h3&gt;
+
+&lt;p&gt;When analyzing engagement I found that most of it corresponds to URL clicks and profile clicks, this is great because Spendabit’s goal is to increase traffic to their website.&lt;/p&gt;
+
+&lt;p&gt;56.7% of Spendabit tweets have an informative character, welcoming a new merchant to the search engine.  However, the tweets with most engagement were those expressing opinions on the Bitcoin technology.  Keeping in mind the audience top interests, I think Spendabit should make more tweets that express their opinions.  They should also look for opportunities to engage in conversation.&lt;/p&gt;
+
+&lt;p&gt;Adding links to the tweets is working great, keep on adding those URLs!&lt;/p&gt;
+
+&lt;p&gt;New things to try:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Mention your top follower in an upcoming tweet.&lt;/strong&gt;  I noticed that some of Spendabit’s top followers have huge audiences (in the order of 1000 - 700K).  Consider mentioning those followers in an upcoming tweet.  Maybe they will share the tweet with their audience, increasing Spendabit’s social media reach and perhaps engagement.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Retweet.&lt;/strong&gt; When analyzing stats on Twitter you should always pay attention to your top mention, the tweet with the most impressions, posted by another user, that indicates your username.  The Twitter user who expanded your reach the most is someone you should reach out to; you should send a follow-up, look for opportunities to connect.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Twitter isn’t a one-sided promotional tool.&lt;/strong&gt;  Spendabit should consider retweeting and mentioning other users.  This is something that the other user may appreciate and would probably make them take more interest in what Spendabit has to say.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use twitter polls.&lt;/strong&gt;  Consider using polls to keep the followers engaged.  Give your followers a reason for interaction.  Keep these polls short, and ask questions about the products offered.  E.g., what type of products/services do you buy with Bitcoin? The Bitcoin price is going up and up, spend your Bitcoins or not to spend them?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use pictures.&lt;/strong&gt;  Buffer run an A/B test and found that &lt;a href=&quot;http://www.convinceandconvert.com/content-marketing/9-best-from-buffer/&quot;&gt;sharing pictures on Twitter increases retweets by 150%&lt;/a&gt;,  maybe it would be worth giving a shot.  Good quality images, infographics, plots, screenshots, etc. are an eye-catching and efficient way of driving attention from users.  Also, consider adding short videos.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pin tweets to boost the best content.&lt;/strong&gt;  A pinned tweet is similar to an ad, except that you don’t have to pay for it.  It’s a free form of advertising.  Don’t forget to include a URL in the pinned tweet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Overall keep the tweets short. From the analysis of engagement vs. character count, we saw that generally, tweets under 100 characters had a better response.&lt;/p&gt;
+
+&lt;h4 id=&quot;about-frequency-and-posting-times&quot;&gt;About frequency and posting times&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Tweet more.&lt;/strong&gt;  I found articles where they recommend to &lt;a href=&quot;https://coschedule.com/blog/how-often-to-post-on-social-media/&quot;&gt;tweet 15 times per day&lt;/a&gt;.  Although the average seems to be between 3 and 5 tweets per day.  I’d recommend to increase the amount of tweets slowly and check on the number of impressions and engagement that those tweets generate.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tweet during peak times.&lt;/strong&gt;  For Spendabit, peak times are 3 to 5 pm and 8 pm. And the best day to tweet seems to be Thursday.  These peak hours are reasonable, some studies found that &lt;a href=&quot;https://coschedule.com/blog/twitter-engagement-tactics/&quot;&gt;Twitter users are 181% more likely to be on Twitter during their commute&lt;/a&gt; (from and to their workplace).  Also, I noticed that Spendabit doesn’t tweet during the morning (before 1 pm), and according to this &lt;a href=&quot;https://blog.bufferapp.com/best-time-to-tweet-research&quot;&gt;article&lt;/a&gt;, that is the most popular time to tweet which could correlate to the times when most people are on Twitter.  It would be worth to test tweeting in the mornings checking if the number of impressions and engagement grow.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>10 Aug 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/08/10/twitter-spendabit/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/08/10/twitter-spendabit/</guid>
+      </item>
+    
+      <item>
+        <title>Exploring Twitter Analytics</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;A few weeks ago I was looking for ideas to start a small project that would allow me to keep on practicing R, the programming language.&lt;/p&gt;
+
+&lt;p&gt;Somehow I stumbled upon &lt;a href=&quot;https://cran.r-project.org/web/packages/twitteR/twitteR.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TwitteR&lt;/a&gt;, an R package by Jeff Gentry. TwitteR provides access to the &lt;a href=&quot;https://dev.twitter.com/overview/api&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Twitter API&lt;/a&gt;, which allows you to collect information about your tweets.&lt;/p&gt;
+
+&lt;p&gt;After finding this, I did a quick research and immediately discovered that Twitter provides a free &lt;a href=&quot;https://analytics.twitter.com/about&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Twitter Analytics&lt;/a&gt; dashboard that allows everyone with a Twitter account to get full analytics on their tweets and followers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why would you want to collect information about your tweets?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;By analyzing your Twitter metrics, and measuring your performance over time, you can learn what works and what doesn’t when it comes to your marketing strategy on the Twitter platform, getting the most from the time and resources you put into posting on Twitter.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-twitter-analytics-dashboard&quot;&gt;The Twitter Analytics Dashboard&lt;/h2&gt;
+
+&lt;p&gt;Once you log in to your &lt;a href=&quot;https://analytics.twitter.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Twitter Analytics&lt;/a&gt; account, you’ll get straight to the dashboard. And on the upper left side of the page you’ll find five main tabs: Home, Tweets, Audiences, Events, and More: Videos (beta), App manager, and Conversion Tracking.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/exploring-twitter/follow-me1.png&quot; alt=&quot;Twitter Dashboard&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Spendabit&amp;#8217;s Twitter Analytics Dashboard
+&lt;/p&gt;
+
+&lt;h3 id=&quot;home-section&quot;&gt;Home Section&lt;/h3&gt;
+
+&lt;p&gt;The Home section presents an overview of your activities over a 28 days period. At the top of the page, there is a summary of changes on the number of tweets posted, tweet impressions, profile visits, the number of mentions, and the number of followers, over the previous period.&lt;/p&gt;
+
+&lt;p&gt;Right below this summary, you can find a monthly report of highlights, where you can quickly access information about your top performing tweets, top mention, and top follower.&lt;/p&gt;
+
+&lt;p&gt;Scrolling down, you will get a similar summary for practically any month you have been on Twitter.&lt;/p&gt;
+
+&lt;p&gt;On the right side of the screen, there’s a friendly reminder that you can use Twitter for advertisement.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/exploring-twitter/follow-me2.png&quot; alt=&quot;Home Section&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Home Tab in the Twitter Analytics Dashboard.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;tweets&quot;&gt;Tweets&lt;/h3&gt;
+
+&lt;p&gt;If you switch to the Tweets section, you’ll find metrics for every single one of your tweets.&lt;/p&gt;
+
+&lt;p&gt;At the top of the page, you’ll see a general graph that displays the number of impressions that you got over the past 28 day period. You can change that term by clicking the button at the top right-hand corner.&lt;/p&gt;
+
+&lt;p&gt;If you hover over any day in the graph, you’ll be able to see how many impressions your tweets got on a particular day.&lt;/p&gt;
+
+&lt;p&gt;On the right side of the chart, you’ll see the average value of impressions for the month.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/exploring-twitter/follow-me3.png&quot; alt=&quot;Tweets&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Scrolling down, you can check the number of impressions, engagement and engagement rate for each of your tweets. You can select the type of tweet you’d like to explore; the options are all tweets, top tweets (the ones with most impressions), tweets and replies, and promoted tweets.&lt;/p&gt;
+
+&lt;p&gt;On the right side of the page, you will find charts summarizing engagement during a 28 days period. More importantly, you will find a breakdown of engagement into link clicks, retweets, likes, and replies.&lt;/p&gt;
+
+&lt;p&gt;You can also access a Tweet activity section by clicking on any particular tweet. There you will get detailed metrics only for that tweet.&lt;/p&gt;
+
+&lt;h3 id=&quot;audience-insights&quot;&gt;Audience Insights&lt;/h3&gt;
+
+&lt;p&gt;Audiences give you a general overview of who your average follower is. In this section, you can track your follower’s growth over time. You will also find interesting and highly valuable information about your audience demographics, lifestyle and mobile footprint.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/exploring-twitter/follow-me4.png&quot; alt=&quot;Audience Insights&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Audiences Tab in the Twitter Analytics Dashboard
+&lt;/p&gt;
+
+&lt;h3 id=&quot;events&quot;&gt;Events&lt;/h3&gt;
+
+&lt;p&gt;Here Twitter reminds you of future events people are likely to talk about. You could join in and create campaigns that revolve around these occasions, bringing more engagement and traffic to your site.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/exploring-twitter/follow-me5.png&quot; alt=&quot;Events&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Events Tab in the Twitter Analytics Dashboard
+&lt;/p&gt;
+
+&lt;h3 id=&quot;more&quot;&gt;More&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Video Activity&lt;/strong&gt; – It’s still in beta version, but this section will allow you to get a better understanding of how your Twitter videos are performing. For example, you can check video completion rate, the total number of complete views divided by the total number of video starts. Out of everyone who watch your video, what percentage of people watched it all?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;App Manager&lt;/strong&gt; – Allows you to set up your app with Twitter.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conversion Tracking&lt;/strong&gt; – If you use Twitter Ads, you can track your impressions, results, and cost per result across all your different campaign objectives. Conversion tracking allows you to measure return on investment (ROI) by tracking sales and revenue from your Twitter campaigns.&lt;/p&gt;
+
+&lt;h2 id=&quot;important-definitions&quot;&gt;Important Definitions&lt;/h2&gt;
+
+&lt;p&gt;Before going any further, it’s important to understand the meaning of three essential metrics measured by Twitter Analytics. They are defined as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Impressions:&lt;/strong&gt; The number of times Twitter users see your tweet (either because they appear on their time-line or as a search result). Something to notice is that, even if you have only a few followers, a retweet by someone with a lot more followers than you will grow your number of impressions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Engagements:&lt;/strong&gt; Total number of times that someone interacted with a tweet. Interactions that count are clicks anywhere on the tweet, including retweets, replies, follows, likes, links, cards, hashtags, embedded media, username, profile photo, or tweet expansion.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Impressions are nice to have, but engagement is better. In the end, you want your impressions and engagement numbers to be as high as possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Engagement rate:&lt;/strong&gt; The number of engagements divided by the number of impressions. This ratio gives a clearer picture of how engaging a tweet is because it factors how many people saw the tweet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5-ways-to-use-the-information-provided-by-twitter-analytics&quot;&gt;5 Ways to Use the Information Provided by Twitter Analytics&lt;/h2&gt;
+
+&lt;p&gt;After gathering all the information regarding your company profile on Twitter, you are left with series of numbers. Now comes the tricky part – you need to interpret the data collected and use it for improvement. Here are five excellent ways to use the data provided by Twitter Analytics.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-learn-about-your-audience&quot;&gt;1. Learn about your audience&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Metrics to track:&lt;/strong&gt; Everything in the audiences section, top follower, top mention.&lt;/p&gt;
+
+&lt;p&gt;It is impossible to conduct a targeted marketing campaign if you don’t know who you are targeting. Get to know the people who follow you.&lt;/p&gt;
+
+&lt;p&gt;In the Audience Insights section, you will get data about your average follower. You will find information about language, gender, age, country of residence, type of device that your followers use to access Twitter, wireless carrier, and even household income. You can also learn about their top interests and on-line purchasing behavior.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As you get to know more about your audience, you can better identify what content to create and share on Twitter to keep your audience engaged.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Furthermore, if you go back to the Home section, look at your top follower (the person with the greatest number of followers on his own). While this person hasn’t necessarily shared your content yet, he is following you for a reason, and he has the largest potential audience, so you should try to use that information in your favor.&lt;/p&gt;
+
+&lt;p&gt;At the same time, you can check your top mention (the tweet with the most impressions, posted by another user, that includes your username). The Twitter user who expanded your reach the most is someone you should reach out to. Send a follow-up, look for opportunities to connect.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/exploring-twitter/follow-me6.png&quot; alt=&quot;Top Follower and Top Mention&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Find your Top Follower and Top Mention for the month in the Home section of the dashboard.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;2-find-out-which-content-your-audience-enjoy-the-most&quot;&gt;2. Find out which content your audience enjoy the most.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Metrics to check:&lt;/strong&gt; engagement, engagement rate, link clicks, retweets, likes, replies, top follower’s interests, like rate.&lt;/p&gt;
+
+&lt;p&gt;If people don’t interact with your tweets, you are talking to a void. To find which content resonates with your audience, you have to study your engagement metrics.&lt;/p&gt;
+
+&lt;h4 id=&quot;different-types-of-engagement&quot;&gt;Different types of engagement&lt;/h4&gt;
+
+&lt;p&gt;Engagement includes any interaction that a user may have with a tweet, whether it’s a click on the tweet, a retweet, a reply, a follow or a like. And those different types of interactions have different meanings. For example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;A retweet signal value.&lt;/em&gt; Someone found the information that you shared valuable enough to give you access to their audience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;A like signals appreciation.&lt;/em&gt; If someone liked your tweet, it’s probably because that person thought you had a good idea. Maybe you can make an article or a blog post of that tweet?.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the Tweets section of your dashboard, you can access a breakdown of engagement quickly and easily for any individual tweet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/exploring-twitter/follow-me7.png&quot; alt=&quot;Tweet Activity&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Tweet Activity
+&lt;/p&gt;
+
+&lt;h4 id=&quot;which-kind-of-tweet-gets-the-most-engagement&quot;&gt;Which kind of tweet gets the most engagement?&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Media Tweets&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you share content with photos or videos? According to some studies, &lt;a href=&quot;https://adespresso.com/academy/blog/23-strategies-increase-twitter-engagement/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;photos get a 313% more engagement than regular tweets&lt;/a&gt;. Is this true for your audience? It would be interesting to check your embedded media clicks and compare them to link clicks or other type of engagement.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tweet length&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Twitter already limits your tweets to 140 characters (without counting quotes, polls, videos or images), and this may seem an already short message, but what does your audience prefer? Do they engage more with shorter tweets or with longer tweets? By calculating the length of your tweets and plotting it against engagement, you could pick up some interesting trends.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check your content&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You have already checked the interests of your average follower. E.g., technology, business and news, tech news, politics, etc. Use this information as a guideline for content and ideas to share. Understanding which type of content and topics your followers enjoy can help you drive your social marketing. Adjust your strategy and publish more of your most successful tweets.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-understand-how-people-interact-with-your-tweets-over-time&quot;&gt;3. Understand how people interact with your tweets over time&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Metrics to track:&lt;/strong&gt; Impressions, engagement, time, weekday, country of residence&lt;/p&gt;
+
+&lt;p&gt;What is the best posting time to maximize impressions (to reach more users)? What is the best posting time to maximize engagement? What is the best day of the week for you to tweet?&lt;/p&gt;
+
+&lt;p&gt;There will be certain days of the week, or times of the day, when most of your users will be on-line and are more likely to engage with your content. You should be able to find those peak hours and post during them, that way you’ll get more views, and you’ll be more likely to increase engagement and clicks on your post.&lt;/p&gt;
+
+&lt;p&gt;Create plots of impressions vs. time of the day, engagement vs. time of the day, impressions vs. day of the week, and engagement vs. day of the week. You might find some helpful patterns and trends.&lt;/p&gt;
+
+&lt;p&gt;Also, look at the country of residence of your average follower, you may get an idea of the time zone in which they’re located. Again, you should post at times that make sense based on when your audience is likely to be on-line.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-are-your-twitter-ads-worth-the-money&quot;&gt;4. Are your Twitter Ads worth the money?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Metrics to track:&lt;/strong&gt; impressions, engagement, engagement rate for promoted tweets, conversion.&lt;/p&gt;
+
+&lt;p&gt;Twitter Analytics gives you information about paid and organic tweet performance. If you invested in promoted tweets, you should check the stats for your paid promotions, and compare them to those of your organic tweets.&lt;/p&gt;
+
+&lt;p&gt;The Conversions section should be handy when measuring your Twitter ads campaign.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-replicate-success-and-avoid-repeating-mistakes&quot;&gt;5. Replicate success and avoid repeating mistakes&lt;/h3&gt;
+
+&lt;p&gt;Twitter Analytics is a great tool that you can use to figure out what type of tweet work best for you (the one that gets the best results regarding metrics that matter the most to you). Once you know who you are tweeting to, and you have found your successful tweets, identifying the commonalities in them, replicate your success.&lt;/p&gt;
+
+&lt;p&gt;But also, don’t forget to track the poorest performing tweets to learn about what your audience doesn’t want to see.&lt;/p&gt;
+
+&lt;p&gt;Look at your follower’s growth over time. A bigger audience generally leads to higher impressions and clicks.&lt;/p&gt;
+
+&lt;p&gt;Maybe you’ll see that at a certain time you lost a significant number of followers. Revisit your activity in those periods and see if you can learn from it. How often were you posting then? What were you posting about? Were you taking the time to reply to other user’s tweets? Learn from this analysis and avoid the same mistakes in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;exporting-data&quot;&gt;Exporting data&lt;/h3&gt;
+
+&lt;p&gt;Now that you have a better understanding of Twitter Analytics, it’s time to download the data and play with it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/exploring-twitter/follow-me8.png&quot; alt=&quot;Tweet Activity&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+Export data from the Tweets section
+&lt;/p&gt;
+
+&lt;p&gt;You can export the information about your tweets either from the Twitter Analytics dashboard, as a CSV file, or by accessing the Twitter API.&lt;/p&gt;
+
+&lt;p&gt;To export your data, select the time frame that you’d like to explore (note that you can only download data for a 91 days period at a time), and then click the “Export Data” button at the top right corner of the dashboard.&lt;/p&gt;
+
+&lt;p&gt;Once you have the CSV file, you can explore the data using the software of your choice (Excel, Google Sheets, R, etc.) to get insights that the platform won’t provide. For example the analysis to find the peak time to post.&lt;/p&gt;
+
+&lt;p&gt;I’m not using Twitter yet, but I thought I could offer to analyze someone else’s Twitter data. &lt;a href=&quot;https://spendabit.co/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Spendabit&lt;/a&gt;, the start up that provides a search engine for products that you can buy with Bitcoin, agreed to share its data with me, and my plan is to analyze it in two ways:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;With Google Sheets&lt;/strong&gt; – &lt;a href=&quot;https://spendabit.co/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Spendabit&lt;/a&gt; gave me a CSV file containing Twitter data retrieved from the Twitter Analytics dashboard. I’ll use Google Sheets to explore the data, keeping in mind this guideline to make recommendations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;With R programming language&lt;/strong&gt; – I’ll access the Twitter API to collect &lt;a href=&quot;https://spendabit.co/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Spendabit&lt;/a&gt;‘s data and then I’ll analyze it with R, also using this guideline to make recommendations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ll be publishing both studies in the Projects section of this website. Stay tuned!&lt;/p&gt;
+</description>
+        <pubDate>05 Aug 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/08/05/exploring-twitter-analytics/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/08/05/exploring-twitter-analytics/</guid>
+      </item>
+    
+      <item>
+        <title>Decomposing Visualizations</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“A picture is worth a million rows.”
+&lt;em&gt;Tableau Software&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;about-data-visualization&quot;&gt;About Data Visualization&lt;/h2&gt;
+
+&lt;p&gt;Data visualization is the graphical display of abstract information for two purposes:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sense-making: To uncover patterns, trends, and correlations that might go undetected in text-based data.&lt;/li&gt;
+  &lt;li&gt;Communication: To share insights and findings in a clear and efficient way.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I’ve always used visualizations with a practical purpose, to make sense of information, and to communicate results.  I don’t recall giving a second thought to the aesthetics of my plots.  But then I found the book &lt;a href=&quot;https://www.amazon.com/Dear-Data-Giorgia-Lupi/dp/1616895322&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Dear Data&lt;/a&gt; and I couldn’t help but notice the beauty in the information presented. Later, I came across the blog &lt;a href=&quot;http://www.datasketch.es/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Data Sketches&lt;/a&gt;, and my mind was blown away by the incredible imagination of the authors and the beautiful and complex projects that they built with data.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iqaVe1MCTlA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  Dear Data, video created by Somerset House, London
+&lt;/p&gt;
+
+&lt;p&gt;Lisa Charlotte Ross wrote a few posts about the &lt;a href=&quot;https://lisacharlotterost.github.io/2015/12/19/Meaning-and-Beauty-in-Data-Vis/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;meaning and beauty in Data Vis and Data Art&lt;/a&gt;.  She states that the ultimate goal of Data Vis is to convey information, to be insightful, and to increase “understanding” of a dataset.  I completely agree with her, as well as with the point that she makes about how &lt;em&gt;beauty can enhance meaning.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;That said, today I’m taking a first step towards learning more about data visualization with the goal of making my graphs and plots a little bit “better looking.  ” I signed up for the course &lt;a href=&quot;https://www.udacity.com/course/data-visualization-and-d3js--ud507&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Data Visualization and D3.js&lt;/a&gt; at Udacity, and I’m planning to share what I learn here.  I’ll start writing about it today.&lt;/p&gt;
+
+&lt;h2 id=&quot;lesson-1--visualization-fundamentals-part-12&quot;&gt;Lesson 1 – Visualization Fundamentals. Part 1/2&lt;/h2&gt;
+
+&lt;p&gt;In this first lesson I went over the classification of data types, as seen in statistics courses, and I also learned about visual encoding.&lt;/p&gt;
+
+&lt;h3 id=&quot;types-of-data&quot;&gt;Types of Data&lt;/h3&gt;
+
+&lt;p&gt;There are three different types of data:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Quantitative/Numerical Data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Any data points that is an exact number.  This type of data has a meaning as a measurement, such as a person’s height, weight, or blood pressure; or a count, such as the number of pages that you can read before you fall asleep, or the number of stock shares a person owns.&lt;/p&gt;
+
+&lt;p&gt;There are two types of quantitative data:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Discrete data&lt;/em&gt; – It has a distinct value.  The list of possible values can be fixed (finite), or infinite.  E.g., the number of home runs of a baseball player: 0, 1, 2, 3,… 20.  Note a player cannot hit 14.375 home runs, he either hits a home run, or he doesn’t.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Continuous data&lt;/em&gt; – It falls in a range.  E.g., the lifetime of a C battery can be anywhere from 0 hours to an infinite number of hours (if it lasts forever), with all possible values in between.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Categorical Data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It represents characteristics such as a person’s gender, marital status, hometown, or the type of movies they like.  It can take numerical values, such as “1” indicating male, and “2” indicating female, but those numbers don’t have a mathematical meaning.  You couldn’t add them together, or calculate the mean.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Ordinal/Ordered Data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Data that falls into categories but that has some order or ranking.  Ordinal data mixes numerical and categorical data.  If quantitative data split up into bins, now it’s ordinal data.  E.g., rating a restaurant on a scale of 0 (lowest) to 4 (highest) gives ordinal data.  In this case, the numbers have mathematical meaning.  For example, if you survey 100 people and ask them to rate a restaurant on a scale from 0 to 4, taking the average of the 100 responses will have a meaning.&lt;/p&gt;
+
+&lt;h3 id=&quot;visual-encodings&quot;&gt;Visual Encodings&lt;/h3&gt;
+
+&lt;p&gt;Visual encoding variables allow us to map data into visual structures.  There are two types of visual encoding variables: planar and retinal.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Planar visual encoding&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this category, we find the positions on the x and y axis.  Planar variables are excellent when locating points on space.  They can be used to represent any type of data, but they’ve been found to be more efficient when rendering quantitative data.&lt;/p&gt;
+
+&lt;p&gt;Planar variables do a great job when working with two variables.  However, 3D models are poorly perceived by our eyes.  If we want to represent a third variable in our graphics, it is recommended to use retinal variables.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Retinal visual encoding&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Humans can easily differentiate between various colors, shapes, sizes, and other properties.  We can use those features to encode information.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Orientation&lt;/strong&gt; – It can be used to represent quantitative, qualitative and ordinal types of data.  It should be noted that while we’re able to clearly identify vertical vs. horizontal lines, it’s harder to distinguish between slopes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Size&lt;/strong&gt; – It can be used to represent quantitative and ordinal types of data.  Size matters, and we can see the difference right away.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Color Saturation&lt;/strong&gt; – It is used to represent quantitative and ordinal types of data.  Any color can be moved over a scale, and we can tell the difference.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Color Hue&lt;/strong&gt; – It is best used to work with categorical data.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Texture&lt;/strong&gt; – As with color hue, texture can be used to represent categorical data.  However, we can’t touch it on screen, and textures are less catchy than colors.  It’s not commonly used.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Shape&lt;/strong&gt; – It’s used to represent categorical data. We can easily distinguish between a dozen of shapes such as circles, edgy stars, solid rectangles, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;which-variable-is-the-most-efficient-when-representing-data&quot;&gt;Which variable is the most efficient when representing data?&lt;/h3&gt;
+
+&lt;p&gt;In 1985, William S. Cleveland and Robert McGill conducted a &lt;a href=&quot;https://web.cs.dal.ca/~sbrooks/csci4166-6406/seminars/readings/Cleveland_GraphicalPerception_Science85.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;study on graphical perception&lt;/a&gt;.  The experiments were designed to compare the effectiveness of display elements such as position, length, angle, etc. when communicating quantitative data.&lt;/p&gt;
+
+&lt;p&gt;As a result of their experiments, they came out with a ranking of visual encodings.  They ordered the different variables from most accurate to the less accurate when representing quantitative data.  This is the list: position, length, angle, slope, area, volume, density, color hue, color saturation.&lt;/p&gt;
+
+&lt;p&gt;Something to notice, is that color seems to be the less effective way to represent data.  And in fact, there are be very strong feelings on the use of color in the Data Viz community (to find more on the topic you can read &lt;a href=&quot;https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/&quot;&gt;this&lt;/a&gt; blog post).&lt;/p&gt;
+
+&lt;p&gt;It would be wise to keep in mind that Edward Tufte, a pioneer in the field of data visualization, once said: &lt;em&gt;“Avoiding catastrophe becomes the ﬁrst principle in bringing color to information: Above all, do no harm.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;practice--decomposing-a-visualization&quot;&gt;Practice – Decomposing a Visualization&lt;/h3&gt;
+
+&lt;p&gt;Let’s apply the previously learned concepts by decomposing a visualization.&lt;/p&gt;
+
+&lt;p&gt;I found this visual at the Data Sketches blog, and it immediately caught my eye because of the shape, the multiple points in the graph, the animations, and because my favorite kind of music is the one from the 80’s.  You can learn more about how this visual was created &lt;a href=&quot;http://www.datasketch.es/december/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/decomposing.jpg&quot; alt=&quot;Decomposing Visualizations&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+TOP 2000 ❤ the 70&amp;#8217;s &amp;amp; 80&amp;#8217;s &amp;#8211; Created by Nadieh Bremer | Visual Cinnamon&lt;br /&gt;Find the dynamic version in this link: &lt;a href=&quot;http://www.datasketch.es/december/code/nadieh/&quot;&gt;http://www.datasketch.es/december/code/nadieh/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We can analyze the &lt;a href=&quot;http://www.datasketch.es/december/code/nadieh/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;dynamic&lt;/a&gt; visual by answering a few questions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What are the variables and data types?&lt;/li&gt;
+  &lt;li&gt;What are the visual encodings for each variable?&lt;/li&gt;
+  &lt;li&gt;To what extent are the encodings effective?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The answers to the first two questions can be found in this table:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Variable&lt;/th&gt;
+      &lt;th&gt;Type of Data&lt;/th&gt;
+      &lt;th&gt;Visual Encoding&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Year of release&lt;/td&gt;
+      &lt;td&gt;Quantitative (Discrete)&lt;/td&gt;
+      &lt;td&gt;Position on x&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Position in Top 2000&lt;/td&gt;
+      &lt;td&gt;Ordinal&lt;/td&gt;
+      &lt;td&gt;Size&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Highest position reached in weekly Top 40&lt;/td&gt;
+      &lt;td&gt;Ordinal&lt;/td&gt;
+      &lt;td&gt;Color Saturation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Author and special songs&lt;/td&gt;
+      &lt;td&gt;Qualitative&lt;/td&gt;
+      &lt;td&gt;Color Hue&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Song title&lt;/td&gt;
+      &lt;td&gt;Qualitative&lt;/td&gt;
+      &lt;td&gt;Animation&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Regarding question 3, I find this visual eye-catching, and I think it communicates the information in a very efficient way.  The year of release for each song is big enough to notice; it’s easy to identify which songs reached the Top 1 position at the Top 2000, as well as to tell the difference between the top 1 and the top 1000.  It is harder to distinguish the spot that the songs reached at the weekly Top 40, but that is one of the downsides of using color saturation.&lt;/p&gt;
+
+&lt;p&gt;I think the most important feature in this example is the animation.  If we become interested in a particular point, by hovering over it we can get detailed information about it, accessing information such as the song title, singer, year of release, position on the Top 2000 and highest position in the weekly top 40.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;At Udacity, the courses aim to teach by doing.  In this case, they I’ll first analyze existing data visualizations, and later you I’ll create my own.  I’m certainly looking forward to creating on my own visualization.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>04 Aug 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/08/04/decomposing-visualizations/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/08/04/decomposing-visualizations/</guid>
+      </item>
+    
+      <item>
+        <title>The Praxis Approach to Job Applications</title>
+        <description>&lt;p&gt;Last week I found a very interesting opening at a start up company in Toronto.  I got so interested in the company and the role, that instead of following the standard path of applying by sending only a cover letter and my resume, I decided to take the &lt;a href=&quot;http://discoverpraxis.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Praxis&lt;/a&gt; approach, and prepare a value proposition.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;What is a value proposition?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, before creating my pitch, I had to do a little research on the topic myself.  I read more than a dozen of articles before crafting my proposal.  With all the notes I took I prepared this presentation, so now you can learn what a value proposition is and how you can use it to replace your resume when applying for a job.&lt;/p&gt;
+
+&lt;p&gt;Note: Here is the PDF file in case you want to follow the links in each slide – &lt;a href=&quot;http://claudiagerez.com/wp-content/uploads/2017/08/job-applications-praxis.pdf&quot;&gt;The Praxis Approach to Job Applications&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;canva-embed&quot; data-height-ratio=&quot;0.75&quot; data-design-id=&quot;DACcwJYxdMs&quot; style=&quot;padding:75% 5px 5px 5px;background:rgba(0,0,0,0.03);border-radius:8px;&quot;&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://sdk.canva.com/v1/embed.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.canva.com/design/DACcwJYxdMs/view?utm_content=DACcwJYxdMs&amp;amp;utm_campaign=designshare&amp;amp;utm_medium=embeds&amp;amp;utm_source=link&quot; target=&quot;_blank&quot;&gt;the-praxis-approach-to-job-applications&lt;/a&gt; by &lt;a href=&quot;https://www.canva.com/clau_gerez?utm_campaign=designshare&amp;amp;utm_medium=embeds&amp;amp;utm_source=link&quot; target=&quot;_blank&quot;&gt;Claudia&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>02 Aug 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/08/02/the-praxis-approach-to-job-applications/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/08/02/the-praxis-approach-to-job-applications/</guid>
+      </item>
+    
+      <item>
+        <title>Business Metrics Classification</title>
+        <description>&lt;p&gt;This post is part of the notes I’m taking from the course Business for Data-Driven Companies.&lt;/p&gt;
+
+&lt;p&gt;In my &lt;a href=&quot;http://claudiagerez.com/2017/06/19/business-metrics-vs-key-performance-indicators/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;last post&lt;/a&gt;, I talked about business metrics and key performance indicators.  Today I’ll share a convenient way to classify those metrics, that is into the three following categories:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Revenue Metrics&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Profitability Metrics&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Risk Metrics&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I think it’s very practical because with this classification we can relate the metrics to the different areas of the business we might be analyzing.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Revenue metrics are always related directly or indirectly to sales.&lt;/em&gt; The company sales force and the marketing team are the groups more interested in these values.  &lt;em&gt;How many units of a product were sold over a given period? How does it compare to the same period a year ago? How many people have seen a particular advertisement or email marketing piece? Which percentage responded?&lt;/em&gt; etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Profitability metrics&lt;/em&gt; are associated with efficiency and logistics, production, and operations.  Profitability &lt;em&gt;is all about efficiency,&lt;/em&gt; the ability to use the lowest amount of inputs (energy, effort, money, time, etc.) to create the greatest amount of outputs.  Efficiency is quantitatively determined by the ratio of useful output to total input.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Risk metrics&lt;/em&gt; relate to risk managers and creditors, and outside investors.  They have to do with tracking, and possibly reducing, the many potential dangers a company faces.  The most important risk metric to track is net cash out.  How many months can the company survive at the present burn rate? Another example is churn rate, the annual percentage rate at which customers stop subscribing to a service.  &lt;em&gt;Risk is closely tied to debt.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An additional classification for business metrics has to do with how quickly they can be modified.  In that case we have:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Traditional business metrics.&lt;/em&gt; This group includes standard financial and managerial accounting categories.  Traditional metrics vary on long terms, usually on a scale of months to years, and depend on multiple factors.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Dynamic metrics&lt;/em&gt; can change substantially due to specific actions, in periods of a month or less.  These values can be twitchy, small variations in the business process can have a significant impact on them.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Last time I mentioned that the right business question was, &lt;em&gt;What change can be made right now, in the business process, to increase revenue, maximize profitability or reduce risk?.&lt;/em&gt;  The answer to that question will always have to do with dynamic metrics.&lt;/p&gt;
+</description>
+        <pubDate>26 Jun 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/06/26/business-metrics-classification/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/06/26/business-metrics-classification/</guid>
+      </item>
+    
+      <item>
+        <title>Do you take Bitcoin? Experimenting with Web Design</title>
+        <description>&lt;p&gt;I love traveling and I love &lt;a href=&quot;https://bitcoin.org/en/&quot;&gt;Bitcoin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There was a time when, whenever I would get to a new city, I would look for the stores taking Bitcoin and I would try to visit them for two reasons: one, it would be a way to put my Bitcoin in circulation, second, it would encourage the merchants to keep accepting the cryptocurrency.&lt;/p&gt;
+
+&lt;p&gt;Before initiating any kind of transaction - just to make sure I would be able to pay with Bitcoin - I would ask: &lt;em&gt;“Do you take Bitcoin?”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&quot;https://spendabit.co/&quot;&gt;Spendabit&lt;/a&gt;, they thought that the question I was making was great, you could actually go to any store and ask whether they take Bitcoin or not.  It have to agree that it is an awesome way to spread the Bitcoin word.  So they encourage me to create a website with that idea in mind.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;www.takebitcoin.org&quot;&gt;www.takebitcoin.org&lt;/a&gt; was the first static website I created using only HTML, CSS, and Bootstrap.  I worked on that project for approximately two weeks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://takebitcoin.org&quot;&gt;&lt;img src=&quot;/images/projects/assets/web-design.jpg&quot; alt=&quot;Do You Take Bitcoin&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;c-btn c-btn--active c-btn--full&quot; onclick=&quot;http://takebitcoin.org/&quot;&gt;Visit Website&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+</description>
+        <pubDate>21 Jun 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/06/21/web-design/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/06/21/web-design/</guid>
+      </item>
+    
+      <item>
+        <title>Business Metrics vs Key Performance Indicators</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“Not everything that counts can be counted.  And not everything that can be counted counts.” 
+&lt;em&gt;Albert Einstein.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m currently auditing the online course &lt;a href=&quot;https://www.coursera.org/learn/analytics-business-metrics&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Business Metrics for Data-Driven Companies&lt;/a&gt;, by Duke University at Coursera.  The course aims to introduce the best practices for how to use data analysis to make any company more competitive and profitable.&lt;/p&gt;
+
+&lt;p&gt;As a way of keeping accountability, I’ve decided to make a summary of what I find interesting during the lessons, and share it here, as a blog post.  Today I’ll talk about the difference between business metrics and key performance indicators.&lt;/p&gt;
+
+&lt;h2 id=&quot;business-metrics&quot;&gt;Business Metrics&lt;/h2&gt;
+
+&lt;p&gt;According to Daniel Egger, professor of the course, &lt;em&gt;the best use of a business analyst (or a business data analyst) in a company is that he or she is the person that knows which is the right question to ask&lt;/em&gt;.  After identifying the question, this person will find the best answer to it with the resources presently available in the company; and the solution will translate to a call to action, having a practical impact on the business processes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;What’s the right question? It’s what change should be made right now (or as soon as possible) in the business process to increase revenue, maximize profitability, or reduce risk.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;How does this relate to business metrics? Metrics are numbers that help us answer the right business question.  We can have an impact on these quantities, whenever we make changes to our business processes, we change metrics.  For example, we can consider the number of people that signs up for the newsletter on our website as a business metric.  Let’s say we are trying to increase the number of subscribers, we could add the sign-up button to every page on our website, and this could lead to an increase in the number of subscribers.  A tax rate – as an opposite example – is NOT a metric; we can’t change it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A business metric is a quantifiable measure that can be used to track and assess the status of a particular business process.  We can use business metrics to evaluate the performance of our business process.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;key-performance-indicators-kpis&quot;&gt;Key Performance Indicators (KPIs)&lt;/h2&gt;
+
+&lt;p&gt;If we define success in terms of making progress toward strategic goals, we can say that &lt;em&gt;KPIs are performance metrics intended to measure success at reaching targets.&lt;/em&gt;  You have to evaluate KPIs over a specified period of time and compare them against past performance metrics or acceptable standards.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The benefit of a real KPI is that it highlights areas that need attention, providing executives with meaningful information to make better decisions.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Going back to the previous example of trying to increase the number of subscribers to our newsletter.  In that case, a good KPI would be the newsletter sign-up conversion rate.  That is, the number of visitors who completed the form divided by the number of people who just saw it.  Now we need a target, let’s say, the newsletter sign-up conversion rate should grow by a 5% compared to the value of last year, or we could measure it against the percentage increase in leads that the sales team is targeting.&lt;/p&gt;
+
+&lt;p&gt;With the information gathered, we can think of actions to take.  To increase the number of people completing the form maybe we have to make the form simpler to fill in, or make the newsletter free, or add sign-up buttons on every page of the website.  Here there’s room for experimentation.&lt;/p&gt;
+
+&lt;h2 id=&quot;summarizing&quot;&gt;Summarizing&lt;/h2&gt;
+
+&lt;p&gt;Business metrics are quantifiable measurements in an organization.  With metrics you think broad, with KPI you think deep.  KPI are business metrics that target critical areas of performance.  For example, a metric may monitor website traffic, whereas a KPI would monitor how website traffic contributed to incremental sales.&lt;/p&gt;
+
+&lt;p&gt;Good business metrics are comparative.  A 5% conversion rate doesn’t say much if you don’t have anything to compare it to.  Also, they should be rates or ratios, that makes it comparable It must be simple to understand.  Everyone should know what the metric measures.  Good KPIs drive action, they highlight areas of the business that need attention.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Something to think about: What KPIs are the critical few that drive value for your organization?&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>19 Jun 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/06/19/business-metrics-vs-key-performance-indicators/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/06/19/business-metrics-vs-key-performance-indicators/</guid>
+      </item>
+    
+      <item>
+        <title>My experience learning a second language</title>
+        <description>&lt;p&gt;Fabi looks at me and politely asks &lt;em&gt;“Me pasas las trays?”&lt;/em&gt; I give her the trays so she can clean them.  I’m stretching the dough to prepare pizzas.  &lt;em&gt;“How many do we need?”&lt;/em&gt; I ask Alejandro.  He answers, &lt;em&gt;“Solo tres, por favor. ”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I work in a pizza restaurant in Toronto.  My team is quite a multinational one, with people coming from Mexico, Ecuador, England, Guyana, Guatemala, Italy, and Argentina.  We all speak Spanish at different levels.  We all speak English as well.  And we love to mix them up.&lt;/p&gt;
+
+&lt;p&gt;I wasn’t always able to speak Spanish and English at the same time.  I can divide my relationship with English through time in three stages:&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-stage-a-conscious-effort&quot;&gt;Learning stage: A conscious effort.&lt;/h2&gt;
+
+&lt;p&gt;I first studied English at school when I was 12 years old.  And then when I was 15, I attended classes at a private English Institute.  &lt;em&gt;“English is important; you’ll need it someday,”&lt;/em&gt; everybody said.  To me, it was just another school requirement.  I had no use for it at the moment.&lt;/p&gt;
+
+&lt;p&gt;It wasn’t until I attended university that I found a motive to polish my English skills.  In engineering, it is important to be up to date with scientific literature, which means reading books, papers, and new publications most of which are in English.  Reading in English became a weekly habit.&lt;/p&gt;
+
+&lt;p&gt;But then after graduation, I forgot about it for a while, until one day I tried &lt;a href=&quot;https://www.conversationexchange.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Conversation Exchange&lt;/a&gt;, a website that lets you practice your second language by meeting up with native speakers living in your area.  That’s how I met Chris, now my husband.&lt;/p&gt;
+
+&lt;p&gt;Having someone that I trusted made it easier for me to improve my speaking, writing, and listening skills.  I could ask Chris to repeat things, to rephrase sentences, to go slower, to correct my pronunciation, etc.  I could make mistakes and not feel so silly about them.&lt;/p&gt;
+
+&lt;h2 id=&quot;acquisition-stage-getting-immersed-in-a-new-language&quot;&gt;Acquisition stage: Getting immersed in a new language.&lt;/h2&gt;
+
+&lt;p&gt;Then I moved to North America, and English became a necessity.&lt;/p&gt;
+
+&lt;p&gt;In the beginning, I couldn’t understand what people said at normal speed; they had to slow down and emphasize the words for me to understand.  My responses were slow too; I had to think before speaking.  I was unable to talk on the phone.  In a face-to-face conversation, I could use and read body language.  On the phone, I felt helpless.  My personality changed, I became quieter.  I had always been keen to socialize, and I enjoyed light-hearted conversation with new people.  Now, I had a feeling of anxiety every time I had to attend a social event.&lt;/p&gt;
+
+&lt;p&gt;But then, all those negative feelings faded away with time.  My English improved; but this time it wasn’t conscious effort (I wouldn’t sit to memorize vocabulary or do exercises on a textbook), it was as if I were acquiring the knowledge by osmosis.  One day I started to have dreams in English.  The other day I understood the meaning of a song in the radio.  Next I could turn off the Spanish subtitles on the TV.  Suddenly I could engage in deeper conversations.  I could make funny comments, and eventually, I felt a little more like my old self.&lt;/p&gt;
+
+&lt;h2 id=&quot;merging&quot;&gt;Merging&lt;/h2&gt;
+
+&lt;p&gt;After almost two years living abroad, I came back to Buenos Aires for a visit.  In my first conversation with an old friend, I was like a little cockatoo.  I talked non-stop.  And my friend laughed at me non-stop.  I was translating thoughts from English to Spanish! Phrases such as &lt;em&gt;“Yo creo”&lt;/em&gt; (I think so.), at the end of a sentence, or &lt;em&gt;“Suena bien!”&lt;/em&gt; (“Sounds good!”), are not common in Spanish.  I kept repeating them.  Also, every few minutes I had this experience of having a word &lt;em&gt;“en la punta de la lengua”&lt;/em&gt; (at the tip of the tongue), and I just couldn’t spit it out.  Also, my friend recalled, my Argentinian accent was subtle.  And this was confirmed by people that would ask where I was from.&lt;/p&gt;
+
+&lt;p&gt;I felt I was a foreigner in my own country.&lt;/p&gt;
+
+&lt;p&gt;Luckily, in a few days, I was speaking proper Argentinian again.  But until the day I left, I had the impression that something was different.&lt;/p&gt;
+
+&lt;p&gt;I’m living in Toronto now, the most multicultural city I’ve ever been to, and here I speak English and Spanish every day.  It feels like a new phase in which the challenge is to be able to handle both languages simultaneously.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;/h2&gt;
+
+&lt;p&gt;So, in my experience, just the first two steps of going through a conscious effort to learn a new language and then immersing in it, are a very effective way to become fluent in a second language.  I still speak with a non-native accent, I still make grammar mistakes, and I have to work on my pronunciation and vocabulary, but overall I feel confident communicating in English.&lt;/p&gt;
+</description>
+        <pubDate>13 Jun 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/06/13/my-experience-learning-a-second-language/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/06/13/my-experience-learning-a-second-language/</guid>
+      </item>
+    
+      <item>
+        <title>My first infographic</title>
+        <description>&lt;p&gt;Infographics, or information graphics, take complex data, information or knowledge, and translate it to easy-to-understand graphic visual representations.  They are intended to present information quickly and clearly. &lt;a href=&quot;https://en.wikipedia.org/wiki/Infographic#cite_note-Ref2-2&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Infographics check three core requirements of effective communication: &lt;em&gt;appeal, comprehension, and retention&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Appeal&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Infographics capture attention.  Researchers have found that colorful visuals increase a person’s willingness to read content by an 80%. &lt;a href=&quot;https://blog.snappa.com/types-of-infographics/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[2]&lt;/a&gt; Designers are well aware of the importance of color psychology in marketing and branding. Furthermore, 60% of our brain is involved in visual functioning &lt;a href=&quot;https://www.safaribooksonline.com/library/view/the-language-of/9781492017257/ch41s02.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[3]&lt;/a&gt;.  Reading text is a visual task, but the brain processes an image 60.000 times much faster than plain text.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Comprehension&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;How often do you hear someone claim to be a “visual learner”? It only means that that person needs to see something to be able to understand it.  Infographics break down complex data into easily digestible chunks and rely on highly visual content to make it more understandable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Retention&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Infographics also make it easy to retain information.  People will remember 65% of information that is combined with related images three days later, while if they only hear the information, they’ll retain only a 10%. &lt;a href=&quot;http://www.lifelearn.com/2015/05/12/why-infographics-work/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve always wanted to design an infographic, so I went ahead and created one.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I chose a topic, one of Argentinian’s favorite drinks:  &lt;a href=&quot;https://en.wikipedia.org/wiki/Fernet&quot;&gt;fernet&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I shopped around for a free tool to build infographics &lt;a href=&quot;http://www.creativebloq.com/infographic/tools-2131971&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[5]&lt;/a&gt; – I picked &lt;a href=&quot;https://piktochart.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;picktochart&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I reviewed the different types of infographics available, and chose a template.&lt;/li&gt;
+  &lt;li&gt;I sketched a simple design on paper, and then put the idea on the website playing with the color scheme suggestions from &lt;a href=&quot;https://coolors.co&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;coolors.co&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The result can be found at the bottom of this page, what do you think?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/assets/first-infographic.jpg&quot; alt=&quot;My First Infographic&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>12 Jun 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/06/12/my-first-infographic/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/06/12/my-first-infographic/</guid>
+      </item>
+    
+      <item>
+        <title>About writing and resistance</title>
+        <description>&lt;p&gt;Month two at Praxis is about learning how to write clearly and persuasively.  To achieve this goal, participants are challenged to write and publish a blog post every day for a month.  I’m on day 4, and I have to confess I’m not enjoying this challenge very much.&lt;/p&gt;
+
+&lt;p&gt;My negative thoughts came out from day 1.  I only have a few hours per day to dedicate to this task; I don’t think that’s enough time to produce quality pieces of writing.  Besides, English is not my native language, that means that every time I write, I have to double and triple check for spelling and grammar mistakes, that takes time, the time I have to write is not enough!.  Shouldn’t I be investing the few hours that I have free in learning something more related to data analytics (the career I want to pursue)?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Resistance only opposes in one direction [&amp;#8230;] Resistance obstructs movement only from a lower sphere to a higher.&lt;/p&gt;
+  &lt;footer&gt;Steven Pressfield&lt;cite title=&quot;Source Title&quot;&gt;The War of Art.&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The truth is that writing for an online audience is not one of my strengths.  And precisely for that reason, I can see the benefits of getting better at it.  Wouldn’t it be great if I could become more fluent/faster when writing in English? Isn’t it true that writing in a clear and concise way is important in any professional environment? Communication skills are quite important in data analysis, after all, any results achieved have to be translated into an understandable document.&lt;/p&gt;
+
+&lt;p&gt;I’m facing resistance.  And I have to fight it.  The plan to win this battle is to organize my schedule.  Find a few hours per day to write and commit to sit and produce.  Also, I’ll have to compromise and write simpler posts when the time is scarce, planning for the topics that require more work.&lt;/p&gt;
+
+&lt;p&gt;Now, I’m sorry, but I’ll have to put a stop to this post, I’m in the middle of a road trip, and cars in motion make me feel a little sick.  But these are the hours I allocated for writing, and I have to do what I have to do to overcome the 30-day writing challenge!  I’ll post this as soon as we stop somewhere where WiFi is available.&lt;/p&gt;
+</description>
+        <pubDate>05 Jun 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/06/05/about-writing-and-resistance/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/06/05/about-writing-and-resistance/</guid>
+      </item>
+    
+      <item>
+        <title>My Top 3 Skills</title>
+        <description>&lt;p&gt;Month one at Praxis focuses on building your personal brand, that is, your reputation.  It’s easy to understand the importance of a good reputation in a business context.  Strong positive reputations attract more people.  Companies with a good reputation are perceived as providing more value, their customers are more loyal, stakeholders support these companies even in times of controversy.  Companies with a good reputation are believed to deliver sustained earnings, they keep a competitive advantage, and future growth is almost granted.  That’s why many organizations think of their reputation as their greatest asset.&lt;/p&gt;
+
+&lt;p&gt;All of this is also true to regular people.  Think of yourself as your own company.  Now, to be able to leave a good memorable impression in others, you need to know yourself.  You have to be sure about who you are, what you do and how you do it.&lt;/p&gt;
+
+&lt;p&gt;In this post I’ll tell you more about myself with a focus on my strengths, the skills that I believe make me stand out from the crowd, and that I want others to remember about me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Researching&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I believe I’m a great researcher.  Whether it’s in academia, at work, or in my daily life; I’m good at finding information from different sources, analyzing it, and making decisions based on my findings.  Researching is also one of the activities that I enjoy the most. The person that is always saying &lt;em&gt;“I can look that up”&lt;/em&gt; or &lt;em&gt;“Let me find that for you!”&lt;/em&gt; with a smile on her face, that’s me.&lt;/p&gt;
+
+&lt;p&gt;A recent example of how I apply this skill is the following one.  Two months ago my husband and I decided to travel to Tartagal (Salta, Argentina) to visit my parents.  I got in charge of finding the best way to get there traveling from Toronto (Canada).  It’s worth noticing that in this particular case, &lt;em&gt;best&lt;/em&gt; meant most affordable, with a reasonable traveling time.  If you would go to Kayak and look for a direct flight from Toronto to Tarija (Tarija is the city with the closest airport to Tartagal) you would pay around $4000 USD for a round trip, and you would spend about 40 hours traveling one way only.  If you would choose to fly to Salta instead (the second closest city to Tartagal with an airport) and then take a bus to Tartagal, you would end up paying a total of around $1400 USD for the round trip, and you would travel for about 35 hours one way.&lt;/p&gt;
+
+&lt;p&gt;I spent a whole morning looking for the different airports close to Tartagal, and then the various combinations between flights and buses that we could take.  I used multiple flight aggregators such as Kayak, Momondo, Skyscanner, Expedia, etc. and played around with several date combinations.  At the end, I found a round trip for $500 USD that would take about 30 hours.  We saved more than 60% on the price of our tickets just because of the research I did.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Organizing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Organizational skills include in general organizing, planning, time management, scheduling, coordinating resources and meeting deadlines.  I’m quite good at all of those abilities, and I have one example in which I applied them all, it’s about the time when I decided to become my own wedding planner.&lt;/p&gt;
+
+&lt;p&gt;About a year and a half ago I was living in Waterloo, Canada, my family was in Argentina, my husband’s family was in the USA, and my best friends were in Costa Rica.  Taking into account visa requirements for everybody, traveling times, and budget; we decided to organize our wedding in Tamarindo, Costa Rica.&lt;/p&gt;
+
+&lt;p&gt;I had six months to plan the wedding, and my first step was to list all the things that we needed to get done in that time.  The list included items such as: Approval/Authorization from the catholic church in Costa Rica, Canada, the US, and Argentina.  Creation of a website to keep everybody updated about the event details.  Design of the invitations and delivery of such invitations across five different countries.  Find and secure accommodations for all the guests.  Book a place for the wedding party.  Make sure we would have food, drinks and music at the party.  Book a restaurant to have a wedding reception/lunch.  Find a decorations supplier.  Find a photographer.  Buy a wedding dress.&lt;/p&gt;
+
+&lt;p&gt;I tackled every single one of these activities, always considering different options, and keeping an eye on the budget.  My parents-in-law were funding most of the expenses, so I would prepare spreadsheets with different options, summarizing my findings, and I would present it to them to finally make a decision.  After a couple of months working on it, I had it all figured out.  We spent a week in Costa Rica, and had the most wonderful time! But if I have to advice a bride-to-be, I would say… maybe hiring a wedding planner is worth it, it’s definitely a time-consuming job!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Adaptability&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another great skill of mine is how I can quickly adapt to fit new circumstances.  And this is an example of how I apply that skill at work: When I first moved to North America I took a job as a cashier in a Pizza restaurant.  My native language is Spanish, I’m excellent at customer service in Spanish, &lt;em&gt;could I translate that skill to a different language?&lt;/em&gt; Well, I did my best to do so!  At that job, I focused on learning everything I could about the different pizzas I was selling, I would memorize the ingredients, and ask the chef to describe the cooking technique and the different flavor for me, so I could describe those as he did.  A month passed and I was getting more and more fluent when talking to customers. But then, it happened that two of our cookers quitted, and a few days after that, my boss was asking if I could change my role and start cooking.  I had never stretched dough before, but I had seen them doing it for a month, and I had asked all sort of questions about it.  They really needed help in the kitchen, and I was confident I could learn how to do it, so I took the challenge.  It took me several weeks to get decent at the job, but after two months or so of practice, I was the best at it. I mastered the art of stretching dough, dressing and baking. At the end, I prepare a pizza and have it ready in less than 5 minutes.&lt;/p&gt;
+
+&lt;p&gt;Building your brand starts with identifying your strengths, this is quite an important task.  If you know what you’re good at you can leverage those skills in order to achieve your goals.&lt;/p&gt;
+</description>
+        <pubDate>01 Jun 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/06/01/my-top-3-skills/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/06/01/my-top-3-skills/</guid>
+      </item>
+    
+      <item>
+        <title>My Story</title>
+        <description>&lt;p&gt;If you would have asked me what do I do four years ago, I would have said something like &lt;em&gt;“I’m a chemical engineer, I work with users of radioactive material, helping them to ensure safety in the transport of such materials.  I’m also learning about nuclear security, and I’m very excited about the idea of applying what I know about processes and quality management in any nuclear facility.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;At that time I had just graduated from a chemical engineering program, and I was working as a junior engineer for the &lt;a href=&quot;http://www.arn.gov.ar/&quot;&gt;Argentine Nuclear Regulatory Authority&lt;/a&gt; (in Spanish Autoridad Regulatoria Nuclear, ARN).  I loved my job, and I was more than happy with my story.&lt;/p&gt;
+
+&lt;p&gt;I came from a very small town at the very north edge of Argentina.  After years of financial struggle, I had finally become the first one in the family to have a university degree and a professional job.  I was debt free, and able to support myself and help my family.  My parents couldn’t be more proud of me; I was pretty proud of myself.&lt;/p&gt;
+
+&lt;p&gt;But, of course, that wasn’t the end of my story, only the beginning.&lt;/p&gt;
+
+&lt;p&gt;While I was working at ARN I met Chris, my now husband.  Chris was born and raised in north America.  He was (and still is) a software engineer who works remotely.  When we met, he was escaping the north-American winter and spending a few months in sunny Buenos Aires.  To make it short.  We fell in love, he asked if I wanted to explore the world with him, and I said yes.  I quit my really great job with the confidence that I had the skills and knowledge to find a similar job anywhere I wanted.  And so, I packed my suitcase and for a year and a half we traveled around the globe living in countries such as Chile, Singapore, Thailand, Malaysia, and finally the U.S.&lt;/p&gt;
+
+&lt;p&gt;Something I learned in all those years of traveling is that you don’t just move somewhere, start applying for jobs and get hired (or maybe you do, but that wasn’t my case).  First you need government permissions.  Visas.  Work permits.  And sometimes it takes months to get them.  Also you may need to learn a new language, and you’ll have to make connections.  What I learned from traveling and looking for a job abroad is the importance of being resourceful and persistent.&lt;/p&gt;
+
+&lt;p&gt;I didn’t have much trouble finding easy jobs abroad, but I just couldn’t get into the nuclear field again.  Every time I would find an interesting position, a job that was 100% match to my skill-set, the citizenship requirement would be on my way.  When we finally decided to settle down in the U.S., I was tired of sending resumes for jobs in my area of expertise, and I had decided to look for a new field of interest.  While waiting for my work permit to be processed, I started working with Chris on his side-project, &lt;a href=&quot;http://spendabit.co&quot;&gt;Spendabit&lt;/a&gt;, a search engine for products that you can buy with Bitcoin.  For a few months, I dabbled in the areas of web design and programming.  I enjoyed learning HTML, CSS, and a little bit of programming in Python and Scala, but I didn’t quite love it.  I still wanted to do something else, I still wanted to use my chemical engineering background.  The truth is, I felt lost.&lt;/p&gt;
+
+&lt;p&gt;Family and friends recommended going back to university, and getting a Master’s degree to update my credentials.  I had had some trouble translating my technical knowledge from Spanish to English, so I thought it wasn’t such a bad idea.  That’s how I got enrolled in a one year Master’s in Engineering program at the &lt;a href=&quot;https://uwaterloo.ca/chemical-engineering/&quot;&gt;University of Waterloo&lt;/a&gt; in Canada.&lt;/p&gt;
+
+&lt;p&gt;Now this is how it went, I found something that caught my interest, I found passion about the analysis of data to improve decision making.  I loved designing experiments, gathering data, the statistical analysis of data, the way you can make predictions and optimize results.  I discovered this by taking a class on Fuel Cell Technology, and then another one on Statistics in Engineering.  After graduating, I wanted to find a data-related job, and soon I started applying for all sorts of positions that had the word data in it: junior business analyst, data analyst, junior data scientist, etc. but the only thing I got back was silence.&lt;/p&gt;
+
+&lt;p&gt;What was/is the problem? Well, I realize I don’t have a degree in business, or in computer science, in addition, I don’t have any formal experience in the field.  What I have is the desire to learn, and the ability to do it quickly.  I decided to make a plan to change my career, I would take on-line courses, work on small side projects, and try to get into a junior position.  I was slowly working on that plan when I found &lt;a href=&quot;https://discoverpraxis.com/&quot;&gt;Praxis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Praxis is a nine-month apprenticeship start up that accelerates your professional (and personal) growth.  At Praxis I clearly realized that my employment problem was a direct function of not having tangible proof of what I’m capable of doing related to the data analytics field.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;How I’m breaking the mold?&lt;/em&gt; To make my career change, I’m not going back to school to get new credentials, I’m not taking more on-line courses only to get a certification, what I’m doing now is to constantly look for opportunities to create value in the field I’m passionate about, and learning by doing.  That’s my present, and the new beginning of my story.&lt;/p&gt;
+</description>
+        <pubDate>15 May 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/05/15/my-story/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/05/15/my-story/</guid>
+      </item>
+    
+      <item>
+        <title>Data Analysis Case Study: Participation in Zoom Meetings at Praxis</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“Data exploration is the art of looking at your data, rapidly generating hypotheses, quickly testing them, then repeating again, and again, and again.”
+&lt;em&gt;Wickham, Hadley, and Garrett Grolemund. 2017. R for Data Science.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This project aims to explore data retrieved from Zoom Video Communications, containing information about meetings organized by &lt;a href=&quot;https://discoverpraxis.com/&quot;&gt;Praxis&lt;/a&gt;.  The goal of the analysis is to show the data, transform it in order to make it easier to work with, summarize it, and look for answers to these two questions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How many meetings do the participants attend?&lt;/li&gt;
+  &lt;li&gt;How long, on average, they tend to stay?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While exploring the data, new questions arose and were added to the list.&lt;/p&gt;
+
+&lt;p&gt;The main tools applied in this analysis are R programming language, and different R packages, highlighting the use of dplyr to transform data frames, ggplot2 for data visualization, and rmarkdown to produce the final report in HTML.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data analytics skills applied and concepts learned&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How to import data from CSV files.&lt;/li&gt;
+  &lt;li&gt;Data clean up.&lt;/li&gt;
+  &lt;li&gt;How to transform data and visualize it with graphs.&lt;/li&gt;
+  &lt;li&gt;Data communication.&lt;/li&gt;
+  &lt;li&gt;Data privacy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Other resources that came in handy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Google search and Stackoverflow.&lt;/li&gt;
+  &lt;li&gt;Wickham, Hadley, and Garrett Grolemund. 2017. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. O’Reilly Media.&lt;/li&gt;
+  &lt;li&gt;Peng. Roger, D. 2016. Exploratory Data Analysis with R. Leanpub.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To see the full analysis click here: &lt;a href=&quot;http://rpubs.com/cgerez/275694&quot;&gt;Final Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>13 May 2017</pubDate>
+        <link>http://nubia-jekyll.aspirethemes.com/2017/05/13/data-analysis-project-r/</link>
+        <guid isPermaLink="true">http://nubia-jekyll.aspirethemes.com/2017/05/13/data-analysis-project-r/</guid>
+      </item>
     
 
     
@@ -19,16 +1062,48 @@
       
         
           <item>
-            <title>About</title>
-            <description>&lt;p&gt;You love minimalism, want to be productive focusing only on the important things and want to take jekyll to the next level, Nubia is designed for you. Nubia focus on showing your content in a clean and simple way, focus on images, typography, and white space.&lt;/p&gt;
+            <title>About Me</title>
+            <description>&lt;p&gt;Hi!  I’m Claudia.  Throughout my professional life I have hold a wide variety of titles. In the past, I have been a water quality analyst, a researcher, an engineer in the radiation protection and nuclear security field, and an assistant developer and designer. Currently, I work as a data analyst at &lt;a href=&quot;http://theshipyard.com/&quot;&gt;The Shipyard&lt;/a&gt;, a marketing engineering agency.&lt;/p&gt;
 
-&lt;p&gt;This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;jekyllrb.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;What motivated all those role changes?  The answer is curiosity.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.&lt;/p&gt;
+&lt;p&gt;I’m an explorer at heart.  When I get interested in something I do research.  I make questions.  I come out with hypotheses.  I collect, explore, and analyze data to probe those hypotheses. I get feedback. I iterate over my process. I get answers.&lt;/p&gt;
+
+&lt;p&gt;I’ve followed that sort of procedure in all the fields I have worked in, so naturally, I ended up pursuing a career as a data analyst.&lt;/p&gt;
+
+&lt;p&gt;In this website, I document my journey as I deep dive into the digital marketing world.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Extra info about me:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you have any questions, or if you think we could work together, the easiest way to reach out to me is through email.  Message me at cgerezmiranda@gmail.com.&lt;/li&gt;
+  &lt;li&gt;You can connect with me on &lt;a href=&quot;https://www.linkedin.com/in/gerezmiranda/&quot;&gt;Linkedin&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks for visiting my site! :)&lt;/p&gt;
 </description>
             <link>http://nubia-jekyll.aspirethemes.com/about.html</link>
           </item>
         
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
       
     
       

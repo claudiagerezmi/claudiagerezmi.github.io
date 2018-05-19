@@ -1,11 +1,23 @@
 ---
 layout: page
-title: About
-image: '/images/pages/1.jpg'
+title: About Me
+image: '/images/pages/about-me.jpg'
 ---
 
-You love minimalism, want to be productive focusing only on the important things and want to take jekyll to the next level, Nubia is designed for you. Nubia focus on showing your content in a clean and simple way, focus on images, typography, and white space.
+Hi!  I'm Claudia.  Throughout my professional life I have hold a wide variety of titles. In the past, I have been a water quality analyst, a researcher, an engineer in the radiation protection and nuclear security field, and an assistant developer and designer. Currently, I work as a data analyst at [The Shipyard](http://theshipyard.com/), a marketing engineering agency.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+What motivated all those role changes?  The answer is curiosity.
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+I'm an explorer at heart.  When I get interested in something I do research.  I make questions.  I come out with hypotheses.  I collect, explore, and analyze data to probe those hypotheses. I get feedback. I iterate over my process. I get answers.
+
+I've followed that sort of procedure in all the fields I have worked in, so naturally, I ended up pursuing a career as a data analyst.
+
+In this website, I document my journey as I deep dive into the digital marketing world.
+
+---
+Extra info about me:
+
+* If you have any questions, or if you think we could work together, the easiest way to reach out to me is through email.  Message me at cgerezmiranda@gmail.com.
+* You can connect with me on [Linkedin](https://www.linkedin.com/in/gerezmiranda/).
+
+Thanks for visiting my site! :)
