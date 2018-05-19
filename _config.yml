@@ -1,4 +1,4 @@
-# Welcome to Nubia Jekyll Theme!
+# This site uses Nubia Jekyll Theme.
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -6,14 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:              Nubia
+title:              Claudia Gerez-Miranda
 logo:               # Logo image URL
-description:        Thoughts, Stories and Ideas
+description:        Documenting my journey as a marketing analyst.
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'http://nubia-jekyll.aspirethemes.com' # The base hostname & protocol for your site
-twitter:            https://twitter.com/aspirethemes
-facebook:           https://www.facebook.com/aspirethemes
-instagram:          https://www.instagram.com/aspirethemes
+linkedin: 	    https://www.linkedin.com/in/gerezmiranda/
+github:             https://github.com/cgerezmi
+facebook:           https://www.facebook.com/claudia.gerez.52
+twitter:
+instagram:
+
 
 markdown:  kramdown
 permalink: pretty
@@ -47,11 +50,11 @@ defaults:
 
 # Authors
 authors:
-  ahmad:
-    name:     Ahmad Ajmi
-    bio:      Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
-    gravatar: https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
-    email:    info@aspirethemes.com
-    website:  http://aspirethemes.com
-    github:   https://github.com/aspirethemes
-    twitter:  https://twitter.com/aspirethemes
+  Claudia:
+    name:     Claudia Gerez
+    bio:      Chemical Engineer. Marketing Analyst. Data Scientist in the making.
+    gravatar: https://secure.gravatar.com/avatar/ca7b3c0d266cf63182643ae134937b51
+    email:    cgerezmiranda@gmail.com
+    website:  http://claudiagerez.com
+    linkedin: https://www.linkedin.com/in/gerezmiranda/
+    github:   https://github.com/cgerezmi
