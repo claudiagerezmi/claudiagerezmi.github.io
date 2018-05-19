@@ -10,7 +10,7 @@ title:              Claudia Gerez-Miranda
 logo:               # Logo image URL
 description:        Documenting my journey as a marketing analyst.
 baseurl:            '' # The subpath of your site, e.g. /blog
-url:                'http://nubia-jekyll.aspirethemes.com' # The base hostname & protocol for your site
+url:                'https://claudiagerezmi.github.io' # The base hostname & protocol for your site
 linkedin: 	    https://www.linkedin.com/in/gerezmiranda/
 github:             https://github.com/cgerezmi
 facebook:           https://www.facebook.com/claudia.gerez.52
