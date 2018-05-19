@@ -1,15 +1,29 @@
 <ul class='c-social-icons o-plain-list'>
-  {% if site.facebook %}
-    <li>
-      <a href='{{ site.facebook }}' target='_blank'>
-        <span class='c-social-nav__icon' data-icon='ei-sc-facebook' data-size='s'></span>
-      </a>
-    </li>
-  {% endif %}
   {% if site.twitter %}
     <li>
       <a href='{{ site.twitter }}' target='_blank'>
         <span class='c-social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span>
+      </a>
+    </li>
+  {% endif %}
+  {% if site.linkedin %}
+    <li>
+      <a href='{{ site.linkedin }}' target='_blank'>
+        <span class='c-social-nav__icon' data-icon='ei-sc-linkedin' data-size='s'></span>
+      </a>
+    </li>
+  {% endif %}
+  {% if site.github%}
+    <li>
+      <a href='{{ site.github }}' target='_blank'>
+        <span class='c-social-nav__icon' data-icon='ei-sc-github' data-size='s'></span>
+      </a>
+    </li>
+  {% endif %}
+  {% if site.facebook %}
+    <li>
+      <a href='{{ site.facebook }}' target='_blank'>
+        <span class='c-social-nav__icon' data-icon='ei-sc-facebook' data-size='s'></span>
       </a>
     </li>
   {% endif %}

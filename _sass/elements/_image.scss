@@ -1,9 +1,13 @@
 /*------------------------------------*\
-  Elements > img
+  Elements > img - I added the margin left, right
 \*------------------------------------*/
 
 img {
   display: block;
   max-width: 100%;
   font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
+
