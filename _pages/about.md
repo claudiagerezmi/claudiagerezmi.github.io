@@ -19,6 +19,6 @@ Extras:
 
 * You can find a sample of the projects that I enjoy to work on in the [projects section](http://claudiagerez.com/tag/projects/) of this website.
 * The best way to reach out to me is through email. If you have any questions, if you think we could work together, or if you just want to say hola, you can send me an email at cgerezmiranda@gmail.com.
-*I'd love to connect with you on [Linkedin](https://www.linkedin.com/in/gerezmiranda/)!
+* I'd love to connect with you on [Linkedin](https://www.linkedin.com/in/gerezmiranda/)!
 
-Thanks for visiting my site
+Thanks for visiting my site!
