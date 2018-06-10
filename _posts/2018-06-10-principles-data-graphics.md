@@ -77,7 +77,7 @@ In my research, I found that the category "Connect With Your Baby's Inner Nature
 _*To provide a more comprehensive, stable, measure of performance, we have automated a process that scores creatives by summing percentile creative rankings across key metrics: purchase rate, cart view rate, engagement rate, and site visit rate._
 
 ### 2. Show causality
-It's always useful to show that you are thinking in terms of cause.  Always seek the explanation. "Why?" may not be the crucial question to answer but getting that answer anywasy can always lead to improvements in your analysis.
+It's always useful to show that you are thinking in terms of cause.  Always seek the explanation. "Why?" may not be the crucial question to answer but getting that response can always lead to improvements in your analysis.
 
 **Why is Connect With Your Baby's Inner Nature (CBIN) the best-performing ad category?**
 
@@ -134,7 +134,7 @@ You can have great ads, with incredible high click-through rate, but if your web
 ![Size and category]({{ "/images/posts/assets/creative-report/size_category.png" | absolute_url }})
 <p style="text-align: center; font-size:12px;">Multivariate data - Relationship between ad size and ad category by site visit rate</p>
 
-_In the plot above, each dot represents a creative, with an associated site visit rate. The dots are grouped by ad size, and the color indicates the category that they belong to. CBIN banners tend to have the highest site visit rate for all ad sizes (with exceptions). It’s interesting to see that for the bigger ad size (728x90), the CBIN ads performed consistently better than the other categories._
+_In the plot above, each dot represents a creative, with an associated site visit rate. The dots are grouped by ad size, and the color indicates the category that they belong to. CBIN banners tend to have the highest site visit rate for all ad sizes (with exceptions: 320x50, 300x600). It’s interesting to see that for the bigger ad size (728x90), the CBIN ads performed consistently better than the other categories._
 
 ### 4. Integrate evidence
 When making graphics, include all relevant information.  If you have to add text, printed numbers, images, and diagrams to your graphic, to tell your story, do it.
