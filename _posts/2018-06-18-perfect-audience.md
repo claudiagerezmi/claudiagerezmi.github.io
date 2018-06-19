@@ -87,7 +87,7 @@ There was one main issue with the client request.  *There is no "fearless, fit a
 
 **Advertisers** (the entities that show ads on publisher web pages to enhance brand awareness, induce users to make a purchase, etc.) want to target their product to the right viewers.  **Publishers** (sources of inventory), want to monetize their site better so that they can continue to offer users free content.
 
-There are three different ways through which sellers and buyers meet to transact on media:  **Real Time Bidding (RTB) auctions**, deals/packages, and direct.  Programmatic display is also about  RTB.
+There are three different ways through which sellers and buyers meet to transact on media:  **Real Time Bidding (RTB) auctions**, deals/packages, and direct.  Programmatic display is about RTB.
 
 RTB  is an open marketplace programmatic auction where **ad inventory** is sold and bought on a per impression basis through a bidding system that occurs in the milliseconds before a user loads a web page. 
 
