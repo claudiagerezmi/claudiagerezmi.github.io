@@ -134,6 +134,7 @@ $(document).ready(function() {
 
       // If you are on the last pagination page, hide the load more button
       if (pagination_next_page_number > pagination_available_pages_number) {
+        $load_posts_button.remove();
         $load_posts_button.addClass('c-btn--disabled').attr('disabled', true);
       }
     });

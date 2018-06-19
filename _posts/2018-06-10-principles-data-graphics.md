@@ -15,7 +15,7 @@ Analyzing the performance of creatives (banner ads) running on [programmatic dis
 
 The fact that the client sells products that I would be interested in buying (baby care and adult body care products, for example, deodorant, toothpaste, cleansers, lotions, moisturizers, etc.), was an added plus.
 
-To prepare the report, these are the steps I followed:
+To prepare the report, I followed these steps:
 
 **Step 1. List all the variables to analyze.**
 
@@ -45,11 +45,11 @@ _* An engaged user is a person that spends a minute or more on the website or vi
 
 After following those steps, I had a first version of the report that I sent to our internal team.  We will review it internally next week, and after a round of feedback and possible changes, we'll present it to the client.
 
-I love visualizing data, and since I started using [ggplot2](http://ggplot2.tidyverse.org/), I've had the most fun adding layers of complexity to my graphics. Why would I present a simple bar chart to show averages when I can prepare a boxplot combined with a scatterplot and show not only averages but also the distribution, maximum, minimum, median, and spread of the data?  At work, they like to make jokes about how much I love to show an abundance of information (resulting in graphics that may take more than a few seconds for interpretation). 
+I love visualizing data, and since I started using [ggplot2](http://ggplot2.tidyverse.org/), I've had the most fun adding layers of complexity to my graphics. Why would I present a simple bar chart to show averages when I can prepare a boxplot combined with a scatterplot and show not only averages but also the distribution, maximum, minimum, median, and spread of the data?  At work, they like to make jokes about how much I like to show an abundance of information (resulting in graphics that may take more than a few seconds for interpretation). 
 
-I sincerely love making data graphics, and I want to get much better at it. For that reason, last week I started reading more about data visualization, starting with the principles of data graphics.
+I sincerely enjoy making data graphics, and I want to get much better at it. For that reason, last week I started reading more about data visualization, starting with the principles of data graphics.
 
-In this post, I'll talk about those principles, showing you how I applied them to my report.
+In this post I'll talk about those principles, showing you how I applied them to my report.
 
 ## Which are the principles of data graphics?
 
@@ -67,12 +67,12 @@ And these are the principles in action.
 ### 1. Show comparison
 A good scientist is always asking "Compared to what?" - and that applies to [all fields of life](https://discoverpraxis.com/compared-to-what/).
 
-In my research, I found that the category "Connect With Your Baby's Inner Nature" had the highest average creative score*, 0.051, making it the best performing category.  _Compared to what?_ Compared to the other three categories that I was analyzing.
+In my research, I found that the category "Connect With Your Baby's Inner Nature" had the highest average creative score* (0.051), making it the best performing category.  _Compared to what?_ Compared to the other three categories that I was analyzing.
 
 ![Creative performance by creative score]({{ "/images/posts/assets/creative-report/score_category.png" | absolute_url }})
 <p style="text-align: center; font-size:12px;">Creative performance by creative score</p>
 
-> "Connect With Your Baby's Inner Nature" has an average creative score that is 54% higher than the second top performing category. And 76% higher than the bottom performer category.
+> "Connect With Your Baby's Inner Nature" has an average creative score that is 54% higher than the second top performing category; and 76% higher than the bottom performer category.
 
 _*To provide a more comprehensive, stable, measure of performance, we have automated a process that scores creatives by summing percentile creative rankings across key metrics: purchase rate, cart view rate, engagement rate, and site visit rate._
 
@@ -85,7 +85,7 @@ One main difference between the CBIN banners and the rest of the categories is t
 
 Studies show that [strong emotional responses to ads are more influential on a person’s intent to buy than the content of an ad]((https://blog.hubspot.com/marketing/emotions-in-advertising-examples)).
 
-In this case, the client advertises baby lotions, but it isn’t selling just baby lotions, it’s selling a package of emotions. Moms connecting with their children, making them happier and healthier by using baby care products formulated with the gentlest all natural plant-rich ingredients.
+In this case, the client advertises baby lotions, but it isn’t just selling baby lotions, it’s selling a package of emotions. Moms connecting with their children, making them happier and healthier by using baby care products formulated with the gentlest all natural plant-rich ingredients.
 
 **Hypothesis one: CBIN are best performing ads because they make the best use of emotional responses.**
 
@@ -104,7 +104,7 @@ And then I found this.
 ![Creative performance by total conversions per spend]({{ "/images/posts/assets/creative-report/conv_ps_bar.png" | absolute_url }})
 <p style="text-align: center; font-size:12px;">Creative performance by total conversions per spend</p>
 
-CBIN ads are the ones with the highest creative score, but also one of the categories with the least number of conversions per dollar spend.
+CBIN ads are the ones with the highest creative score, but also one of the categories with the least number of conversions per dollar spend. _How much were we spending on the different categories?_ It turned out that CBIN was the category with the highest spend.
 
 Let’s compare two ad placements, one on [The New York Times](https://www.nytimes.com/) and another on [Dictionary.com](http://www.dictionary.com/).  The site visit rate for the banner on the top of the NYT site is probably going to be much higher than the one on the top of Dictionary.com just because the NYT gets many more visitors than Dictionary.com. Furthermore, the placement on the NYT is likely to be the most expensive in this comparison.
 
@@ -113,7 +113,7 @@ Let’s compare two ad placements, one on [The New York Times](https://www.nytim
 
 The only way to make a fair comparison between the ad on the NYT and the one on Dictionary.com is normalizing per spend.
 
-So I checked the total number of impressions and total spend for the different categories. CBIN has the lowest number of impressions per spend, and the highest spend overall.
+So I checked the total number of impressions and total spend for the different categories. CBIN has the lowest number of impressions per spend.
 
 ![Impressions per spend]({{ "/images/posts/assets/creative-report/imps_ps_bar.png" | absolute_url }})
 <p style="text-align: center; font-size:12px;">Impressions per dollar spend by creative category</p>
@@ -121,13 +121,15 @@ So I checked the total number of impressions and total spend for the different c
 **Hypothesis three: CBIN ads have the highest site visit rate because the ads have been shown in more expensive, higher quality, placements.**
 
 ### 3. Show multivariate data
-The real world is multivariate, and as I mentioned in the first section of this post, I could analyze multiple variables and metrics for each banner ad.
+The real world is multivariate.
 
-**Site visit rate**, the percentage of users that visit the site after being served an ad impression either by clicking the ad (post-click conversion) or by visiting the site later on (post-view conversion) is an excellent metric to measure the success of a creative at driving site visitors, this is based mainly on the way that the banner ad looks (size, image, message copy), and on the ad placement. 
+As I mentioned in the first section of this post, I could analyze multiple variables and metrics for each banner ad.
 
-But a good banner ad not only attracts visitors, it also prompts them to action (engagement and ultimately, purchase). And those actions depend more on the landing page associated with the ad and multiple other variables that don't have much to do with the banner ad, such as the overall user experience of the site, the price of the products, the price of shipping, etc.
+**Site visit rate** is the percentage of users that visit the site after being served an ad impression, the users get to the site either by clicking the ad (post-click conversion) or by visiting the site later on (post-view conversion).  Site visit rate is an excellent metric to measure the success of a creative at driving site visits, and its value is based mainly on the way that the banner ad looks (size, image, message copy) and on the ad placement.
 
-To measure the success of the landing page, I look at **engagement rate**, the percentage of visitors that got to the site and decided to stay for a minute or more, or clicked on three or more pages.  The ***conversion rate** tells me how successful the landing page, and the overall user experience, are at driving visitors to make a purchase.
+But a good banner ad not only attracts visitors, it also prompts them to action (engagement and ultimately, purchase). That action will depend more on the landing page associated with the ad, as well as multiple other variables that don't have much to do with the banner ad, such as the overall user experience of the site, the price of the product advertised, the price of shipping, etc.
+
+To measure the success of the landing page, I look at **engagement rate**, the percentage of visitors that got to the site and decided to stay for a minute or more, or clicked on three or more pages.  The **conversion rate** tells me how successful the landing page, and the overall user experience, are at driving visitors to make a purchase.
 
 You can have great ads, with incredible high click-through rate, but if your website is broken, or the user experience is just bad, very few people are going to purchase your product.
 
@@ -137,7 +139,7 @@ You can have great ads, with incredible high click-through rate, but if your web
 _In the plot above, each dot represents a creative, with an associated site visit rate. The dots are grouped by ad size, and the color indicates the category that they belong to. CBIN banners tend to have the highest site visit rate for all ad sizes (with exceptions: 320x50, 300x600). It’s interesting to see that for the bigger ad size (728x90), the CBIN ads performed consistently better than the other categories._
 
 ### 4. Integrate evidence
-When making graphics, include all relevant information.  If you have to add text, printed numbers, images, and diagrams to your graphic, to tell your story, do it.
+When making graphics, include all relevant information.  If you have to add text, printed numbers, images, and diagrams to your graphic to tell your story, do it.
 
 Data graphics should make use of many modes of data representation simultaneously, not just the ones that the software that you are using can handle. Don't let the tools available drive the analysis.
 
