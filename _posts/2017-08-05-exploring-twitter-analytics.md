@@ -24,7 +24,7 @@ By analyzing your Twitter metrics, and measuring your performance over time, you
 Once you log in to your <a href="https://analytics.twitter.com" target="_blank" rel="noopener">Twitter Analytics</a> account, you&#8217;ll get straight to the dashboard. And on the upper left side of the page you’ll find five main tabs: Home, Tweets, Audiences, Events, and More: Videos (beta), App manager, and Conversion Tracking.
 
 ![Twitter Dashboard]({{ "/images/posts/assets/exploring-twitter/follow-me1.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Spendabit&#8217;s Twitter Analytics Dashboard
 </p>
 
@@ -39,7 +39,7 @@ Scrolling down, you will get a similar summary for practically any month you hav
 On the right side of the screen, there’s a friendly reminder that you can use Twitter for advertisement.
 
 ![Home Section]({{ "/images/posts/assets/exploring-twitter/follow-me2.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Home Tab in the Twitter Analytics Dashboard.
 </p>
 
@@ -66,7 +66,7 @@ You can also access a Tweet activity section by clicking on any particular tweet
 Audiences give you a general overview of who your average follower is. In this section, you can track your follower&#8217;s growth over time. You will also find interesting and highly valuable information about your audience demographics, lifestyle and mobile footprint.
 
 ![Audience Insights]({{ "/images/posts/assets/exploring-twitter/follow-me4.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Audiences Tab in the Twitter Analytics Dashboard
 </p>
 
@@ -75,7 +75,7 @@ Audiences Tab in the Twitter Analytics Dashboard
 Here Twitter reminds you of future events people are likely to talk about. You could join in and create campaigns that revolve around these occasions, bringing more engagement and traffic to your site.
 
 ![Events]({{ "/images/posts/assets/exploring-twitter/follow-me5.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Events Tab in the Twitter Analytics Dashboard
 </p>
 
@@ -118,7 +118,7 @@ Furthermore, if you go back to the Home section, look at your top follower (the 
 At the same time, you can check your top mention (the tweet with the most impressions, posted by another user, that includes your username). The Twitter user who expanded your reach the most is someone you should reach out to. Send a follow-up, look for opportunities to connect.
 
 ![Top Follower and Top Mention]({{ "/images/posts/assets/exploring-twitter/follow-me6.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Find your Top Follower and Top Mention for the month in the Home section of the dashboard.
 </p>
 
@@ -139,7 +139,7 @@ Engagement includes any interaction that a user may have with a tweet, whether i
 In the Tweets section of your dashboard, you can access a breakdown of engagement quickly and easily for any individual tweet.
 
 ![Tweet Activity]({{ "/images/posts/assets/exploring-twitter/follow-me7.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Tweet Activity
 </p>
 
@@ -193,7 +193,7 @@ Maybe you&#8217;ll see that at a certain time you lost a significant number of f
 Now that you have a better understanding of Twitter Analytics, it&#8217;s time to download the data and play with it.
 
 ![Tweet Activity]({{ "/images/posts/assets/exploring-twitter/follow-me8.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Export data from the Tweets section
 </p>
 

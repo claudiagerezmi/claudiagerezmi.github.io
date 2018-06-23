@@ -12,8 +12,8 @@ Month two at Praxis is about learning how to write clearly and persuasively.  To
 My negative thoughts came out from day 1.  I only have a few hours per day to dedicate to this task; I don&#8217;t think that&#8217;s enough time to produce quality pieces of writing.  Besides, English is not my native language, that means that every time I write, I have to double and triple check for spelling and grammar mistakes, that takes time, the time I have to write is not enough!.  Shouldn&#8217;t I be investing the few hours that I have free in learning something more related to data analytics (the career I want to pursue)?
 
 <blockquote>
-  <p>Resistance only opposes in one direction [&#8230;] Resistance obstructs movement only from a lower sphere to a higher.</p>
-  <footer>Steven Pressfield<cite title="Source Title">The War of Art.</cite></footer>
+  <p>"Resistance only opposes in one direction [&#8230;] Resistance obstructs movement only from a lower sphere to a higher."</p>
+  <footer>Steven Pressfield - <cite title="Source Title">The War of Art.</cite></footer>
 </blockquote>
 
 The truth is that writing for an online audience is not one of my strengths.  And precisely for that reason, I can see the benefits of getting better at it.  Wouldn&#8217;t it be great if I could become more fluent/faster when writing in English? Isn&#8217;t it true that writing in a clear and concise way is important in any professional environment? Communication skills are quite important in data analysis, after all, any results achieved have to be translated into an understandable document.

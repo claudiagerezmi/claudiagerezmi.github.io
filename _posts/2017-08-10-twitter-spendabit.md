@@ -66,7 +66,7 @@ After getting a grasp at Spendabit’s audience, I analyzed their tweet data.
 From the [research](2017-08-05-exploring-twitter-analytics) I made a few days ago about Twitter Analytics, I knew that some of the most important metrics to look at were number of impressions, engagement, and number of tweets.  I identified and summarized that information, and I created the following dashboard to share my results.
 
 ![Spendabit Twitter Dashboard]({{ "/images/posts/assets/twitter-spendabit/twitter-spendabit1.jpg" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Dashboard created in Google Data Studio - Live Version: https://datastudio.google.com/open/0B-RFkqhAsyPeVHlMREw5SHJEcVE.</p>
 
 I also went back to the Twitter Analytics dashboard to dive deeper on other interesting data, such as top mention, top follower, top tweet, etc.  Analyzing both sources I made the following findings.
@@ -76,7 +76,7 @@ I also went back to the Twitter Analytics dashboard to dive deeper on other inte
 The chart located at the top left side of the dashboard summarizes the metrics per month, and it shows that the number of tweets is growing slowly since February. The average number of impressions is rather constant, but the average number of engagement seems to grow. Also, the engagement correlates to the number of tweets posted.
 
 ![Spendabit Twitter Dashboard - Impressions]({{ "/images/posts/assets/twitter-spendabit/twitter-spendabit2.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Average number of impressions and engagement per month. Data from Jan 1 - June 29, 2017 @Spendabit.
 </p>
 
@@ -87,7 +87,7 @@ Average number of impressions and engagement per month. Data from Jan 1 - June 2
 Right now Spendabit is interested in increasing traffic to its site. Therefore it’s good news that 26% of the clicks on the tweets correspond to clicks to the URL shared (which most of the time takes you to Spendabit’s website), or to clicks to their profile, which should have the website link.
 
 ![Spendabit Twitter Dashboard - Engagement]({{ "/images/posts/assets/twitter-spendabit/twitter-spendabit3.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Breakdown of engagement type. Data from Jan 1 - June 29, 2017 @Spendabit.
 </p>
 
@@ -119,14 +119,14 @@ The most impressions correspond to tweets posted between 3 pm and 5 pm, as well 
 We have to consider that Spendabit is based in the Eastern Time Zone, but most of their followers come from California (US) and England (UK) which are in different time zones.  4 pm EDT means 1 pm in California, and around 9 pm in England.  8 pm EDT is 5 pm in California, and 1 am in England.
 
 ![Spendabit Twitter Dashboard - Daytime]({{ "/images/posts/assets/twitter-spendabit/twitter-spendabit4.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Average number of impressions and engagement per hour of the day. Data from Jan 1 - June 29, 2017 @Spendabit.
 </p>
 
 Regarding day of the week. Spendabit’s tweets are distributed consistently from Monday to Friday. Saturdays and Sundays have the fewer posts. During the week, Thursdays get the highest average of impressions.
 
 ![Spendabit Twitter Dashboard - Daytime 2]({{ "/images/posts/assets/twitter-spendabit/twitter-spendabit5.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Average number of impressions and engagement per day of the week. Data from Jan 1 - June 29, 2017 @Spendabit.
 </p>
 
@@ -135,7 +135,7 @@ Average number of impressions and engagement per day of the week. Data from Jan 
 Twitter limits the content of a tweet to a maximum of 140 characters, without counting handles (@username), quotes, polls, videos, or images, (that’s why in the chart the character count axis has more than 140 characters).  All indicates that the shorter is the better, on average, the tweets with less or about 100 characters seem to gain more engagement than longer tweets.
 
 ![Spendabit Twitter Dashboard - Char count]({{ "/images/posts/assets/twitter-spendabit/twitter-spendabit6.png" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 Engagement vs. Character Count. Data from Jan 1 - June 29, 2017 @Spendabit.
 </p>
 

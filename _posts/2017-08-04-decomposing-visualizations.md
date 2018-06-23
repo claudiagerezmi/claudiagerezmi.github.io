@@ -22,7 +22,7 @@ I&#8217;ve always used visualizations with a practical purpose, to make sense of
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iqaVe1MCTlA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<p style="text-align: center;">
+<p class="caption">
   Dear Data, video created by Somerset House, London
 </p>
 
@@ -94,7 +94,7 @@ Let&#8217;s apply the previously learned concepts by decomposing a visualization
 I found this visual at the Data Sketches blog, and it immediately caught my eye because of the shape, the multiple points in the graph, the animations, and because my favorite kind of music is the one from the 80&#8217;s.  You can learn more about how this visual was created <a href="http://www.datasketch.es/december/" target="_blank" rel="noopener">here</a>.
 
 ![Decomposing Visualizations]({{ "/images/posts/assets/decomposing.jpg" | absolute_url }})
-<p style="text-align: center;">
+<p class="caption">
 TOP 2000 ❤ the 70&#8217;s & 80&#8217;s &#8211; Created by Nadieh Bremer | Visual Cinnamon<br />Find the dynamic version in this link: <a href="http://www.datasketch.es/december/code/nadieh/">http://www.datasketch.es/december/code/nadieh/</a>
 </p>
 
