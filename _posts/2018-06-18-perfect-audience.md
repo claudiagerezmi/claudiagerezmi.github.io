@@ -83,7 +83,7 @@ There is one main issue with that request:  *There is no "fearless, fit and fant
 
 ### Programmatic display and Appnexus
 
-<p class="highlight-box">TL;DR I talk a lot about programmatic display advertising, if you don't know what that means, read the next two sections, I'll summarize the basics.  If you are familiar with those concepts, feel free to skip them :)</p>
+<p class="highlighted-box">TL;DR I talk a lot about programmatic display advertising, if you don't know what that means, read the next two sections, I'll summarize the basics.  If you are familiar with those concepts, feel free to skip them :)</p>
 
 [Display advertising](https://en.wikipedia.org/wiki/Display_advertising) is advertising on websites or apps through banners or other ad formats made of text, images, flash, video, and audio.
 
