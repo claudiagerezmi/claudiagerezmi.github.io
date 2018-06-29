@@ -1,10 +1,10 @@
 ---
-title: 'Data Analysis Case Study: Participation in Zoom Meetings at Praxis'
+title: 'Data analysis case study: Participation in Zoom meetings at Praxis'
 date: 2017-05-13
 author: Claudia
 layout: post
 image: '/images/projects/main/data-analysis-r.jpg'
-tags: projects
+tags: [projects, data-analytics]
 ---
 
 >“Data exploration is the art of looking at your data, rapidly generating hypotheses, quickly testing them, then repeating again, and again, and again.”

@@ -1,5 +1,5 @@
 ---
-title: 'Do you take Bitcoin? Experimenting with Web Design'
+title: 'Do you take Bitcoin? Experimenting with web design'
 date: 2017-06-21
 author: Claudia
 layout: post

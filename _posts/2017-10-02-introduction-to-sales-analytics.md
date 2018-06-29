@@ -1,5 +1,5 @@
 ---
-title: Data Analytics and Sales Success
+title: Data analytics and sales success
 date: 2017-10-02
 author: Claudia
 layout: post

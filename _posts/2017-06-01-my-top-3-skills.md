@@ -1,5 +1,5 @@
 ---
-title: My Top 3 Skills
+title: My top 3 skills
 date: 2017-06-01
 author: claudia
 layout: post

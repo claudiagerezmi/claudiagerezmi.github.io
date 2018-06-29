@@ -1,5 +1,5 @@
 ---
-title: Business Metrics Classification
+title: Business metrics classification
 date: 2017-06-26
 author: Claudia
 layout: post

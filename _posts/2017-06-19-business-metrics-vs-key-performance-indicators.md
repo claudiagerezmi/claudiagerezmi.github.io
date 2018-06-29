@@ -1,5 +1,5 @@
 ---
-title: Business Metrics vs Key Performance Indicators
+title: Business metrics vs Key Performance Indicators
 date: 2017-06-19
 author: Claudia
 layout: post

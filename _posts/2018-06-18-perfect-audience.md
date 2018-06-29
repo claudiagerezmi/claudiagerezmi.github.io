@@ -96,7 +96,7 @@ RTB  is an open marketplace programmatic auction where **ad inventory** is sold 
 The following video explains how RTB works in just about 5 minutes:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Glgi9RRuJs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<p class="caption"">How an Ad is Served with Real Time Bidding (RTB)</p>
+<p class="caption">How an Ad is Served with Real Time Bidding (RTB)</p>
 
 We use [Appnexus](https://www.appnexus.com/) as our platform for programmatic display.
 

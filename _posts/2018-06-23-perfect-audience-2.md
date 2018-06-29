@@ -34,11 +34,11 @@ If you didn't read that post, don't worry, here is a summary of the main points:
 #### Objective:
 
 1. Identify the target audience, the group of people interested in our client's product. 
-2. Compare the outcome with the customer profile initially provided by the client (read " a group of fearless, fit, and fantastic women").
+2. Compare the outcome with the customer profile initially provided by the client (read *"a group of fearless, fit, and fantastic women"*).
 3. Identify audiences to avoid.
 4. Use main findings to tune the campaigns and run the second round of experiments with a reduced number of audiences. That second round will give us more conclusive results.
 
-#### Setting:
+#### Settings:
 
 - We tested 25 campaigns targeting 25 different audience themes.
 - Each campaign targeted within 3 to 55 audience segments ([third-party data](https://www.lotame.com/1st-party-2nd-party-3rd-party-data-what-does-it-all-mean/)), depending on how small or big each audience was.  For example, the Streaming Services campaign targeted audience segments such as:
@@ -51,7 +51,7 @@ If you didn't read that post, don't worry, here is a summary of the main points:
 
 - The total number of segments targeted was 416. 
 
-####  Summary metrics:
+#### Summary metrics:
 
 During the test, we were able to track a series of metrics: 
 - Number of ad clicks

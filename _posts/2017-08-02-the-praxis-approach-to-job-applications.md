@@ -1,5 +1,5 @@
 ---
-title: The Praxis Approach to Job Applications
+title: The Praxis approach to job applications
 date: 2017-08-02
 author: Claudia
 layout: post

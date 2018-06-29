@@ -1,5 +1,5 @@
 ---
-title: Decomposing Visualizations
+title: Decomposing visualizations
 date: 2017-08-04T10:57:51+00:00
 author: Claudia
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: Exploring Twitter Analytics
+title: Exploring twitter analytics
 date: 2017-08-05
 author: Claudia
 layout: post
