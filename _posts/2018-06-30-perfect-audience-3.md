@@ -1,6 +1,6 @@
 ---
 title: Applying K-Means clustering to the audience test
-date: 2018-06-23
+date: 2018-06-29
 author: Claudia
 layout: post
 image: '/images/posts/main/perfect-audience-3.jpg'
