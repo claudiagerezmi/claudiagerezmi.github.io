@@ -1,5 +1,5 @@
 ---
-title: Applying K-Means clustering to the audience test
+title: A clustering analysis of an audience test
 date: 2018-06-29
 author: Claudia
 layout: post
