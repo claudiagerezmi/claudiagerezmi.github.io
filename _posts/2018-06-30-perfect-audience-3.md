@@ -1,5 +1,5 @@
 ---
-title: A clustering analysis of an audience test
+title: About clustering and segmentation
 date: 2018-06-29
 author: Claudia
 layout: post
