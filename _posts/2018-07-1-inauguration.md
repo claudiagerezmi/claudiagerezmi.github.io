@@ -4,7 +4,7 @@ date: 2018-07-01
 author: Claudia
 layout: post
 image: '/images/posts/main/inauguration.jpg'
-tags: [marketing-analytics, data-analytics, statistics, business-analytics, data-visualization]
+tags: [learning]
 ---
 
 Inspired by Nadieh Bremer's [learning data visualization resources](https://www.visualcinnamon.com/resources/learning-data-visualization), I decided to compile the list of online courses, books, and blog posts that I explored, and found particularly useful, to start my career as a marketing analyst.
