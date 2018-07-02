@@ -16,10 +16,28 @@
 .highlighted-box {
   background-color: #B70038;
   color: white;
-  padding: 15px;
+  padding: 20px;
   margin: 20px 0px;
 }
 
 li {
     padding-left: 10px;
+}
+
+.c-content .highlighted-box ol{
+
+  a {
+    text-decoration: underline;
+    color: white;
+    transition: $global-transition;
+  }
+
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  li {
+    margin-left:20px;
+  }
 }
