@@ -1,4 +1,4 @@
-I":5<h2 id="steps-to-prepare-a-creative-performance-report">Steps to prepare a creative performance report</h2>
+I"(5<h2 id="steps-to-prepare-a-creative-performance-report">Steps to prepare a creative performance report</h2>
 
 <p>This past week I’ve been working on a creative performance report for one of our clients.</p>
 
@@ -66,7 +66,7 @@
 
 <p>In my research, I found that the category “Connect With Your Baby’s Inner Nature” had the highest average creative score* (0.051), making it the best performing category.  <em>Compared to what?</em> Compared to the other three categories that I was analyzing.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/score_category.png" alt="Creative performance by creative score" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/creative-report/score_category.png" alt="Creative performance by creative score" /></p>
 <p class="caption">Creative performance by creative score</p>
 
 <blockquote>
@@ -100,21 +100,21 @@
 
 <p>And then I found this.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/conv_ps_bar.png" alt="Creative performance by total conversions per spend" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/creative-report/conv_ps_bar.png" alt="Creative performance by total conversions per spend" /></p>
 <p class="caption">Creative performance by total conversions per spend</p>
 
 <p>CBIN ads are the ones with the highest creative score, but also one of the categories with the least number of conversions per dollar spend. <em>How much were we spending on the different categories?</em> It turned out that CBIN was the category with the highest spend.</p>
 
 <p>Let’s compare two ad placements, one on <a href="https://www.nytimes.com/">The New York Times</a> and another on <a href="http://www.dictionary.com/">Dictionary.com</a>.  The site visit rate for the banner on the top of the NYT site is probably going to be much higher than the one on the top of Dictionary.com just because the NYT gets many more visitors than Dictionary.com. Furthermore, the placement on the NYT is likely to be the most expensive in this comparison.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/ad_placementv2.png" alt="Ad placement" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/creative-report/ad_placementv2.png" alt="Ad placement" /></p>
 <p class="caption">About ad placements</p>
 
 <p>The only way to make a fair comparison between the ad on the NYT and the one on Dictionary.com is normalizing per spend.</p>
 
 <p>So I checked the total number of impressions and total spend for the different categories. CBIN has the lowest number of impressions per spend.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/imps_ps_bar.png" alt="Impressions per spend" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/creative-report/imps_ps_bar.png" alt="Impressions per spend" /></p>
 <p class="caption">Impressions per dollar spend by creative category</p>
 
 <p><strong>Hypothesis three: CBIN ads have the highest site visit rate because the ads have been shown in more expensive, higher quality, placements.</strong></p>
@@ -132,7 +132,7 @@
 
 <p>You can have great ads, with incredible high click-through rate, but if your website is broken, or the user experience is just bad, very few people are going to purchase your product.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/size_category.png" alt="Size and category" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/creative-report/size_category.png" alt="Size and category" /></p>
 <p class="caption">Multivariate data - Relationship between ad size and ad category by site visit rate</p>
 
 <p><em>In the plot above, each dot represents a creative, with an associated site visit rate. The dots are grouped by ad size, and the color indicates the category that they belong to. CBIN banners tend to have the highest site visit rate for all ad sizes (with exceptions: 320x50, 300x600). It’s interesting to see that for the bigger ad size (728x90), the CBIN ads performed consistently better than the other categories.</em></p>
@@ -144,7 +144,7 @@
 
 <p>Here I added the image of the top three creatives and the bottom creatives to this plot.  The top first feature different women than the bottom three.  Interestingly this pattern repeats for the different sizes.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/pptv2.png" alt="Performance by ad size" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/creative-report/pptv2.png" alt="Performance by ad size" /></p>
 <p class="caption">Adding images and text to a plot</p>
 
 <h3 id="5-establish-credibility---documentation">5. Establish credibility - Documentation</h3>

@@ -1,4 +1,4 @@
-I"�'<h2 id="setting-up-for-success">Setting up for success</h2>
+I"~'<h2 id="setting-up-for-success">Setting up for success</h2>
 
 <p>Last weekend I worked on defining <a href="http://claudiagerez.com/2018/05/31/mid-year/">mid-year goals</a>. One of my primary goals was to update this site on a weekly basis, documenting my journey as a Jr. Marketing Data Analyst.</p>
 
@@ -38,7 +38,7 @@
 
 <p>Then I remembered how delightfully easy it was to set up <a href="https://cgerezmi.github.io/">“Exploring Sakila”</a>, a site that I built using <a href="https://jekyllrb.com/">Jekyll</a>.</p>
 
-<p><a href="https://cgerezmi.github.io/"><img src="https://claudiagerez.com/images/projects/assets/exploring-sakila.png" alt="Exploring Sakila" /></a></p>
+<p><a href="https://cgerezmi.github.io/"><img src="http://localhost:4000/images/projects/assets/exploring-sakila.png" alt="Exploring Sakila" /></a></p>
 <p class="caption">Example of a Jekyll site.</p>
 
 <p>Switch to Jekyll? Why not?</p>
@@ -47,7 +47,7 @@
 
 <p>I was looking for simplicity, and I had already found it.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/to-jekyll/jekyll-post.png" alt="Jekyll Post" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/to-jekyll/jekyll-post.png" alt="Jekyll Post" /></p>
 <p class="caption">This is how a Jekyll post looks like behind scenes.</p>
 
 <p><em>Note to the public - apologies for the lack of screenshots documenting the migration process!</em></p>
@@ -83,7 +83,7 @@
 
 <p>I ended up choosing <a href="https://nubia-jekyll.netlify.com/">Nubia</a>.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/to-jekyll/nubia.png" alt="Nubia" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/to-jekyll/nubia.png" alt="Nubia" /></p>
 
 <h3 id="step-2---from-wordpress-to-jekyll">Step 2 - From Wordpress to Jekyll</h3>
 
@@ -120,7 +120,7 @@
 
 <p>The Git workflow consists of editing files in the working directory, adding files to a staging area, and saving changes to a Git repository.</p>
 
-<p><a href="https://www.codecademy.com/learn/learn-git"><img src="https://claudiagerez.com/images/posts/assets/to-jekyll/git-workflow.png" alt="Git Workflow" /></a></p>
+<p><a href="https://www.codecademy.com/learn/learn-git"><img src="http://localhost:4000/images/posts/assets/to-jekyll/git-workflow.png" alt="Git Workflow" /></a></p>
 <p class="caption"> Git Workflow - picture from the codeacademy course "Learn Git"</p>
 
 <p>Some basic Git commands:</p>

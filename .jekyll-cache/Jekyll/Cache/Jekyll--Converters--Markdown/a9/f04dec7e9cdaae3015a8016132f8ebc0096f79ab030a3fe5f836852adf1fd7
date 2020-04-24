@@ -1,4 +1,4 @@
-I"É3<h2 id="different-types-of-analytics">Different types of analytics</h2>
+I"½3<h2 id="different-types-of-analytics">Different types of analytics</h2>
 
 <p>Did you know that there are four types of analytics? We have descriptive, diagnostic, predictive and prescriptive analytics.</p>
 
@@ -68,7 +68,7 @@
   <li><em>Cost Per Acquisition (CPA)</em>: how much it costs to acquire one paying customer.</li>
 </ul>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/summary_metrics.png" alt="Summary Metrics" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/perfect-audience/summary_metrics.png" alt="Summary Metrics" /></p>
 <p class="caption">Summary metrics.</p>
 
 <h4 id="extra-details-to-consider">Extra details to consider</h4>
@@ -98,7 +98,7 @@
 
 <p>When looking at the average score per campaign, we can clearly distinguish top performing audiences and low performing ones.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/campaign_score.png" alt="Campaign Performance" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/perfect-audience/campaign_score.png" alt="Campaign Performance" /></p>
 <p class="caption">Campaign performance by score.</p>
 
 <p>In this case, our best performing audiences are Streaming Services, Celebrities, Environment/Sustainability, Travel and Pets/Wildlife.</p>
@@ -109,7 +109,7 @@
 
 <p>I also looked at the segment performance.  With the same methodology used to rank campaigns, I ranked the individual segments.  The following <a href="https://en.wikipedia.org/wiki/Histogram">histogram</a> shows the distribution of the score.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/histogram.png" alt="Histogram" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/perfect-audience/histogram.png" alt="Histogram" /></p>
 <p class="caption">Distribution of score by audience segment.</p>
 
 <p>A histogram is a great tool that allows assessing the distribution of your data quickly.  The width of each bar represents a range, and the area is proportional to the frequency of a particular variable.  So, for the image shown above, the first bar to the left of the chart, tells me that more than 150 audience segments (the value on the y-axis), have a score that is about zero, and that is actually the main takeaway.</p>
@@ -128,7 +128,7 @@
 
 <p>Now, can we see the performance of the different segments by campaign? Sure! But this time the plot is a little trickier to read.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/segment_score.png" alt="Segment performance by segment score and by campaign" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/perfect-audience/segment_score.png" alt="Segment performance by segment score and by campaign" /></p>
 <p class="caption">Segment performance by segment score and by campaign.</p>
 
 <p>In this plot, each dot represents an audience segment, and on the y-axis, you can see to which campaign it belongs. On the x-axis, you can read the correspondent segment score. The furthest to the right the dot is, the best it is performing.</p>

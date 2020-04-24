@@ -1,4 +1,4 @@
-I"6%<p>Welcome to the final post of the Finding The Perfect Audience Series! In this post, I will share the results of applying the K-Means clustering algorithm to the perfect audience dataset.</p>
+I"*%<p>Welcome to the final post of the Finding The Perfect Audience Series! In this post, I will share the results of applying the K-Means clustering algorithm to the perfect audience dataset.</p>
 
 <p>I’ve had a hard time finding a way to organize this post since the topic turned out to be more complicated than what I was hoping it would be. In the end, I decided to focus on <em>understanding why it is useful to perform a cluster analysis and how to read the results obtained</em>.</p>
 
@@ -29,7 +29,7 @@
 
 <p>The original dataset consisted of a table of 129 million rows, one per user that gets served an ad impression, and one per event attributed to that user (impression, click, conversion); and about 49 other columns with different variables associated to those events.  That data came from Appnexus, and the report is called <a href="https://wiki.appnexus.com/display/api/Standard+Feed">Standard Feed</a>.  <em>Definitely the biggest dataset I’ve ever handled!</em></p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/dataset.png" alt="Standard feed dataset" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/perfect-audience/dataset.png" alt="Standard feed dataset" /></p>
 <p class="caption">Just a few rows of the standard feed dataset - View in Spark.</p>
 
 <p>Only a subset of that dataset is of interest for this analysis, that is the user id, the total count of impressions served to those users, the campaigns to which those impressions belonged, and the different conversions associated to those users.</p>
@@ -57,14 +57,14 @@
 
 <p>To define “close”, the K-Means algorithm uses the Euclidean distance, which you could say is the straight-line distance between two points.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/euclidean_distance.png" alt="Euclidean Distance" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/perfect-audience/euclidean_distance.png" alt="Euclidean Distance" /></p>
 <p class="caption">Euclidean distance between Baltimore and Washington D.C.</p>
 
 <h2 id="the-results">The results</h2>
 
 <p>After applying the k-means algorithm to our data, we can visualize the results with a heatmap, a graphical representation of data where the individual values contained in a matrix are represented as colors.</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/heatmap.png" alt="Heatmap" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/perfect-audience/heatmap.png" alt="Heatmap" /></p>
 <p class="caption">Heatmap with the results of applying K-Means clustering to the dataset.</p>
 
 <ul>
@@ -90,7 +90,7 @@ Second, we calculated the performance of the groups regarding site visit rate.</
 
 <p>This is the summary table obtained:</p>
 
-<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/cluster-performance.png" alt="Performance Table" /></p>
+<p><img src="http://localhost:4000/images/posts/assets/perfect-audience/cluster-performance.png" alt="Performance Table" /></p>
 <p class="caption">Performance by cluster.</p>
 
 <p>We can tell that there is a difference in performance. E.g., Cluster 9 has a site visit rate 20x higher than the site visit rate of Cluster 4.  The significant variation in performance is important, because it allow us to clearly identify best performing profiles.</p>
