@@ -4,7 +4,7 @@ title: Learning resources
 image: 
 ---
 
-Just a few months after graduating with a Master's in Chemical Engineering degree (on top of my Bachelor's degree in Chemical Engineering), I decided chemical engineering, per se, wasn't really for me.  I had fallen in love with statistics and how it can be applied to optimize processes.
+Just a few months after graduating with a Master's in Chemical Engineering degree (on top of my Bachelor's degree in Chemical Engineering), I decided chemical engineering per se wasn't really for me.  I had fallen in love with statistics and how it can be applied to optimize processes.
 
 After doing some research, I was convinced I wanted to become a data analyst, and after joining [Praxis](http://discoverpraxis.com/), I realized marketing was the field in which I was going to apply my data analytics skills.
 
@@ -23,12 +23,14 @@ So I started looking for resources to learn more about data analysis, data scien
 <div class="highlighted-box">
 <ol>
 Currently reading:
+<li><a href="https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython-ebook/dp/B075X4LT6K">Python for Data Analysis by Wes McKinney</a></li>
+<!--- UPDATE THIS
 <li><a href="https://www.amazon.com/Show-Me-Numbers-Designing-Enlighten/dp/0970601972/ref=sr_1_1?s=books&ie=UTF8&qid=1530093471&sr=1-1&keywords=Show+Me+the+Numbers%3A">Show me the numbers by Stephen Few</a></li>
 <li><a href="https://www.amazon.com/Interactive-Data-Visualization-Web-Introduction/dp/1491921285/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=VZ65DV3636B70QC4PC2K&dpID=51bskuwDodL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=detail">Interactive Data Visualization for the Web: An Introduction to Designing with D3 by Scott Murray</a></li>
-<li><a href="https:https://www.amazon.com/Marketing-Research-Analytics-Use/dp/3319144359">R for Marketing Research and Analytics by Chris Chapman & Elea Feit </a></li>
+<li><a href="https:https://www.amazon.com/Marketing-Research-Analytics-Use/dp/3319144359">R for Marketing Research and Analytics by Chris Chapman & Elea Feit </a></li> 
+--->
 </ol>
-</div> 
-
+</div>
 
 
 ---
@@ -42,6 +44,15 @@ This is the book that Professor [Alexander Penlidis](https://uwaterloo.ca/chemic
 ---
 ## <a style="text-decoration: none;" id="data-analytics">Learning data analytics concepts and tools</a>
 
+##### [Data Analysis with Python - Coursera](https://www.coursera.org/learn/data-analysis-with-python)
+I've been working with R for about 4 years now (2016 - 2020). I love R, but I recognize the benefits of Python and the need to learn it, so this course was my starting point. It worked great for me, but I think that is because I'm already familiar with coding with R and also I'm extremely familiar with the data analytics process. Overall, it is a very practical course, with a lot of exercises and examples, but I will have to get other learning resources to get a better understanding of the more general basics of programming with Python.
+
+##### [SQL For Data Science - Coursera](https://www.coursera.org/learn/sql-for-data-science)
+A great practical intro on how to use SQL to retrieve data, especially if you are in the data science field. I particularly liked the instructor, Sadie St. Lawrence, so much that I googled her and found [her website](https://sadiestlawrence.com), check it out to find multiple blog posts on how to start your career in data science.
+
+##### [Managing Big Data with MySQL - Coursera](https://www.coursera.org/learn/analytics-mysql/home/welcome)
+An introduction to how to use relational databases in business analysis.  Another fantastic resource that you can access for free at Coursera (auditing the course is free).  I took this course with absolutely no prior experience working with MySQL.  I learned the theory and followed some of the examples.  In the end, I applied all my learnings on a personal project: [Exploring Sakila](http://claudiagerez.com/2017/09/08/exploring-sakila/).
+
 ##### [The Data Scientist's Toolbox - Coursera](https://www.coursera.org/learn/data-scientists-tools/home/welcome)
 An online course that gives an overview of what it's like to work as a data scientist.  The most important part, in my opinion, is that you get introduced to some of the tools that data scientist use, such as GitHub, R, and RStudio. 
 
@@ -54,8 +65,6 @@ A fantastic book for learning how to use R, and it is suited for people without 
 ##### [Exploratory Data Analysis - Coursera](https://www.coursera.org/learn/exploratory-data-analysis/home/welcome)
 This time I switched the online class for the [text book]( https://www.amazon.com/Exploratory-Data-Analysis-Roger-Peng/dp/1365060063/ref=sr_1_5?ie=UTF8&qid=1530097629&sr=8-5&keywords=exploratory+data+analysis).  This course covers the essential exploratory techniques for summarizing data.  It can be divided into two sections, the first one teaches you how to create exploratory graphs using different plotting systems in R (base, lattice, and ggplot2).  I wrote the blog post [Applying the principles of data graphics to a creative performance report](http://claudiagerez.com/2018/06/10/principles-data-graphics/) right after reading Chapter 6: Principles of Data Graphics.  The second part covers clustering, and also fairly advanced topics such as principal components analysis and single value decomposition. I used some of the concepts learned in this second part to perform [a cluster analysis of an audience dataset](http://claudiagerez.com/2018/06/29/perfect-audience-3/).
 
-##### [Managing Big Data with MySQL - Coursera](https://www.coursera.org/learn/analytics-mysql/home/welcome)
-An introduction to how to use relational databases in business analysis.  Another fantastic resource that you can access for free at Coursera (auditing the course is free).  I took this course with absolutely no prior experience working with MySQL.  I learned the theory and followed some of the examples.  In the end, I applied all my learnings on a personal project: [Exploring Sakila](http://claudiagerez.com/2017/09/08/exploring-sakila/).
 
 ##### [Google & StackOverflow](https://stackoverflow.com/questions/tagged/r)
 65% of what I have learned about the analysis of data in R comes from Google.  I just type a *"how to... +R "* kind of question, and start filtering the results.  80% of that time I end up finding my answers in StackOverflow. 
@@ -72,8 +81,14 @@ For StackOverflow, just include [R] in your search to restrict questions and ans
 
 [Dear data](http://www.dear-data.com/theproject) and [Data Sketches](http://www.datasketch.es/) have taken my understanding of what data visualization is to a whole new level, and I'd love to dig deep into this topic, that's why I decided to give it its own section.
 
-#### [Nadieh Bremmer's website](https://www.visualcinnamon.com/resources/learning-data-visualization)
+##### [Nadieh Bremmer's website](https://www.visualcinnamon.com/resources/learning-data-visualization)
 A wonderful collection of resources to learn about data visualization and design.  It is a pretty extensive list, and  I'm hoping to go through it slowly, writing my own reviews of the resources I'm covering.
+
+##### [STHDA site](http://www.sthda.com/english/articles/32-r-graphics-essentials/134-r-basics-for-data-visualization/#ggplot2-graphics)
+A fantastic site that contains many tutorials on data analysis and visualization using R software and packages. I found all the articles related to data visualization really useful.
+
+#### [The R Graph Gallery](https://www.r-graph-gallery.com/index.html)
+Having trouble remembering how to build a graph using R? Here is a site that will show you reproducible code an explanations on how to make about 400 differents plots. Plus, it also links to a [D3.js graph gallery](https://www.d3-graph-gallery.com/) that I found very inspiring.
 
 
 
