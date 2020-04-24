@@ -34,7 +34,7 @@ The director of sales operations introduces tables and charts, giving an overvie
 
 Then the *blame game* starts.  Everyone has somebody to blame for the poor performance of the company.  This is a schematic of how the different divisions accused each other:
 
-![The Blame Game]({{ "/images/posts/assets/blame-game.jpg" | absolute_url }})
+![The Blame Game](/images/posts/assets/blame-game.jpg)
 <p class="caption">The Blame Game</p>
 
 *What I found fascinating is how all departments are related and how, in the end, all of them could measure their results regarding sales effectiveness.*

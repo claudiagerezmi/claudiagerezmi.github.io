@@ -43,7 +43,7 @@ I went from cheerful to being annoyed. Quite annoyed.
 
 Then I remembered how delightfully easy it was to set up ["Exploring Sakila"](https://cgerezmi.github.io/), a site that I built using [Jekyll](https://jekyllrb.com/).
 
-[![Exploring Sakila]({{ "/images/projects/assets/exploring-sakila.png" | absolute_url }})](https://cgerezmi.github.io/)
+[![Exploring Sakila](/images/projects/assets/exploring-sakila.png)](https://cgerezmi.github.io/)
 <p class="caption">Example of a Jekyll site.</p>
 
 Switch to Jekyll? Why not?
@@ -52,7 +52,7 @@ What I love the most about Jekyll is the simplicity of [publishing new posts](ht
 
 I was looking for simplicity, and I had already found it.
 
-![Jekyll Post]({{ "/images/posts/assets/to-jekyll/jekyll-post.png" | absolute_url }})
+![Jekyll Post](/images/posts/assets/to-jekyll/jekyll-post.png)
 <p class="caption">This is how a Jekyll post looks like behind scenes.</p>
 
 _Note to the public - apologies for the lack of screenshots documenting the migration process!_
@@ -84,7 +84,7 @@ Some sites that I checked for themes were:
 
 I ended up choosing [Nubia](https://nubia-jekyll.netlify.com/).
 
-![Nubia]({{ "/images/posts/assets/to-jekyll/nubia.png" | absolute_url }})
+![Nubia](/images/posts/assets/to-jekyll/nubia.png)
 
 
 ### Step 2 - From Wordpress to Jekyll
@@ -118,7 +118,7 @@ A Git project has three parts:
 
 The Git workflow consists of editing files in the working directory, adding files to a staging area, and saving changes to a Git repository. 
 
-[![Git Workflow]({{ "/images/posts/assets/to-jekyll/git-workflow.png" | absolute_url }})](https://www.codecademy.com/learn/learn-git)
+[![Git Workflow](/images/posts/assets/to-jekyll/git-workflow.png)](https://www.codecademy.com/learn/learn-git)
 <p class="caption"> Git Workflow - picture from the codeacademy course "Learn Git"</p>
 
 Some basic Git commands:

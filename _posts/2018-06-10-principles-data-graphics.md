@@ -69,7 +69,7 @@ A good scientist is always asking "Compared to what?" - and that applies to [all
 
 In my research, I found that the category "Connect With Your Baby's Inner Nature" had the highest average creative score* (0.051), making it the best performing category.  _Compared to what?_ Compared to the other three categories that I was analyzing.
 
-![Creative performance by creative score]({{ "/images/posts/assets/creative-report/score_category.png" | absolute_url }})
+![Creative performance by creative score](/images/posts/assets/creative-report/score_category.png)
 <p class="caption">Creative performance by creative score</p>
 
 > "Connect With Your Baby's Inner Nature" has an average creative score that is 54% higher than the second top performing category; and 76% higher than the bottom performer category.
@@ -101,21 +101,21 @@ One other metric I checked during the analysis is the number of conversions per 
 
 And then I found this.
 
-![Creative performance by total conversions per spend]({{ "/images/posts/assets/creative-report/conv_ps_bar.png" | absolute_url }})
+![Creative performance by total conversions per spend](/images/posts/assets/creative-report/conv_ps_bar.png)
 <p class="caption">Creative performance by total conversions per spend</p>
 
 CBIN ads are the ones with the highest creative score, but also one of the categories with the least number of conversions per dollar spend. _How much were we spending on the different categories?_ It turned out that CBIN was the category with the highest spend.
 
 Let’s compare two ad placements, one on [The New York Times](https://www.nytimes.com/) and another on [Dictionary.com](http://www.dictionary.com/).  The site visit rate for the banner on the top of the NYT site is probably going to be much higher than the one on the top of Dictionary.com just because the NYT gets many more visitors than Dictionary.com. Furthermore, the placement on the NYT is likely to be the most expensive in this comparison.
 
-![Ad placement]({{ "/images/posts/assets/creative-report/ad_placementv2.png" | absolute_url }})
+![Ad placement](/images/posts/assets/creative-report/ad_placementv2.png)
 <p class="caption">About ad placements</p>
 
 The only way to make a fair comparison between the ad on the NYT and the one on Dictionary.com is normalizing per spend.
 
 So I checked the total number of impressions and total spend for the different categories. CBIN has the lowest number of impressions per spend.
 
-![Impressions per spend]({{ "/images/posts/assets/creative-report/imps_ps_bar.png" | absolute_url }})
+![Impressions per spend](/images/posts/assets/creative-report/imps_ps_bar.png)
 <p class="caption">Impressions per dollar spend by creative category</p>
 
 **Hypothesis three: CBIN ads have the highest site visit rate because the ads have been shown in more expensive, higher quality, placements.**
@@ -133,7 +133,7 @@ To measure the success of the landing page, I look at **engagement rate**, the p
 
 You can have great ads, with incredible high click-through rate, but if your website is broken, or the user experience is just bad, very few people are going to purchase your product.
 
-![Size and category]({{ "/images/posts/assets/creative-report/size_category.png" | absolute_url }})
+![Size and category](/images/posts/assets/creative-report/size_category.png)
 <p class="caption">Multivariate data - Relationship between ad size and ad category by site visit rate</p>
 
 _In the plot above, each dot represents a creative, with an associated site visit rate. The dots are grouped by ad size, and the color indicates the category that they belong to. CBIN banners tend to have the highest site visit rate for all ad sizes (with exceptions: 320x50, 300x600). It’s interesting to see that for the bigger ad size (728x90), the CBIN ads performed consistently better than the other categories._
@@ -145,7 +145,7 @@ Data graphics should make use of many modes of data representation simultaneousl
 
 Here I added the image of the top three creatives and the bottom creatives to this plot.  The top first feature different women than the bottom three.  Interestingly this pattern repeats for the different sizes.
 
-![Performance by ad size]({{ "/images/posts/assets/creative-report/pptv2.png" | absolute_url }})
+![Performance by ad size](/images/posts/assets/creative-report/pptv2.png)
 <p class="caption">Adding images and text to a plot</p>
 
 ### 5. Establish credibility - Documentation

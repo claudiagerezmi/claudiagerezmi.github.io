@@ -32,4 +32,4 @@ I&#8217;ve always wanted to design an infographic, so I went ahead and created o
 
 The result can be found at the bottom of this page, what do you think?
 
-![My First Infographic]({{ "/images/posts/assets/first-infographic.jpg" | absolute_url }})
+![My First Infographic](/images/posts/assets/first-infographic.jpg)

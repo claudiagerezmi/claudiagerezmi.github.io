@@ -10,7 +10,7 @@ tags: [projects, data-analytics]
 
 **Technologies used:** SQL, Jekyll, Liquid, HTML, CSS, Git, and GitHub.
 
-[![Exploring Sakila]({{ "/images/projects/assets/exploring-sakila.png" | absolute_url }})](https://cgerezmi.github.io/)
+[![Exploring Sakila](/images/projects/assets/exploring-sakila.png)](https://cgerezmi.github.io/)
 
 <button class='c-btn c-btn--active c-btn--full' onclick="https://cgerezmi.github.io/">Explore Sakila</button>
 

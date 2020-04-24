@@ -38,7 +38,7 @@ By performing a clustering analysis, we aimed to find new groupings in our data.
 
 The original dataset consisted of a table of 129 million rows, one per user that gets served an ad impression, and one per event attributed to that user (impression, click, conversion); and about 49 other columns with different variables associated to those events.  That data came from Appnexus, and the report is called [Standard Feed](https://wiki.appnexus.com/display/api/Standard+Feed).  *Definitely the biggest dataset I've ever handled!*
 
-![Standard feed dataset]({{ "/images/posts/assets/perfect-audience/dataset.png" | absolute_url }})
+![Standard feed dataset](/images/posts/assets/perfect-audience/dataset.png)
 <p class="caption">Just a few rows of the standard feed dataset - View in Spark.</p>
 
 Only a subset of that dataset is of interest for this analysis, that is the user id, the total count of impressions served to those users, the campaigns to which those impressions belonged, and the different conversions associated to those users.
@@ -64,14 +64,14 @@ The steps are repeated until the variation within the cluster cannot be reduced 
 
 To define "close", the K-Means algorithm uses the Euclidean distance, which you could say is the straight-line distance between two points.
 
-![Euclidean Distance]({{ "/images/posts/assets/perfect-audience/euclidean_distance.png" | absolute_url }})
+![Euclidean Distance](/images/posts/assets/perfect-audience/euclidean_distance.png)
 <p class="caption">Euclidean distance between Baltimore and Washington D.C.</p>
 
 ## The results
 
 After applying the k-means algorithm to our data, we can visualize the results with a heatmap, a graphical representation of data where the individual values contained in a matrix are represented as colors. 
 
-![Heatmap]({{ "/images/posts/assets/perfect-audience/heatmap.png" | absolute_url }})
+![Heatmap](/images/posts/assets/perfect-audience/heatmap.png)
 <p class="caption">Heatmap with the results of applying K-Means clustering to the dataset.</p>
 
 - On the x-axis, we can read the number of clusters identified.  In this case, our millions of users were grouped into 12 different groups.
@@ -91,7 +91,7 @@ Second, we calculated the performance of the groups regarding site visit rate.
 
 This is the summary table obtained:
 
-![Performance Table]({{ "/images/posts/assets/perfect-audience/cluster-performance.png" | absolute_url }})
+![Performance Table](/images/posts/assets/perfect-audience/cluster-performance.png)
 <p class="caption">Performance by cluster.</p>
 
 We can tell that there is a difference in performance. E.g., Cluster 9 has a site visit rate 20x higher than the site visit rate of Cluster 4.  The significant variation in performance is important, because it allow us to clearly identify best performing profiles.

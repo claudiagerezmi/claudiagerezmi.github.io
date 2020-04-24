@@ -37,7 +37,7 @@ The concept of target audience sometimes is used interchangeably with the one of
 
 The advice is first to identify your target market and then identify your target audience.
 
-![Optimal Target Audience]({{ "/images/posts/assets/perfect-audience/target_audience.png" | absolute_url }})
+![Optimal Target Audience](/images/posts/assets/perfect-audience/target_audience.png)
 <p class="caption">The optimal target audience.</p>
 
 ### The importance of finding your target audience

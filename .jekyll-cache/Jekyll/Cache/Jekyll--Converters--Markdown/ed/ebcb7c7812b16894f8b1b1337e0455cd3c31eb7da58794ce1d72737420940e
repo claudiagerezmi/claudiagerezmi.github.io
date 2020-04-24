@@ -1,0 +1,153 @@
+I"_+<blockquote>
+  <p>“A picture is worth a million rows.”
+<em>Tableau Software</em></p>
+</blockquote>
+
+<h2 id="about-data-visualization">About Data Visualization</h2>
+
+<p>Data visualization is the graphical display of abstract information for two purposes:</p>
+
+<ol>
+  <li>Sense-making: To uncover patterns, trends, and correlations that might go undetected in text-based data.</li>
+  <li>Communication: To share insights and findings in a clear and efficient way.</li>
+</ol>
+
+<p>I’ve always used visualizations with a practical purpose, to make sense of information, and to communicate results.  I don’t recall giving a second thought to the aesthetics of my plots.  But then I found the book <a href="https://www.amazon.com/Dear-Data-Giorgia-Lupi/dp/1616895322" target="_blank" rel="noopener">Dear Data</a> and I couldn’t help but notice the beauty in the information presented. Later, I came across the blog <a href="http://www.datasketch.es/" target="_blank" rel="noopener">Data Sketches</a>, and my mind was blown away by the incredible imagination of the authors and the beautiful and complex projects that they built with data.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iqaVe1MCTlA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<p class="caption">
+  Dear Data, video created by Somerset House, London
+</p>
+
+<p>Lisa Charlotte Ross wrote a few posts about the <a href="https://lisacharlotterost.github.io/2015/12/19/Meaning-and-Beauty-in-Data-Vis/" target="_blank" rel="noopener">meaning and beauty in Data Vis and Data Art</a>.  She states that the ultimate goal of Data Vis is to convey information, to be insightful, and to increase “understanding” of a dataset.  I completely agree with her, as well as with the point that she makes about how <em>beauty can enhance meaning.</em></p>
+
+<p>That said, today I’m taking a first step towards learning more about data visualization with the goal of making my graphs and plots a little bit “better looking.  ” I signed up for the course <a href="https://www.udacity.com/course/data-visualization-and-d3js--ud507" target="_blank" rel="noopener">Data Visualization and D3.js</a> at Udacity, and I’m planning to share what I learn here.  I’ll start writing about it today.</p>
+
+<h2 id="lesson-1--visualization-fundamentals-part-12">Lesson 1 – Visualization Fundamentals. Part 1/2</h2>
+
+<p>In this first lesson I went over the classification of data types, as seen in statistics courses, and I also learned about visual encoding.</p>
+
+<h3 id="types-of-data">Types of Data</h3>
+
+<p>There are three different types of data:</p>
+
+<p><strong>1. Quantitative/Numerical Data</strong></p>
+
+<p>Any data points that is an exact number.  This type of data has a meaning as a measurement, such as a person’s height, weight, or blood pressure; or a count, such as the number of pages that you can read before you fall asleep, or the number of stock shares a person owns.</p>
+
+<p>There are two types of quantitative data:</p>
+
+<ul>
+  <li>
+    <p><em>Discrete data</em> – It has a distinct value.  The list of possible values can be fixed (finite), or infinite.  E.g., the number of home runs of a baseball player: 0, 1, 2, 3,… 20.  Note a player cannot hit 14.375 home runs, he either hits a home run, or he doesn’t.</p>
+  </li>
+  <li>
+    <p><em>Continuous data</em> – It falls in a range.  E.g., the lifetime of a C battery can be anywhere from 0 hours to an infinite number of hours (if it lasts forever), with all possible values in between.</p>
+  </li>
+</ul>
+
+<p><strong>2. Categorical Data</strong></p>
+
+<p>It represents characteristics such as a person’s gender, marital status, hometown, or the type of movies they like.  It can take numerical values, such as “1” indicating male, and “2” indicating female, but those numbers don’t have a mathematical meaning.  You couldn’t add them together, or calculate the mean.</p>
+
+<p><strong>3. Ordinal/Ordered Data</strong></p>
+
+<p>Data that falls into categories but that has some order or ranking.  Ordinal data mixes numerical and categorical data.  If quantitative data split up into bins, now it’s ordinal data.  E.g., rating a restaurant on a scale of 0 (lowest) to 4 (highest) gives ordinal data.  In this case, the numbers have mathematical meaning.  For example, if you survey 100 people and ask them to rate a restaurant on a scale from 0 to 4, taking the average of the 100 responses will have a meaning.</p>
+
+<h3 id="visual-encodings">Visual Encodings</h3>
+
+<p>Visual encoding variables allow us to map data into visual structures.  There are two types of visual encoding variables: planar and retinal.</p>
+
+<p><strong>1. Planar visual encoding</strong></p>
+
+<p>In this category, we find the positions on the x and y axis.  Planar variables are excellent when locating points on space.  They can be used to represent any type of data, but they’ve been found to be more efficient when rendering quantitative data.</p>
+
+<p>Planar variables do a great job when working with two variables.  However, 3D models are poorly perceived by our eyes.  If we want to represent a third variable in our graphics, it is recommended to use retinal variables.</p>
+
+<p><strong>2. Retinal visual encoding</strong></p>
+
+<p>Humans can easily differentiate between various colors, shapes, sizes, and other properties.  We can use those features to encode information.</p>
+
+<ul>
+  <li><strong>Orientation</strong> – It can be used to represent quantitative, qualitative and ordinal types of data.  It should be noted that while we’re able to clearly identify vertical vs. horizontal lines, it’s harder to distinguish between slopes.</li>
+  <li><strong>Size</strong> – It can be used to represent quantitative and ordinal types of data.  Size matters, and we can see the difference right away.</li>
+  <li><strong>Color Saturation</strong> – It is used to represent quantitative and ordinal types of data.  Any color can be moved over a scale, and we can tell the difference.</li>
+  <li><strong>Color Hue</strong> – It is best used to work with categorical data.</li>
+  <li><strong>Texture</strong> – As with color hue, texture can be used to represent categorical data.  However, we can’t touch it on screen, and textures are less catchy than colors.  It’s not commonly used.</li>
+  <li><strong>Shape</strong> – It’s used to represent categorical data. We can easily distinguish between a dozen of shapes such as circles, edgy stars, solid rectangles, etc.</li>
+</ul>
+
+<h3 id="which-variable-is-the-most-efficient-when-representing-data">Which variable is the most efficient when representing data?</h3>
+
+<p>In 1985, William S. Cleveland and Robert McGill conducted a <a href="https://web.cs.dal.ca/~sbrooks/csci4166-6406/seminars/readings/Cleveland_GraphicalPerception_Science85.pdf" target="_blank" rel="noopener">study on graphical perception</a>.  The experiments were designed to compare the effectiveness of display elements such as position, length, angle, etc. when communicating quantitative data.</p>
+
+<p>As a result of their experiments, they came out with a ranking of visual encodings.  They ordered the different variables from most accurate to the less accurate when representing quantitative data.  This is the list: position, length, angle, slope, area, volume, density, color hue, color saturation.</p>
+
+<p>Something to notice, is that color seems to be the less effective way to represent data.  And in fact, there are be very strong feelings on the use of color in the Data Viz community (to find more on the topic you can read <a href="https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/">this</a> blog post).</p>
+
+<p>It would be wise to keep in mind that Edward Tufte, a pioneer in the field of data visualization, once said: <em>“Avoiding catastrophe becomes the ﬁrst principle in bringing color to information: Above all, do no harm.”</em></p>
+
+<h3 id="practice--decomposing-a-visualization">Practice – Decomposing a Visualization</h3>
+
+<p>Let’s apply the previously learned concepts by decomposing a visualization.</p>
+
+<p>I found this visual at the Data Sketches blog, and it immediately caught my eye because of the shape, the multiple points in the graph, the animations, and because my favorite kind of music is the one from the 80’s.  You can learn more about how this visual was created <a href="http://www.datasketch.es/december/" target="_blank" rel="noopener">here</a>.</p>
+
+<p><img src="/images/posts/assets/decomposing.jpg" alt="Decomposing Visualizations" /></p>
+<p class="caption">
+TOP 2000 ❤ the 70&#8217;s &amp; 80&#8217;s &#8211; Created by Nadieh Bremer | Visual Cinnamon<br />Find the dynamic version in this link: <a href="http://www.datasketch.es/december/code/nadieh/">http://www.datasketch.es/december/code/nadieh/</a>
+</p>
+
+<p>We can analyze the <a href="http://www.datasketch.es/december/code/nadieh/" target="_blank" rel="noopener">dynamic</a> visual by answering a few questions:</p>
+
+<ol>
+  <li>What are the variables and data types?</li>
+  <li>What are the visual encodings for each variable?</li>
+  <li>To what extent are the encodings effective?</li>
+</ol>
+
+<p>The answers to the first two questions can be found in this table:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Type of Data</th>
+      <th>Visual Encoding</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Year of release</td>
+      <td>Quantitative (Discrete)</td>
+      <td>Position on x</td>
+    </tr>
+    <tr>
+      <td>Position in Top 2000</td>
+      <td>Ordinal</td>
+      <td>Size</td>
+    </tr>
+    <tr>
+      <td>Highest position reached in weekly Top 40</td>
+      <td>Ordinal</td>
+      <td>Color Saturation</td>
+    </tr>
+    <tr>
+      <td>Author and special songs</td>
+      <td>Qualitative</td>
+      <td>Color Hue</td>
+    </tr>
+    <tr>
+      <td>Song title</td>
+      <td>Qualitative</td>
+      <td>Animation</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Regarding question 3, I find this visual eye-catching, and I think it communicates the information in a very efficient way.  The year of release for each song is big enough to notice; it’s easy to identify which songs reached the Top 1 position at the Top 2000, as well as to tell the difference between the top 1 and the top 1000.  It is harder to distinguish the spot that the songs reached at the weekly Top 40, but that is one of the downsides of using color saturation.</p>
+
+<p>I think the most important feature in this example is the animation.  If we become interested in a particular point, by hovering over it we can get detailed information about it, accessing information such as the song title, singer, year of release, position on the Top 2000 and highest position in the weekly top 40.</p>
+
+<p><em>At Udacity, the courses aim to teach by doing.  In this case, they I’ll first analyze existing data visualizations, and later you I’ll create my own.  I’m certainly looking forward to creating on my own visualization.</em></p>
+:ET

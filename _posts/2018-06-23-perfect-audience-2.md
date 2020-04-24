@@ -68,7 +68,7 @@ With those metrics, I calculated:
 - *Conversion rate:* the percentage of visitors that made a purchase.
 - *Cost Per Acquisition (CPA)*: how much it costs to acquire one paying customer.
 
-![Summary Metrics]({{ "/images/posts/assets/perfect-audience/summary_metrics.png" | absolute_url }})
+![Summary Metrics](/images/posts/assets/perfect-audience/summary_metrics.png)
 <p class="caption">Summary metrics.</p>
 
 #### Extra details to consider
@@ -96,7 +96,7 @@ In the scoring system, I combined site visit rate, engagement rate and I also ga
 
 When looking at the average score per campaign, we can clearly distinguish top performing audiences and low performing ones.
  
-![Campaign Performance]({{ "/images/posts/assets/perfect-audience/campaign_score.png" | absolute_url }})
+![Campaign Performance](/images/posts/assets/perfect-audience/campaign_score.png)
 <p class="caption">Campaign performance by score.</p>
 
 In this case, our best performing audiences are Streaming Services, Celebrities, Environment/Sustainability, Travel and Pets/Wildlife.
@@ -107,7 +107,7 @@ We've also identified some audiences to avoid targeting.  For example, Whole Foo
 
 I also looked at the segment performance.  With the same methodology used to rank campaigns, I ranked the individual segments.  The following [histogram](https://en.wikipedia.org/wiki/Histogram) shows the distribution of the score.
 
-![Histogram]({{ "/images/posts/assets/perfect-audience/histogram.png" | absolute_url }})
+![Histogram](/images/posts/assets/perfect-audience/histogram.png)
 <p class="caption">Distribution of score by audience segment.</p>
 
 A histogram is a great tool that allows assessing the distribution of your data quickly.  The width of each bar represents a range, and the area is proportional to the frequency of a particular variable.  So, for the image shown above, the first bar to the left of the chart, tells me that more than 150 audience segments (the value on the y-axis), have a score that is about zero, and that is actually the main takeaway.
@@ -127,7 +127,7 @@ summary(segment$segment_score)
 
 Now, can we see the performance of the different segments by campaign? Sure! But this time the plot is a little trickier to read.
 
-![Segment performance by segment score and by campaign]({{ "/images/posts/assets/perfect-audience/segment_score.png" | absolute_url }})
+![Segment performance by segment score and by campaign](/images/posts/assets/perfect-audience/segment_score.png)
 <p class="caption">Segment performance by segment score and by campaign.</p>
 
 In this plot, each dot represents an audience segment, and on the y-axis, you can see to which campaign it belongs. On the x-axis, you can read the correspondent segment score. The furthest to the right the dot is, the best it is performing.

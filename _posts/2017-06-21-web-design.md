@@ -16,7 +16,7 @@ At [Spendabit](https://spendabit.co/), they thought that the question I was maki
 
 [www.takebitcoin.org](www.takebitcoin.org) was the first static website I created using only HTML, CSS, and Bootstrap.  I worked on that project for approximately two weeks.
 
-[![Do You Take Bitcoin]({{ "/images/projects/assets/web-design.jpg" | absolute_url }})](http://takebitcoin.org)
+[![Do You Take Bitcoin](/images/projects/assets/web-design.jpg)](http://takebitcoin.org)
 
 <button class='c-btn c-btn--active c-btn--full' onclick="http://takebitcoin.org/">Visit Website</button>
 
