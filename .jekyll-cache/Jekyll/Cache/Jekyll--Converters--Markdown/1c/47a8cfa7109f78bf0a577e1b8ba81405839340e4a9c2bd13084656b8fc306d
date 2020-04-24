@@ -1,0 +1,155 @@
+I"�3<h2 id="different-types-of-analytics">Different types of analytics</h2>
+
+<p>Did you know that there are four types of analytics? We have descriptive, diagnostic, predictive and prescriptive analytics.</p>
+
+<p>A <strong>descriptive analysis</strong> provides insights into the past.  By analyzing historical data you can identify patterns or trends, and overall, answer the question: <em>what happened?</em>.  Analytic techniques used in this type of analysis are associated with exploratory data analysis which identifies central tendencies, variations, and distributional shapes (descriptive statistics).  Descriptive methodologies can also search for underlying structures within data when no a priori knowledge about patterns and relationships are assumed.  This can include correlation analysis, exploratory factor analysis, principal component analysis, trend analyses, and cluster analysis.</p>
+
+<p><strong>Diagnostic analysis</strong> answers the question: <em>why did it happen?</em>; and it can be done with techniques available in statistics, data mining, and machine learning.</p>
+
+<p><strong>Predictive analysis</strong> predicts what will happen in the future.  Here you’ll find techniques such as parametric methods: time series forecasting, linear regression, multilevel modeling, and simulation methods; classification methods such as logistic regression and decision trees; and artificial intelligence methods such as artificial neural networks and Bayesian networks.</p>
+
+<p>A <strong>prescriptive analysis</strong> not only looks into the future to predict likely outcomes but it also suggests the best course of action to take to optimize your business outcomes.  For example, decline a transaction if the probability of fraud is above a given threshold.  Analytic techniques in this category include linear programming, goal programming, and search algorithms; artificial intelligence optimization techniques and multi-criteria decision models.</p>
+
+<p>The level of sophistication of the analysis increases from top to bottom.</p>
+
+<h2 id="a-descriptive-analysis-of-an-audience-test">A descriptive analysis of an audience test</h2>
+
+<p>So descriptive analytics does exactly what the name implies, it <em>describes</em> or summarizes raw data and makes it something more interpretable to people.</p>
+
+<p>Now I’m going to briefly <em>describe</em> what happened during the time that we run the Perfect Audience Test, a test that I described more extensively in a <a href="http://claudiagerez.com/2018/06/18/perfect-audience/">previous post</a>. I will focus on the main insights that we gained from that experiment.</p>
+
+<p>If you didn’t read that post, don’t worry, here is a summary of the main points:</p>
+
+<h3 id="perfect-audience-test-overview">Perfect Audience Test Overview</h3>
+
+<h4 id="objective">Objective:</h4>
+
+<ol>
+  <li>Identify the target audience, the group of people interested in our client’s product.</li>
+  <li>Compare the outcome with the customer profile initially provided by the client (read <em>“a group of fearless, fit, and fantastic women”</em>).</li>
+  <li>Identify audiences to avoid.</li>
+  <li>Use main findings to tune the campaigns and run the second round of experiments with a reduced number of audiences. That second round will give us more conclusive results.</li>
+</ol>
+
+<h4 id="settings">Settings:</h4>
+
+<ul>
+  <li>We tested 25 campaigns targeting 25 different audience themes.</li>
+  <li>Each campaign targeted within 3 to 55 audience segments (<a href="https://www.lotame.com/1st-party-2nd-party-3rd-party-data-what-does-it-all-mean/">third-party data</a>), depending on how small or big each audience was.  For example, the Streaming Services campaign targeted audience segments such as:
+    <ul>
+      <li>Spotify Music (BlueKai)</li>
+      <li>Streaming Providers &gt; Pandora (BlueKai)</li>
+      <li>Nielsen Tech - Music Streaming Medium Credit/Debit Buyer (Exelate)</li>
+    </ul>
+
+    <p><em>BlueKai, Exelate, Lotame, are examples of third-party data providers.</em></p>
+  </li>
+  <li>The total number of segments targeted was 416.</li>
+</ul>
+
+<h4 id="summary-metrics">Summary metrics:</h4>
+
+<p>During the test, we were able to track a series of metrics:</p>
+<ul>
+  <li>Number of ad clicks</li>
+  <li>Number of visits to the website (post-click and post-view)</li>
+  <li>Number of engaged users (people that got to the website and spent more than one minute in it, or visited three different pages)</li>
+  <li>Number of cart views (if the person added something to the shopping cart)</li>
+  <li>Number of purchases made.</li>
+</ul>
+
+<p>With those metrics, I calculated:</p>
+
+<ul>
+  <li><em>Click through rate (CTR):</em> the percentage of people that were served an impression and clicked the ad.</li>
+  <li><em>Site visit rate:</em> the percentage of people that visited the site after being served with an ad.</li>
+  <li><em>Engagement rate:</em> the percentage of visitors that engaged with the site.</li>
+  <li><em>Conversion rate:</em> the percentage of visitors that made a purchase.</li>
+  <li><em>Cost Per Acquisition (CPA)</em>: how much it costs to acquire one paying customer.</li>
+</ul>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/summary_metrics.png" alt="Summary Metrics" /></p>
+<p class="caption">Summary metrics.</p>
+
+<h4 id="extra-details-to-consider">Extra details to consider</h4>
+
+<p>Many months ago, when I was doing some <a href="http://claudiagerez.com/2017/06/19/business-metrics-vs-key-performance-indicators/">research on business metrics and Key Performance Indicators</a>,  <strong>I learned that you choose your KPIs based on your business goals</strong>.  That is very true.</p>
+
+<p>Although most of the time efficiency is important, and the first metrics that we look at are cost related (total conversions per spend, CPA, return on investment).  This time the important metrics are site visits and engagement.</p>
+
+<p><em>Why?</em>  Because the goal of the analysis is to identify people that are interested in the product offered.  People that looked at the display ad and felt driven to click on it; and even better,  people that saw the display ad, found the product interesting, clicked on the ad, got to the site and engaged with the content that they found, eventually converting to sales.  In this case, we (actually the client) don’t care about how much it costs to acquire those future customers (nevertheless, it’s worth mentioning that the test was performed within a certain budget!).</p>
+
+<p>Also note that we run the campaigns as prospecting campaign, that means that the ads were served to people didn’t necessarily know about our client’s brand.</p>
+
+<p>And, before I forget, something else to note is that I analyzed site visit rate instead of click-through rate.  I have two reasons to do that:</p>
+
+<ul>
+  <li>To reduce the percentage of site visits caused by <a href="https://www.wordstream.com/blog/ws/2015/07/06/mobile-clicks">unintended clicks</a>.  This is a big problem with campaigns running on mobile (<a href="https://adwords.googleblog.com/2015/06/better-click-quality-on-display-ads.html">at some point Google reported that 50% of mobile clicks are accidental</a>). To account for that, I also chose to analyze only campaigns running on desktops/laptops.</li>
+  <li>To account for people that saw the ad (they were served an ad impression) didn’t click on it at the time but decided to visit the site later on (post view conversion).</li>
+</ul>
+
+<p>With those clarifications made, let’s see how the campaigns performed!</p>
+
+<h3 id="analyzing-campaign-performance">Analyzing campaign performance</h3>
+
+<p>To provide a more comprehensive, stable, measure of performance we came out with a system that combines multiple metrics to rank campaigns.  So let’s say that the Travel campaign has the highest site visit rate.  However, people in that group didn’t really engage with the website.   Instead of being our top performer campaign, Travel gets assigned a lower rank because we took into consideration engagement rate.</p>
+
+<p>In the scoring system, I combined site visit rate, engagement rate and I also gave a certain weight to cart view rate.</p>
+
+<p>When looking at the average score per campaign, we can clearly distinguish top performing audiences and low performing ones.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/campaign_score.png" alt="Campaign Performance" /></p>
+<p class="caption">Campaign performance by score.</p>
+
+<p>In this case, our best performing audiences are Streaming Services, Celebrities, Environment/Sustainability, Travel and Pets/Wildlife.</p>
+
+<p>We’ve also identified some audiences to avoid targeting.  For example, Whole Foods audiences (people that shops at Whole Foods), Beverages (people interested in drinks or that browse the web looking for that topic), and Moms and Babies audiences.</p>
+
+<h3 id="segment-analysis">Segment analysis</h3>
+
+<p>I also looked at the segment performance.  With the same methodology used to rank campaigns, I ranked the individual segments.  The following <a href="https://en.wikipedia.org/wiki/Histogram">histogram</a> shows the distribution of the score.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/histogram.png" alt="Histogram" /></p>
+<p class="caption">Distribution of score by audience segment.</p>
+
+<p>A histogram is a great tool that allows assessing the distribution of your data quickly.  The width of each bar represents a range, and the area is proportional to the frequency of a particular variable.  So, for the image shown above, the first bar to the left of the chart, tells me that more than 150 audience segments (the value on the y-axis), have a score that is about zero, and that is actually the main takeaway.</p>
+
+<p>People in audience segments with a score of about zero are seeing the display ads but they are not visiting the site.  We want to get rid of those segments to improve the performance of the campaigns.</p>
+
+<p>On the other hand, you can also notice that there are a few segments that are doing much better (the maximum score is 2.9).  Those are the audience segments that we want to keep.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>summary(segment$segment_score)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.0000  0.0000  0.6342  0.8254  1.4259  2.9133
+</code></pre></div></div>
+<p class="caption" style="text-align: left;">Score distribution.</p>
+
+<h3 id="segment-performance-by-segment-score-and-by-campaign">Segment performance by segment score and by campaign</h3>
+
+<p>Now, can we see the performance of the different segments by campaign? Sure! But this time the plot is a little trickier to read.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/perfect-audience/segment_score.png" alt="Segment performance by segment score and by campaign" /></p>
+<p class="caption">Segment performance by segment score and by campaign.</p>
+
+<p>In this plot, each dot represents an audience segment, and on the y-axis, you can see to which campaign it belongs. On the x-axis, you can read the correspondent segment score. The furthest to the right the dot is, the best it is performing.</p>
+
+<p>On top of the points graph, there is a <a href="https://en.wikipedia.org/wiki/Box_plot">boxplot</a>; boxplots let us see a summary of the distribution. I use them mainly to locate where the median is (the value separating the higher half of the data sample, from the lower half), so I can still have an idea of which campaigns are performing the best.</p>
+
+<p>I use the median instead of the mean because the histogram made me suspecious of the presence of outliers, and the boxplots actually confirmed them.</p>
+
+<p>The segment/campaign plot is an example of an <strong>exploratory graph</strong>. It was made quickly to check out the data, to see if I could find a pattern to explore further (maybe the distribution of those bottom performer segments wasn’t equal, maybe all the segments performing bad were in a single campaign). In this case, I didn’t see any patterns, and to communicate the full results I prepared a pivot table with the list of segments per campaign, ranking them by segment score.  <em>Sometimes tables are prefered to plots to better communicate results.</em></p>
+
+<h3 id="wrapping-up">Wrapping up</h3>
+
+<p>After looking at all the summary metrics we have:</p>
+
+<ol>
+  <li>Identified audiences that show an affinity for the product offered.  Top performing audiences are: Streaming Services, Celebrities, Environment/Sustainability, Travel, Pets/Wildlife</li>
+  <li>Identified audiences to avoid targeting: Vehicles, Whole Foods, Beverages, Moms, and Babies.</li>
+  <li>Identified audience segments that were not performing great within each campaign and that need to be removed to improve campaign performance.</li>
+</ol>
+
+<p>The next step is to apply a clustering technique to divide the audiences into naturally occurring groups.</p>
+
+<p>With all these information we’ll set up a second round of testing that will give us a more conclusive result of who the perfect audience is for our client.</p>
+:ET

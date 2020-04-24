@@ -1,0 +1,35 @@
+I"�<blockquote>
+  <p>“Data exploration is the art of looking at your data, rapidly generating hypotheses, quickly testing them, then repeating again, and again, and again.”
+<em>Wickham, Hadley, and Garrett Grolemund. 2017. R for Data Science.</em></p>
+</blockquote>
+
+<p>This project aims to explore data retrieved from Zoom Video Communications, containing information about meetings organized by <a href="https://discoverpraxis.com/">Praxis</a>.  The goal of the analysis is to show the data, transform it in order to make it easier to work with, summarize it, and look for answers to these two questions:</p>
+<ul>
+  <li>How many meetings do the participants attend?</li>
+  <li>How long, on average, they tend to stay?</li>
+</ul>
+
+<p>While exploring the data, new questions arose and were added to the list.</p>
+
+<p>The main tools applied in this analysis are R programming language, and different R packages, highlighting the use of dplyr to transform data frames, ggplot2 for data visualization, and rmarkdown to produce the final report in HTML.</p>
+
+<p><strong>Data analytics skills applied and concepts learned</strong></p>
+
+<ul>
+  <li>How to import data from CSV files.</li>
+  <li>Data clean up.</li>
+  <li>How to transform data and visualize it with graphs.</li>
+  <li>Data communication.</li>
+  <li>Data privacy.</li>
+</ul>
+
+<p><strong>Other resources that came in handy</strong></p>
+
+<ul>
+  <li>Google search and Stackoverflow.</li>
+  <li>Wickham, Hadley, and Garrett Grolemund. 2017. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. O’Reilly Media.</li>
+  <li>Peng. Roger, D. 2016. Exploratory Data Analysis with R. Leanpub.</li>
+</ul>
+
+<p>To see the full analysis click here: <a href="http://rpubs.com/cgerez/275694">Final Report</a>.</p>
+:ET

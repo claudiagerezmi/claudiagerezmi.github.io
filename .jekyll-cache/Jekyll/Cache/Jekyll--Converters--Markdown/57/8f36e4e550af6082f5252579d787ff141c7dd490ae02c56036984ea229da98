@@ -1,0 +1,162 @@
+I":5<h2 id="steps-to-prepare-a-creative-performance-report">Steps to prepare a creative performance report</h2>
+
+<p>This past week I’ve been working on a creative performance report for one of our clients.</p>
+
+<p>Analyzing the performance of creatives (banner ads) running on <a href="https://en.wikipedia.org/wiki/Display_advertising">programmatic display</a> campaigns is one of my favorite tasks because there are so many variables and metrics that we can track and analyze.</p>
+
+<p>The fact that the client sells products that I would be interested in buying (baby care and adult body care products, for example, deodorant, toothpaste, cleansers, lotions, moisturizers, etc.), was an added plus.</p>
+
+<p>To prepare the report, I followed these steps:</p>
+
+<p><strong>Step 1. List all the variables to analyze.</strong></p>
+
+<ul>
+  <li>Four creative categories proposed by the client</li>
+  <li>Six different ad sizes</li>
+  <li>Two landing pages – Note that we were not experimenting with a variation on the landing page.  This was rather something fixed, one category of ads landed on a particular page, and the rest on a different one.</li>
+  <li>Seventeen different message copy (the text on the banner).</li>
+</ul>
+
+<p>I also checked the metrics that we were tracking:</p>
+<ul>
+  <li>Impressions</li>
+  <li>Total spend</li>
+  <li>Clicks</li>
+  <li>Site visits (post-view and post-click)</li>
+  <li>Count of engaged users (post-view and post-click)*</li>
+  <li>Cart views (post-view and post-click)</li>
+  <li>Purchases (post-view and post-click)</li>
+</ul>
+
+<p><em>* An engaged user is a person that spends a minute or more on the website or visits three or more pages in one session.</em></p>
+
+<p><strong>Step 2. Pull relevant reports from the <a href="https://www.appnexus.com/en">Appnexus console</a></strong> - Appnexus is the platform that we use for programmatic online advertising.</p>
+
+<p><strong>Step 3. Join and clean the data using <a href="https://en.wikipedia.org/wiki/R_programming_language">R</a>.</strong></p>
+
+<p><strong>Step 4. Explore and analyze the data</strong> - This includes creating tons of exploratory graphics with ggplot2.</p>
+
+<p><strong>Step 5. Summarize insights and prepare a first version of the report using PowerPoint.</strong></p>
+
+<p>After following those steps, I had a first version of the report that I sent to our internal team.  We will review it internally next week, and after a round of feedback and possible changes, we’ll present it to the client.</p>
+
+<p>I love visualizing data, and since I started using <a href="http://ggplot2.tidyverse.org/">ggplot2</a>, I’ve had the most fun adding layers of complexity to my graphics. Why would I present a simple bar chart to show averages when I can prepare a boxplot combined with a scatterplot and show not only averages but also the distribution, maximum, minimum, median, and spread of the data?  At work, they like to make jokes about how much I like to show an abundance of information (resulting in graphics that may take more than a few seconds for interpretation).</p>
+
+<p>I sincerely enjoy making data graphics, and I want to get much better at it. For that reason, last week I started reading more about data visualization, starting with the principles of data graphics.</p>
+
+<p>In this post I’ll talk about those principles, showing you how I applied them to my report.</p>
+
+<h2 id="which-are-the-principles-of-data-graphics">Which are the principles of data graphics?</h2>
+
+<p><a href="https://www.edwardtufte.com/tufte/">Edward Tufte</a> a statistician and artist, well-known for his ground-breaking work in information design and data visualization, suggests following six fundamental principles to make informative and useful data graphics. Those principles are:</p>
+
+<ol>
+  <li>Show comparisons</li>
+  <li>Show causality</li>
+  <li>Use multivariate data</li>
+  <li>Integrate evidence</li>
+  <li>Establish credibility</li>
+  <li>Focus on content</li>
+</ol>
+
+<p>And these are the principles in action.</p>
+
+<h3 id="1-show-comparison">1. Show comparison</h3>
+<p>A good scientist is always asking “Compared to what?” - and that applies to <a href="https://discoverpraxis.com/compared-to-what/">all fields of life</a>.</p>
+
+<p>In my research, I found that the category “Connect With Your Baby’s Inner Nature” had the highest average creative score* (0.051), making it the best performing category.  <em>Compared to what?</em> Compared to the other three categories that I was analyzing.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/score_category.png" alt="Creative performance by creative score" /></p>
+<p class="caption">Creative performance by creative score</p>
+
+<blockquote>
+  <p>“Connect With Your Baby’s Inner Nature” has an average creative score that is 54% higher than the second top performing category; and 76% higher than the bottom performer category.</p>
+</blockquote>
+
+<p><em>*To provide a more comprehensive, stable, measure of performance, we have automated a process that scores creatives by summing percentile creative rankings across key metrics: purchase rate, cart view rate, engagement rate, and site visit rate.</em></p>
+
+<h3 id="2-show-causality">2. Show causality</h3>
+<p>It’s always useful to show that you are thinking in terms of cause.  Always seek the explanation. “Why?” may not be the crucial question to answer but getting that response can always lead to improvements in your analysis.</p>
+
+<p><strong>Why is Connect With Your Baby’s Inner Nature (CBIN) the best-performing ad category?</strong></p>
+
+<p>One main difference between the CBIN banners and the rest of the categories is the presence of babies or children in the image.  All other categories feature smiling women, no children.</p>
+
+<p>Studies show that <a href="(https://blog.hubspot.com/marketing/emotions-in-advertising-examples)">strong emotional responses to ads are more influential on a person’s intent to buy than the content of an ad</a>.</p>
+
+<p>In this case, the client advertises baby lotions, but it isn’t just selling baby lotions, it’s selling a package of emotions. Moms connecting with their children, making them happier and healthier by using baby care products formulated with the gentlest all natural plant-rich ingredients.</p>
+
+<p><strong>Hypothesis one: CBIN are best performing ads because they make the best use of emotional responses.</strong></p>
+
+<p>The other difference is that, even though all creatives are running on prospecting campaigns, CBIN ads are particularly targeting moms audience segments.</p>
+
+<p>In the field of programmatic display, a prospecting campaign puts your ads in front of users who may not know your brand.  These types of campaigns tend to cast a wide net and are the perfect way to improve brand awareness and drive new site visitors to your site.</p>
+
+<p><a href="https://www.iperceptions.com/blog/programmatic-prospecting-campaigns">An ideal prospecting campaign begins with a broad target, followed by a more narrow approach once that data starts to flow in</a>.</p>
+
+<p><strong>Hypothesis two: CBIN is the best category because we’ve found an audience segment that has a great response to the product.</strong></p>
+
+<p>One other metric I checked during the analysis is the number of conversions per dollar spent. Ideally, the best performing ads will also be the ones with the highest number of conversions per dollar spent (the highest return on investment).</p>
+
+<p>And then I found this.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/conv_ps_bar.png" alt="Creative performance by total conversions per spend" /></p>
+<p class="caption">Creative performance by total conversions per spend</p>
+
+<p>CBIN ads are the ones with the highest creative score, but also one of the categories with the least number of conversions per dollar spend. <em>How much were we spending on the different categories?</em> It turned out that CBIN was the category with the highest spend.</p>
+
+<p>Let’s compare two ad placements, one on <a href="https://www.nytimes.com/">The New York Times</a> and another on <a href="http://www.dictionary.com/">Dictionary.com</a>.  The site visit rate for the banner on the top of the NYT site is probably going to be much higher than the one on the top of Dictionary.com just because the NYT gets many more visitors than Dictionary.com. Furthermore, the placement on the NYT is likely to be the most expensive in this comparison.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/ad_placementv2.png" alt="Ad placement" /></p>
+<p class="caption">About ad placements</p>
+
+<p>The only way to make a fair comparison between the ad on the NYT and the one on Dictionary.com is normalizing per spend.</p>
+
+<p>So I checked the total number of impressions and total spend for the different categories. CBIN has the lowest number of impressions per spend.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/imps_ps_bar.png" alt="Impressions per spend" /></p>
+<p class="caption">Impressions per dollar spend by creative category</p>
+
+<p><strong>Hypothesis three: CBIN ads have the highest site visit rate because the ads have been shown in more expensive, higher quality, placements.</strong></p>
+
+<h3 id="3-show-multivariate-data">3. Show multivariate data</h3>
+<p>The real world is multivariate.</p>
+
+<p>As I mentioned in the first section of this post, I could analyze multiple variables and metrics for each banner ad.</p>
+
+<p><strong>Site visit rate</strong> is the percentage of users that visit the site after being served an ad impression, the users get to the site either by clicking the ad (post-click conversion) or by visiting the site later on (post-view conversion).  Site visit rate is an excellent metric to measure the success of a creative at driving site visits, and its value is based mainly on the way that the banner ad looks (size, image, message copy) and on the ad placement.</p>
+
+<p>But a good banner ad not only attracts visitors, it also prompts them to action (engagement and ultimately, purchase). That action will depend more on the landing page associated with the ad, as well as multiple other variables that don’t have much to do with the banner ad, such as the overall user experience of the site, the price of the product advertised, the price of shipping, etc.</p>
+
+<p>To measure the success of the landing page, I look at <strong>engagement rate</strong>, the percentage of visitors that got to the site and decided to stay for a minute or more, or clicked on three or more pages.  The <strong>conversion rate</strong> tells me how successful the landing page, and the overall user experience, are at driving visitors to make a purchase.</p>
+
+<p>You can have great ads, with incredible high click-through rate, but if your website is broken, or the user experience is just bad, very few people are going to purchase your product.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/size_category.png" alt="Size and category" /></p>
+<p class="caption">Multivariate data - Relationship between ad size and ad category by site visit rate</p>
+
+<p><em>In the plot above, each dot represents a creative, with an associated site visit rate. The dots are grouped by ad size, and the color indicates the category that they belong to. CBIN banners tend to have the highest site visit rate for all ad sizes (with exceptions: 320x50, 300x600). It’s interesting to see that for the bigger ad size (728x90), the CBIN ads performed consistently better than the other categories.</em></p>
+
+<h3 id="4-integrate-evidence">4. Integrate evidence</h3>
+<p>When making graphics, include all relevant information.  If you have to add text, printed numbers, images, and diagrams to your graphic to tell your story, do it.</p>
+
+<p>Data graphics should make use of many modes of data representation simultaneously, not just the ones that the software that you are using can handle. Don’t let the tools available drive the analysis.</p>
+
+<p>Here I added the image of the top three creatives and the bottom creatives to this plot.  The top first feature different women than the bottom three.  Interestingly this pattern repeats for the different sizes.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/creative-report/pptv2.png" alt="Performance by ad size" /></p>
+<p class="caption">Adding images and text to a plot</p>
+
+<h3 id="5-establish-credibility---documentation">5. Establish credibility - Documentation</h3>
+<p>Data graphics should be appropriately documented with labels, scales, and resources.  Including source information is one of the most important aspects of creating a convincing visual display or a convincing presentation.</p>
+
+<p>Allowing the viewers to access the source material will give them confidence in your results.</p>
+
+<p>For my report, I added the data source, date range, and all the filters I applied when pulling the data; just in case someone may want to pull the raw data to double check my results.</p>
+
+<h3 id="6-content-is-king">6. Content is king</h3>
+<p>Data graphics ultimately stand or fall depending on the quality, relevance, and integrity of their content.  No amount of visualization magic can make poor data (or more importantly, a poorly formed question), shine with clarity.</p>
+
+<p>Start with a good question, develop a sound approach and only present information that is necessary for answering that question. That is the essential process to create a good data graphic.</p>
+
+:ET

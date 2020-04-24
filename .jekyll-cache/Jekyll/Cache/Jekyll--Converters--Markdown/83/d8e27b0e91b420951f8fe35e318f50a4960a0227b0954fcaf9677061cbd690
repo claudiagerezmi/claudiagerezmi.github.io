@@ -1,0 +1,135 @@
+I"�@<p>Just a few months after graduating with a Master’s in Chemical Engineering degree (on top of my Bachelor’s degree in Chemical Engineering), I decided chemical engineering per se wasn’t really for me.  I had fallen in love with statistics and how it can be applied to optimize processes.</p>
+
+<p>After doing some research, I was convinced I wanted to become a data analyst, and after joining <a href="http://discoverpraxis.com/">Praxis</a>, I realized marketing was the field in which I was going to apply my data analytics skills.</p>
+
+<p>So I started looking for resources to learn more about data analysis, data science, and statistics, and also marketing and business management in general.  This is the list of online courses, books and blogs that I explored since the end of 2016, and that helped me get started with a career as a marketing analyst. The list is divided into five main topics:</p>
+
+<ul>
+  <li><a href="#statistics">Learning statistics</a></li>
+  <li><a href="#data-analytics">Learning data analytics concepts and tools</a></li>
+  <li><a href="#visualization">Learning data visualization</a></li>
+  <li><a href="#marketing-business">Learning marketing and business topics</a></li>
+  <li><a href="#website-tools">Learning how to build a website</a></li>
+</ul>
+
+<p><em>Side note: Most Coursera courses are free to audit, you won’t be able to submit assignments for feedback or a grade, or get a certificate, but you’ll get access to all the learning materials.</em></p>
+
+<p><br /></p>
+
+<div class="highlighted-box">
+<ol>
+Currently reading:
+<li><a href="https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython-ebook/dp/B075X4LT6K">Python for Data Analysis by Wes McKinney</a></li>
+<!--- UPDATE THIS
+<li><a href="https://www.amazon.com/Show-Me-Numbers-Designing-Enlighten/dp/0970601972/ref=sr_1_1?s=books&ie=UTF8&qid=1530093471&sr=1-1&keywords=Show+Me+the+Numbers%3A">Show me the numbers by Stephen Few</a></li>
+<li><a href="https://www.amazon.com/Interactive-Data-Visualization-Web-Introduction/dp/1491921285/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=VZ65DV3636B70QC4PC2K&dpID=51bskuwDodL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=detail">Interactive Data Visualization for the Web: An Introduction to Designing with D3 by Scott Murray</a></li>
+<li><a href="https:https://www.amazon.com/Marketing-Research-Analytics-Use/dp/3319144359">R for Marketing Research and Analytics by Chris Chapman & Elea Feit </a></li> 
+--->
+</ol>
+</div>
+
+<hr />
+<h2 id="learning-statistics"><a style="text-decoration: none;" id="statistics">Learning statistics</a></h2>
+
+<h5 id="design-and-analysis-of-experiments-9th-edition-by-douglas-c-montgomery"><a href="https://www.amazon.com/Design-Analysis-Experiments-Douglas-Montgomery-ebook/dp/B071K7NZ7V">Design and Analysis of Experiments, 9th Edition by Douglas C. Montgomery</a></h5>
+<p>This is the book that Professor <a href="https://uwaterloo.ca/chemical-engineering/profile/penlidis">Alexander Penlidis</a> uses to teach the course CHE622 Statistics in Engineering.  The class where I fell in love with statistics.  It’s a wonderful book that takes you from the basic understanding of statistics to the design and analysis of experiments with the goal of improving the quality, efficiency, and performance of working systems. This book is very thorough, and I wouldn’t recommend it if you have not taken introductory courses in statistics, linear algebra, or mathematics.</p>
+
+<hr />
+<h2 id="learning-data-analytics-concepts-and-tools"><a style="text-decoration: none;" id="data-analytics">Learning data analytics concepts and tools</a></h2>
+
+<h5 id="data-analysis-with-python---coursera"><a href="https://www.coursera.org/learn/data-analysis-with-python">Data Analysis with Python - Coursera</a></h5>
+<p>I’ve been working with R for about 4 years now (2016 - 2020). I love R, but I recognize the benefits of Python and the need to learn it, so this course was my starting point. It worked great for me, but I think that is because I’m already familiar with coding with R and also I’m extremely familiar with the data analytics process. Overall, it is a very practical course, with a lot of exercises and examples, but I will have to get other learning resources to get a better understanding of the more general basics of programming with Python.</p>
+
+<h5 id="sql-for-data-science---coursera"><a href="https://www.coursera.org/learn/sql-for-data-science">SQL For Data Science - Coursera</a></h5>
+<p>A great practical intro on how to use SQL to retrieve data, especially if you are in the data science field. I particularly liked the instructor, Sadie St. Lawrence, so much that I googled her and found <a href="https://sadiestlawrence.com">her website</a>, check it out to find multiple blog posts on how to start your career in data science.</p>
+
+<h5 id="managing-big-data-with-mysql---coursera"><a href="https://www.coursera.org/learn/analytics-mysql/home/welcome">Managing Big Data with MySQL - Coursera</a></h5>
+<p>An introduction to how to use relational databases in business analysis.  Another fantastic resource that you can access for free at Coursera (auditing the course is free).  I took this course with absolutely no prior experience working with MySQL.  I learned the theory and followed some of the examples.  In the end, I applied all my learnings on a personal project: <a href="http://claudiagerez.com/2017/09/08/exploring-sakila/">Exploring Sakila</a>.</p>
+
+<h5 id="the-data-scientists-toolbox---coursera"><a href="https://www.coursera.org/learn/data-scientists-tools/home/welcome">The Data Scientist’s Toolbox - Coursera</a></h5>
+<p>An online course that gives an overview of what it’s like to work as a data scientist.  The most important part, in my opinion, is that you get introduced to some of the tools that data scientist use, such as GitHub, R, and RStudio.</p>
+
+<h5 id="r-programming---coursera"><a href="https://www.coursera.org/learn/r-programming/home/welcome">R Programming - Coursera</a></h5>
+<p>My introductory course to R. This course is meant to teach you how to program in R and how to use R for effective data analysis.  As an absolute beginner, I found the lessons somehow easy to follow, but I really struggled with the practical assignments. I wouldn’t recommend this to someone without programming experience.  Luckily, I didn’t just give up.  After taking this course I went on to read the book R for Data Science.</p>
+
+<h5 id="r-for-data-science-by-hadley-wickham-and--garrett-grolemund"><a href="https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399">R for Data Science By Hadley Wickham and  Garrett Grolemund</a></h5>
+<p>A fantastic book for learning how to use R, and it is suited for people without prior programming experience. The book is broken up into a number of sections that effectively build up the ability to import, tidy, transform, visualize and model datasets. I used 80% of the content of this book when working on my first data analysis project: <a href="http://claudiagerez.com/2017/05/13/data-analysis-project-r/">A data analysis case study: Participation in Zoom meetings at Praxis</a></p>
+
+<h5 id="exploratory-data-analysis---coursera"><a href="https://www.coursera.org/learn/exploratory-data-analysis/home/welcome">Exploratory Data Analysis - Coursera</a></h5>
+<p>This time I switched the online class for the <a href="https://www.amazon.com/Exploratory-Data-Analysis-Roger-Peng/dp/1365060063/ref=sr_1_5?ie=UTF8&amp;qid=1530097629&amp;sr=8-5&amp;keywords=exploratory+data+analysis">text book</a>.  This course covers the essential exploratory techniques for summarizing data.  It can be divided into two sections, the first one teaches you how to create exploratory graphs using different plotting systems in R (base, lattice, and ggplot2).  I wrote the blog post <a href="http://claudiagerez.com/2018/06/10/principles-data-graphics/">Applying the principles of data graphics to a creative performance report</a> right after reading Chapter 6: Principles of Data Graphics.  The second part covers clustering, and also fairly advanced topics such as principal components analysis and single value decomposition. I used some of the concepts learned in this second part to perform <a href="http://claudiagerez.com/2018/06/29/perfect-audience-3/">a cluster analysis of an audience dataset</a>.</p>
+
+<h5 id="google--stackoverflow"><a href="https://stackoverflow.com/questions/tagged/r">Google &amp; StackOverflow</a></h5>
+<p>65% of what I have learned about the analysis of data in R comes from Google.  I just type a <em>“how to… +R “</em> kind of question, and start filtering the results.  80% of that time I end up finding my answers in StackOverflow.</p>
+
+<p>For StackOverflow, just include [R] in your search to restrict questions and answers to the relevant <a href="https://stackoverflow.com/questions/tagged/r">R forum</a>. If you don’t find what you are looking for, you can always prepare a minimal reproducible example and <a href="https://stackoverflow.com/help/how-to-ask">make a question</a> yourself.</p>
+
+<hr />
+<h2 id="learning-data-visualization"><a style="text-decoration: none;" id="visualization">Learning data visualization</a></h2>
+<blockquote>
+  <p>“Sometimes aesthetics seem as important as data understanding, I feel that drawing R charts can be closer to Art than Science.”</p>
+
+  <p><a href="https://www.r-graph-gallery.com/portfolio/data-art/">The Art R Graph Gallery</a></p>
+</blockquote>
+
+<p><a href="http://www.dear-data.com/theproject">Dear data</a> and <a href="http://www.datasketch.es/">Data Sketches</a> have taken my understanding of what data visualization is to a whole new level, and I’d love to dig deep into this topic, that’s why I decided to give it its own section.</p>
+
+<h5 id="nadieh-bremmers-website"><a href="https://www.visualcinnamon.com/resources/learning-data-visualization">Nadieh Bremmer’s website</a></h5>
+<p>A wonderful collection of resources to learn about data visualization and design.  It is a pretty extensive list, and  I’m hoping to go through it slowly, writing my own reviews of the resources I’m covering.</p>
+
+<h5 id="sthda-site"><a href="http://www.sthda.com/english/articles/32-r-graphics-essentials/134-r-basics-for-data-visualization/#ggplot2-graphics">STHDA site</a></h5>
+<p>A fantastic site that contains many tutorials on data analysis and visualization using R software and packages. I found all the articles related to data visualization really useful.</p>
+
+<h4 id="the-r-graph-gallery"><a href="https://www.r-graph-gallery.com/index.html">The R Graph Gallery</a></h4>
+<p>Having trouble remembering how to build a graph using R? Here is a site that will show you reproducible code an explanations on how to make about 400 differents plots. Plus, it also links to a <a href="https://www.d3-graph-gallery.com/">D3.js graph gallery</a> that I found very inspiring.</p>
+
+<hr />
+<h2 id="learning-marketing-and-business-topics"><a style="text-decoration: none;" id="marketing">Learning marketing and business topics</a></h2>
+
+<h5 id="data-driven-how-performance-analytics-delivers-extraordinary-sales-results-by-jenny-dearborn"><a href="https://www.amazon.com/Data-Driven-Performance-Analytics-Extraordinary/dp/1511361808">Data Driven: How Performance Analytics Delivers Extraordinary Sales Results by Jenny Dearborn</a></h5>
+<p>This book is very engaging and easy to read. Through a practical example, it shows you how you can increase sales success using the power of data analytics. I wrote a more extensive review in this post: <a href="http://claudiagerez.com/2017/10/02/introduction-to-sales-analytics/">Data analytics and sales success</a></p>
+
+<h5 id="business-metrics-for-data-driven-companies---coursera"><a href="https://www.coursera.org/learn/analytics-business-metrics/home/welcome">Business Metrics for Data-Driven Companies - Coursera</a></h5>
+<p>Also by Daniel Egger and Jana Schaich Borg this is a pretty neat course that will give you an overview of the roles that business analysts, business data analysts, and data scientists play in a business environment; and about the skills that you need to have in order to be hired for and succeed at those high-demand jobs.</p>
+
+<h5 id="search-engine-optimization-seo-specialization---coursera"><a href="https://www.coursera.org/learn/seo-fundamentals/home/welcome">Search Engine Optimization (SEO) Specialization - Coursera</a></h5>
+<p>I don’t exactly remember how is that I got into SEO, but this was my starting point in the world of marketing.  Once again, since I was completely new to the field, I decided to audit the first three courses of this specialization at Coursera.</p>
+
+<ul>
+  <li>
+    <p><a href="https://www.coursera.org/learn/search-engine-optimization">Introduction to Search Engine Optimization</a> - I liked this course a lot because it not only gives you a summary of the best practices in SEO, but also explains the history and evolution of SEO, and it even gives you an overview of the careers that  you can pursue if you want to focus on SEO. I wouldn’t recommend this course if you are only interested in the practical aspects of SEO.</p>
+  </li>
+  <li>
+    <p><a href="https://www.coursera.org/learn/seo-fundamentals">Search Engine Optimization Fundamentals</a> - In this course, you will learn how search engine algorithms work, that knowledge will allow you to identify key elements for creating an effective SEO strategy.  This is a very practical course, covering on page SEO, off-page SEO, technical SEO, consumer psychology and search behavior, keyword theory, and keyword research.</p>
+  </li>
+  <li>
+    <p><a href="https://www.coursera.org/learn/optimizing-web-search">Optimizing a Website for Search</a> - A great course that will teach you how to perform an SEO audit, and how to present your findings and recommendations.  The most useful skill I learned in this course was how to perform a keyword competitive analysis.</p>
+  </li>
+</ul>
+
+<h5 id="moz-blog"><a href="https://moz.com/blog">Moz Blog</a></h5>
+<p>Moz builds tools that make SEO, inbound marketing, link building and content marketing easy.  They have an extensive list of resources about SEO (and other marketing topics) in their blog section.  My favorites are the <a href="https://moz.com/blog/category/whiteboard-friday">Whiteboard Fridays</a>, short video lessons on relevant SEO/marketing topics.</p>
+
+<h5 id="academy-for-ads-by-google"><a href="https://academy.exceedlms.com/student/catalog/browse">Academy for Ads By Google</a></h5>
+<p>Here you’ll find courses that teach the fundamentals of many of the widely known Google tools (AdWords, DoubleClick, Google Analytics, etc.).</p>
+
+<h5 id="google-analytics-academy"><a href="https://analytics.google.com/analytics/academy/">Google Analytics Academy</a></h5>
+<p>Google analytics is a free web analytics service offered by Google.  If are into data analysis, and just stepping into the marketing field, this is an incredibly powerful tool that you want to have. First, because it covers a tremendous amount of data about your website traffic and details on your visitors. E-commerce performance data, user behavior, traffic by channel, etc.,  just imagine the number of analysis that you could perform!  Second, because you can immediately apply the insights obtained to strengthen your marketing and business development strategies and improve performance.</p>
+
+<hr />
+<h2 id="learning-how-to-build-websites"><a style="text-decoration: none;" id="website-tools">Learning how to build websites</a></h2>
+
+<h5 id="learn-git---codeacademy"><a href="https://www.codecademy.com/learn/learn-git">Learn Git - Codeacademy</a></h5>
+<p>A short free course that will teach you how to save and manage different versions of your code projects.  Codeacademy focuses on the practice, so here you’ll learn how to use Git by doing.</p>
+
+<h5 id="deploy-a-website---codeacademy"><a href="https://www.codecademy.com/learn/deploy-a-website">Deploy a Website - Codeacademy</a></h5>
+<p>Codeacademy courses are generally short and to the point.  When I was <a href="http://claudiagerez.com/2018/06/02/moving-to-jekyll/">moving my website to Jekyll</a>, I had to re-learn how to deploy a static site to the Internet. This is the course I took to refresh my mind.</p>
+
+<h5 id="jekyll-documentation"><a href="https://jekyllrb.com/docs/home/">Jekyll documentation</a></h5>
+<p>This is the place where I get (almost) all the resources to make my Jekyll website work.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+:ET

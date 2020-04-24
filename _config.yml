@@ -28,6 +28,8 @@ gems:
   - jekyll-paginate
   - jekyll/tagging
 
+plugins: [jekyll-paginate]
+
 include:
   - _pages
 

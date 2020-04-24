@@ -1,0 +1,155 @@
+I"�'<h2 id="setting-up-for-success">Setting up for success</h2>
+
+<p>Last weekend I worked on defining <a href="http://claudiagerez.com/2018/05/31/mid-year/">mid-year goals</a>. One of my primary goals was to update this site on a weekly basis, documenting my journey as a Jr. Marketing Data Analyst.</p>
+
+<p>I admit I’m not very fond of writing.  Some of the excuses I like to use are:</p>
+
+<ul>
+  <li>Finding translations to English for my Spanish thoughts takes too much of my time. Not to talk about reading and proofreading to make sure I don’t make too many spelling and grammar mistakes when I’m writing in English;</li>
+  <li>I don’t have time;</li>
+  <li>I don’t know what to write about.</li>
+</ul>
+
+<p>This week I’ve been working on setting myself up for success, finding ways to ease my excuses.</p>
+
+<ul>
+  <li>Too much time correcting grammar?  I started using <a href="https://app.grammarly.com">Grammarly</a>.</li>
+  <li>I don’t have time to write?  I reviewed my schedule and booked time for writing, that is Saturdays and Sundays from 9 am to 12 am.</li>
+  <li>I don’t know what to write about?  I chose a very specific topic: documenting weekly learnings.</li>
+</ul>
+
+<p>Easy!  I can totally do this weekly writing challenge!</p>
+
+<p>Then I opened my Wordpress site.</p>
+
+<h2 id="reasons-to-make-the-switch">Reasons to make the switch</h2>
+
+<p>My first step towards updating my site was to refresh the theme.  New year, new me, right? (I bet the phrase works for mid-year resolutions as well).</p>
+
+<p>With a wide smile on my face, I logged into Wordpress after several months of inactivity. My welcome message? A dozen of red colored notifications, announcements of new versions to install, plugins to update, and backup requests.</p>
+
+<p>I made a safe move, backed-up the site, and then click update all.</p>
+
+<p>Then, I carefully picked a theme. I selected it and activated it.  And then everything changed for worse.</p>
+
+<p>It took me a few minutes to figure out where everything was in the platform. The new theme used a Wordpress Page Builder plugin (WPBakery).  Before I used to think that it was complicated to figure out where to place my posts and portfolio projects (different places to write each of those posts, multiple options within them to style them), now every complication doubled because for everything I had the traditional choice and the WPBakery one.</p>
+
+<p>I went from cheerful to being annoyed. Quite annoyed.</p>
+
+<p>Then I remembered how delightfully easy it was to set up <a href="https://cgerezmi.github.io/">“Exploring Sakila”</a>, a site that I built using <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+
+<p><a href="https://cgerezmi.github.io/"><img src="https://claudiagerez.com/images/projects/assets/exploring-sakila.png" alt="Exploring Sakila" /></a></p>
+<p class="caption">Example of a Jekyll site.</p>
+
+<p>Switch to Jekyll? Why not?</p>
+
+<p>What I love the most about Jekyll is the simplicity of <a href="https://jekyllrb.com/docs/posts/">publishing new posts</a>.  Just open your favorite text editor, keep the required format (all blog post files must begin with YAML Front Matter, follow the files naming convention, etc.), and style the post using simple <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a>.  Click save.  That’s it.</p>
+
+<p>I was looking for simplicity, and I had already found it.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/to-jekyll/jekyll-post.png" alt="Jekyll Post" /></p>
+<p class="caption">This is how a Jekyll post looks like behind scenes.</p>
+
+<p><em>Note to the public - apologies for the lack of screenshots documenting the migration process!</em></p>
+
+<p><em>Note to self - when working on a project, take before and after screenshots, as well as pictures to show progress. Those images will make it easier to illustrate posts later.</em></p>
+
+<h2 id="moving-to-jekyll">Moving to Jekyll</h2>
+
+<p>Here I will describe the three steps I took to build this website.</p>
+
+<ol>
+  <li>Choosing a theme</li>
+  <li>Moving my posts from Wordpress to Jekyll</li>
+  <li>Re-learning how to deploy a website on GitHub Pages</li>
+</ol>
+
+<p>Since this is my second time creating a Jekyll site, and I’m only refreshing knowledge, this is not meant to be a complete guide for beginners on how to create and host a personal website from scratch.  Regardless, it may give you a couple of useful resources if you’re working on building a static site, and you are a <em>sort of</em> beginner like me.</p>
+
+<p>An example of a complete guide to creating a static site from the beginning is <a href="http://jmcglone.com/guides/github-pages/">this one</a>.</p>
+
+<h3 id="step-1---choose-a-jekyll-theme">Step 1 - Choose a Jekyll Theme</h3>
+
+<p>I love to go theme-shopping, and I found that - even when not as big as the availability of WordPress themes - there are plenty of options for Jekyll templates, most of them completely free.</p>
+
+<p>Some sites that I checked for themes were:</p>
+<ul>
+  <li><a href="http://jekyllthemes.org/">jekyllthemes.org</a></li>
+  <li><a href="https://jekyll-themes.com">jekyll-themes.com</a></li>
+  <li><a href="https://github.com/jekyll/jekyll/wiki/Themes">jekyll themes at github</a></li>
+  <li><a href="https://themeforest.net/category/static-site-generators/jekyll">jekyll themes at themeforest.net</a></li>
+  <li><a href="https://html5up.net/">html5up.net</a></li>
+</ul>
+
+<p>I ended up choosing <a href="https://nubia-jekyll.netlify.com/">Nubia</a>.</p>
+
+<p><img src="https://claudiagerez.com/images/posts/assets/to-jekyll/nubia.png" alt="Nubia" /></p>
+
+<h3 id="step-2---from-wordpress-to-jekyll">Step 2 - From Wordpress to Jekyll</h3>
+
+<p>With Jekyll, you can publish and maintain a blog just by managing a folder of .md text-files on your computer.  The challenge was to find a way to move my old posts to the required Jekyll format.</p>
+
+<p>Chuck Grimmett, one of my advisors at Praxis, once wrote about <a href="http://www.cagrimmett.com/development/2018/01/21/website-rebuild-and-revival.html">moving his old Wordpress posts to Jekyll</a>, and I decided to followed his steps.</p>
+
+<p>The <a href="https://github.com/benbalter/wordpress-to-jekyll-exporter">Wordpress to Jekyll exporter</a> was indeed easy to use!</p>
+
+<p>In a couple of minutes, I had all my old posts in .md files, ready to be uploaded to my new Jekyll site.</p>
+
+<h3 id="step-3---re-learn-how-to-deploy-a-website">Step 3 - Re-learn how to deploy a website</h3>
+
+<p>The first time I built a Jekyll site I had to learn about Jekyll, Git, GitHub, and GitHub Pages.  That was many moons ago.  Now, I had to re-learn most of it, for that I took these two short courses at codeacademy:</p>
+
+<ol>
+  <li><a href="https://www.codecademy.com/learn/learn-git">Learn Git</a></li>
+  <li><a href="https://www.codecademy.com/learn/deploy-a-website">Deploy a website to GitHub Pages</a></li>
+</ol>
+
+<p>Here is a summary of each:</p>
+
+<h4 id="learn-git">Learn Git</h4>
+
+<p><a href="https://en.wikipedia.org/wiki/Git">Git</a> is the industry-standard version control system for web developers.  You can use Git to keep track of the changes you make to a project.</p>
+
+<p>A Git project has three parts:</p>
+
+<ol>
+  <li><strong>A working directory</strong> where you do all the work: creating, editing, deleting and organizing files.</li>
+  <li><strong>A staging area</strong> where you list the changes you make to the working directory.</li>
+  <li><strong>A repository</strong> where Git permanently stores those changes as different versions of the project.</li>
+</ol>
+
+<p>The Git workflow consists of editing files in the working directory, adding files to a staging area, and saving changes to a Git repository.</p>
+
+<p><a href="https://www.codecademy.com/learn/learn-git"><img src="https://claudiagerez.com/images/posts/assets/to-jekyll/git-workflow.png" alt="Git Workflow" /></a></p>
+<p class="caption"> Git Workflow - picture from the codeacademy course "Learn Git"</p>
+
+<p>Some basic Git commands:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">git init</code> creates a new Git repository</li>
+  <li><code class="highlighter-rouge">git status</code> inspects the contents of the working directory and staging area</li>
+  <li><code class="highlighter-rouge">git add</code> adds files from the working directory and staging area</li>
+  <li><code class="highlighter-rouge">git diff</code> shows the difference between the working directory and the staging area</li>
+  <li><code class="highlighter-rouge">git commit</code> stores file changes permanently from the staging area in the repository</li>
+  <li><code class="highlighter-rouge">git log</code> shows a list of all previous commits</li>
+</ul>
+
+<p>Note that <a href="https://www.quora.com/What-is-the-difference-between-Git-and-GitHub">GitHub is a hosting service for Git repositories</a>.  My working directory is a folder called <code class="highlighter-rouge">clau_jekyll_site</code> on my computer.  I store my Jekyll site project on <a href="https://github.com/claudiagerezmi/claudiagerezmi.github.io">GitHub</a>.</p>
+
+<h4 id="deploy-your-website-to-github-pages-summary">Deploy your website to GitHub Pages summary</h4>
+
+<p><a href="https://pages.github.com/">GitHub Pages</a> is a static site hosting service designed to host your website directly from a <a href="https://github.com/">GitHub</a> repository.
+The steps to deploy your website on GitHub Pages are quite straightforward:</p>
+<ol>
+  <li>Create a GitHub account</li>
+  <li>Create a GitHub repository</li>
+  <li>Use Git to initialize your repository, add, commit, and push your changes</li>
+  <li>Deploy your site to the Internet</li>
+</ol>
+
+<h2 id="a-work-in-progress">A work in progress</h2>
+
+<p>And now I have a functional, easy to maintain, Jekyll site up and running.</p>
+
+<p>For now, my site looks very much like the original theme.  Changing it to accommodate my needs will be a work in progress, since my HTML and CSS skills are a bit rusty, and my JavaScript skills are non-existent!  Regardless, I feel very happy about the change and the challenge!</p>
+:ET
